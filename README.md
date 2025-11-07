@@ -21,8 +21,8 @@
 
 ### optional layers
 
-> [!IMPORTANT]
-> You can hide extra layers in a collapsible block below.
+> [!Note]
+> Extra Complexity layers can be added from below. 
 
 <details>
 <summary>Optional Complexity Layers</summary>
