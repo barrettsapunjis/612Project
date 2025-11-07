@@ -19,8 +19,6 @@
 **5. Output**
 - Aggregate sentiment per ticker: weighted average of article predictions.
 
-### optional layers
-
 > [!Note]
 > Extra Complexity layers can be added from below. 
 
