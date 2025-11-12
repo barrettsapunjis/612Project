@@ -41,7 +41,8 @@ Convert text into numerical form using TF-IDF or embeddings.
 
 **Practical References**
 - [Scikit-learn TF-IDF Vectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
-- [TF-IDF explained](https://monkeylearn.com/blog/what-is-tf-idf/)
+- [TF-IDF/vector space](https://mbrenndoerfer.com/writing/vector-space-model-tfidf-information-retrieval-semantic-search-history?utm)
+
 
 **Educational References**
 - *Salton & McGill (1983).* *Introduction to Modern Information Retrieval.* — Foundation of TF-IDF weighting.
@@ -91,6 +92,7 @@ Replace TF-IDF with pretrained sentence embeddings.
 - [HuggingFace Transformers](https://huggingface.co/docs/transformers/index)
 
 **Educational**
+- [vector space](https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/?utm)
 - *Reimers & Gurevych (2019).* “Sentence-BERT: Sentence Embeddings using Siamese BERT Networks.” *EMNLP.*
 - *Devlin et al. (2019).* “BERT: Pre-training of Deep Bidirectional Transformers.” *NAACL.*
 
@@ -100,8 +102,8 @@ Replace TF-IDF with pretrained sentence embeddings.
 Analyze sentiment at the sentence level, then aggregate.
 
 **Practical**
-- [Attention mechanisms overview](https://towardsdatascience.com/attention-in-neural-networks-4317c3bdb473)
 - [Hierarchical Attention Networks paper](https://www.aclweb.org/anthology/N16-1174/)
+- [Simpler resource](https://medium.com/analytics-vidhya/hierarchical-attention-networks-d220318cf87e?utm)
 
 **Educational**
 - *Yang et al. (2016).* “Hierarchical Attention Networks for Document Classification.” *NAACL.*
@@ -117,6 +119,7 @@ Fine-tune BERT or similar transformer models for domain-specific sentiment.
 - [Text classification guide](https://huggingface.co/docs/transformers/tasks/sequence_classification)
 
 **Educational**
+- [simple resource](https://jalammar.github.io/illustrated-transformer/?utm)
 - *Howard & Ruder (2018).* “Universal Language Model Fine-tuning for Text Classification (ULMFiT).” *ACL.*
 - *Sun et al. (2019).* “How to Fine-Tune BERT for Text Classification.” *arXiv:1905.05583.*
 
@@ -128,6 +131,7 @@ Account for how sentiment effects decay over time.
 **Practical**
 - [Exponential decay weighting in Pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.ewm.html)
 - [LSTM overview](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [temporal graph learning in 2024](https://medium.com/data-science/temporal-graph-learning-in-2024-feaa9371b8e2)
 
 **Educational**
 - *Hochreiter & Schmidhuber (1997).* “Long Short-Term Memory.” *Neural Computation.*
