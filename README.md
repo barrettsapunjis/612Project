@@ -15,6 +15,7 @@ Collect labeled financial text data for model training and validation.
 - [Yahoo Finance API](https://pypi.org/project/yahoo-finance/)
 - [Finnhub API](https://finnhub.io/docs/api)
 - [Kaggle financial news datasets](https://www.kaggle.com/datasets?search=financial+news)
+- [hugging face dataset](https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment/viewer/default/train?p=4&views%5B%5D=train)
 
 **Educational References**
 - *Loughran, T., & McDonald, B. (2011).* "When Is a Liability Not a Liability? Textual Analysis, Dictionaries, and 10‐Ks." *Journal of Finance.*

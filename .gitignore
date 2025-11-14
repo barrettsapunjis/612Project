@@ -1,3 +1,9 @@
+
+data/raw
+venv/
+
+### BELOW IS GIT GENERATED .GITIGNORE FOR A PYTHON TEMPLATE ###
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
