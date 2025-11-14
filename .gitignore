@@ -1,7 +1,8 @@
-
+models/
 data/raw
 venv/
-
+venv311/
+checkpoints/
 ### BELOW IS GIT GENERATED .GITIGNORE FOR A PYTHON TEMPLATE ###
 
 # Byte-compiled / optimized / DLL files

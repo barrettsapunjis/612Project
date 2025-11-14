@@ -4,3 +4,9 @@ torch
 
 #huggingface transformers
 transformers
+pyabsa
+tiktoken
+protobuf
+sentencepiece
+spacy
+setfit[absa]

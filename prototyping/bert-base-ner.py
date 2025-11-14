@@ -3,6 +3,8 @@ from transformers import pipeline
 import time
 from my_utils.time_tracking import baseTracker as bt
 
+#https://huggingface.co/Jean-Baptiste/roberta-large-ner-english
+
 model_path = "Jean-Baptiste/roberta-large-ner-english"
 timers = []
 print("initializing tokenizer")

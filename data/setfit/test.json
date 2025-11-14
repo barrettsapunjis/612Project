@@ -1,0 +1,182 @@
+[
+  {
+    "aspect": "Apple",
+    "sentence": "Apple reported strong quarterly revenue driven by iPhone 16 demand.",
+    "label": "positive"
+  },
+  {
+    "aspect": "Apple",
+    "sentence": "Weak MacBook sales dragged Apple's overall performance last quarter.",
+    "label": "negative"
+  },
+  {
+    "aspect": "Apple",
+    "sentence": "Analysts expect Apple to maintain stable margins this year.",
+    "label": "neutral"
+  },
+  {
+    "aspect": "Nvidia",
+    "sentence": "Nvidia crushed estimates with record GPU sales and strong AI demand.",
+    "label": "positive"
+  },
+  {
+    "aspect": "Nvidia",
+    "sentence": "Nvidia faces delays in its next-gen GPU shipments for enterprise clients.",
+    "label": "negative"
+  },
+  {
+    "aspect": "Nvidia",
+    "sentence": "Nvidia's outlook remains unchanged despite market volatility.",
+    "label": "neutral"
+  },
+  {
+    "aspect": "Intel",
+    "sentence": "Intel's new processor lineup showed impressive efficiency gains.",
+    "label": "positive"
+  },
+  {
+    "aspect": "Intel",
+    "sentence": "Intel lost further market share to AMD in the data center segment.",
+    "label": "negative"
+  },
+  {
+    "aspect": "Intel",
+    "sentence": "Intel maintained its previous guidance for the upcoming quarter.",
+    "label": "neutral"
+  },
+  {
+    "aspect": "Tesla",
+    "sentence": "Tesla delivered a record number of vehicles this quarter, surprising analysts.",
+    "label": "positive"
+  },
+  {
+    "aspect": "Tesla",
+    "sentence": "Tesla recalled thousands of vehicles due to software issues.",
+    "label": "negative"
+  },
+  {
+    "aspect": "Tesla",
+    "sentence": "Tesla's production levels stayed consistent with earlier forecasts.",
+    "label": "neutral"
+  },
+  {
+    "aspect": "Amazon",
+    "sentence": "Amazon posted strong AWS revenue growth driven by enterprise AI workloads.",
+    "label": "positive"
+  },
+  {
+    "aspect": "Amazon",
+    "sentence": "Amazon's retail division struggled with rising logistics costs.",
+    "label": "negative"
+  },
+  {
+    "aspect": "Amazon",
+    "sentence": "Amazon expects modest growth for Prime membership this year.",
+    "label": "neutral"
+  },
+  {
+    "aspect": "Microsoft",
+    "sentence": "Microsoft saw strong demand for its cloud AI tools across industries.",
+    "label": "positive"
+  },
+  {
+    "aspect": "Microsoft",
+    "sentence": "Microsoft faced regulatory setbacks in its proposed acquisition plans.",
+    "label": "negative"
+  },
+  {
+    "aspect": "Microsoft",
+    "sentence": "Microsoft's guidance for the next quarter remains unchanged.",
+    "label": "neutral"
+  },
+  {
+    "aspect": "Meta",
+    "sentence": "Meta's ad revenue surged due to improved targeting algorithms.",
+    "label": "positive"
+  },
+  {
+    "aspect": "Meta",
+    "sentence": "Meta's VR division continues to burn cash with little user growth.",
+    "label": "negative"
+  },
+  {
+    "aspect": "Meta",
+    "sentence": "Meta reported steady user engagement across all platforms.",
+    "label": "neutral"
+  },
+  {
+    "aspect": "AMD",
+    "sentence": "AMD gained further traction in the server CPU market.",
+    "label": "positive"
+  },
+  {
+    "aspect": "AMD",
+    "sentence": "AMD's GPU segment underperformed due to weak gaming demand.",
+    "label": "negative"
+  },
+  {
+    "aspect": "AMD",
+    "sentence": "AMD maintained its previous revenue expectations.",
+    "label": "neutral"
+  },
+  {
+    "aspect": "Google",
+    "sentence": "Google's search advertising business saw strong year-over-year growth.",
+    "label": "positive"
+  },
+  {
+    "aspect": "Google",
+    "sentence": "Google faced outages in several regions, affecting user activity.",
+    "label": "negative"
+  },
+  {
+    "aspect": "Google",
+    "sentence": "Google projects stable growth for its cloud division.",
+    "label": "neutral"
+  },
+  {
+    "aspect": "Netflix",
+    "sentence": "Netflix added millions of new subscribers, beating expectations.",
+    "label": "positive"
+  },
+  {
+    "aspect": "Netflix",
+    "sentence": "Netflix struggled with higher content production costs.",
+    "label": "negative"
+  },
+  {
+    "aspect": "Netflix",
+    "sentence": "Netflix's subscriber numbers remained steady this month.",
+    "label": "neutral"
+  },
+  {
+    "aspect": "Apple",
+    "sentence": "Investors praised Apple's growing wearables business.",
+    "label": "positive"
+  },
+  {
+    "aspect": "Intel",
+    "sentence": "Intel warned of shrinking margins due to competitive pricing pressure.",
+    "label": "negative"
+  },
+  {
+    "aspect": "Nvidia",
+    "sentence": "Nvidia maintained performance projections despite supply risks.",
+    "label": "neutral"
+  },
+  {
+    "aspect": "Tesla",
+    "sentence": "Analysts believe Tesla's energy storage division will drive long-term growth.",
+    "label": "positive"
+  },
+  {
+    "aspect": "Amazon",
+    "sentence": "Amazon will cut thousands of jobs as part of a major restructuring.",
+    "label": "negative"
+  },
+  {
+    "aspect": "Microsoft",
+    "sentence": "Microsoft expects flat performance for its Windows division.",
+    "label": "neutral"
+  }
+]
