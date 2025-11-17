@@ -1,5 +1,7 @@
 models/
+modal_testing/
 data/raw
+data/setfit
 venv/
 venv311/
 checkpoints/

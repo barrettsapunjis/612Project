@@ -1,0 +1,720 @@
+{"id": 0, "text": "$BYND - JPMorgan reels in expectations on Beyond Meat", "span": "Beyond Meat", "label": "negative", "ordinal": 0}
+{"id": 1, "text": "$CCL $RCL - Nomura points to bookings weakness at Carnival and Royal Caribbean", "span": "Carnival and Royal Caribbean", "label": "negative", "ordinal": 0}
+{"id": 2, "text": "$CX - Cemex cut at Credit Suisse, J.P. Morgan on weak building outlook", "span": "Cemex", "label": "negative", "ordinal": 0}
+{"id": 3, "text": "$ESS: BTIG Research cuts to Neutral", "span": "ESS", "label": "negative", "ordinal": 0}
+{"id": 4, "text": "$FNKO - Funko slides after Piper Jaffray PT cut", "span": "Funko", "label": "negative", "ordinal": 0}
+{"id": 5, "text": "$FTI - TechnipFMC downgraded at Berenberg but called Top Pick at Deutsche Bank", "span": "TechnipFMC", "label": "negative", "ordinal": 0}
+{"id": 6, "text": "$GM - GM loses a bull", "span": "GM", "label": "negative", "ordinal": 0}
+{"id": 7, "text": "$GM: Deutsche Bank cuts to Hold", "span": "GM", "label": "negative", "ordinal": 0}
+{"id": 8, "text": "$GTT: Cowen cuts to Market Perform", "span": "GTT", "label": "negative", "ordinal": 0}
+{"id": 9, "text": "$HNHAF $HNHPD $AAPL - Trendforce cuts iPhone estimate after Foxconn delay", "span": "AAPL", "label": "negative", "ordinal": 0}
+{"id": 10, "text": "$HOG - Moody's warns on Harley-Davidson", "span": "Harley-Davidson", "label": "neutral", "ordinal": 0}
+{"id": 11, "text": "$HXL - Citing aero ties, Wells slashes PT on Hexcel", "span": "Hexcel", "label": "neutral", "ordinal": 0}
+{"id": 12, "text": "$I - Intelsat cut to Market Perform at Raymond James", "span": "Intelsat", "label": "neutral", "ordinal": 0}
+{"id": 13, "text": "$KRG: Compass Point cuts to Sell", "span": "KRG", "label": "neutral", "ordinal": 0}
+{"id": 14, "text": "$LK - Muddy Waters goes short Luckin Coffee", "span": "Luckin Coffee", "label": "neutral", "ordinal": 0}
+{"id": 15, "text": "$MANT - ManTech downgraded ahead of difficult comps", "span": "ManTech", "label": "negative", "ordinal": 0}
+{"id": 16, "text": "$MDCO: Oppenheimer cuts to Perform", "span": "MDCO", "label": "negative", "ordinal": 0}
+{"id": 17, "text": "$MPLX $MPC - MPLX cut at Credit Suisse on potential dilution from Marathon strategic review", "span": "MPLX", "label": "negative", "ordinal": 0}
+{"id": 18, "text": "$MSGN - Imperial downgrades MSG Networks amid sports-free airwaves", "span": "MSG Networks", "label": "negative", "ordinal": 0}
+{"id": 19, "text": "$MTLS - Piper hits the Materialise sidelines", "span": "Materialise", "label": "negative", "ordinal": 0}
+{"id": 20, "text": "$NCBS: Hovde Group cuts to Market Perform", "span": "$NCBS", "label": "neutral", "ordinal": 0}
+{"id": 21, "text": "$NFLX - New Netflix bear steps out", "span": "$NFLX", "label": "neutral", "ordinal": 0}
+{"id": 22, "text": "$SHOP - Shopify loses a bull", "span": "$SHOP", "label": "neutral", "ordinal": 0}
+{"id": 23, "text": "$STAY - Nomura Instinet loses confidence in Extended Stay America", "span": "$STAY", "label": "neutral", "ordinal": 0}
+{"id": 24, "text": "$TWLO - Twilio gets Street-low target on virus risk", "span": "$TWLO", "label": "neutral", "ordinal": 0}
+{"id": 25, "text": "$VCLT $SPLB $IGLB - Guggenheim's Minerd sees more gloom ahead in stocks", "span": "$VCLT $SPLB $IGLB", "label": "negative", "ordinal": 0}
+{"id": 26, "text": "$VIAC $VIACA $FOX - MoffettNathanson expects NFL TV costs to skyrocket", "span": "$VIAC $VIACA $FOX", "label": "negative", "ordinal": 0}
+{"id": 27, "text": "$VIAC: Barrington Research cuts to Mkt Perform", "span": "$VIAC", "label": "negative", "ordinal": 0}
+{"id": 28, "text": "$XLNX - Mizuho cuts XLNX target on near-term headwinds", "span": "$XLNX", "label": "negative", "ordinal": 0}
+{"id": 29, "text": "2U downgraded to sector weight from overweight at KeyBanc Capital", "span": "2U", "label": "negative", "ordinal": 0}
+{"id": 30, "text": "Alphabet and Facebook price targets cut at Barclays on weaker ad outlook", "span": "Alphabet and Facebook", "label": "negative", "ordinal": 0}
+{"id": 31, "text": "AMC Networks price target cut to $35 from $39 at Imperial Capital", "span": "AMC Networks", "label": "negative", "ordinal": 0}
+{"id": 32, "text": "American Software downgraded to neutral from buy at B. Riley FBR", "span": "American Software", "label": "negative", "ordinal": 0}
+{"id": 33, "text": "Analysts question Silicon Motion's margin outlook", "span": "Silicon Motion", "label": "negative", "ordinal": 0}
+{"id": 34, "text": "Anchiano Therapeutics downgraded to peer perform from outperform at Oppenheimer", "span": "Anchiano Therapeutics", "label": "negative", "ordinal": 0}
+{"id": 35, "text": "Arch Coal stock price target cut to $97 from $100 at B. Riley FBR", "span": "Arch Coal", "label": "neutral", "ordinal": 0}
+{"id": 36, "text": "AT&T downgraded by MoffettNathanson to sell on concern wireless can't carry the whole company", "span": "AT&T", "label": "neutral", "ordinal": 0}
+{"id": 37, "text": "AT&T shares sink after MoffettNathanson downgrade", "span": "AT&T", "label": "neutral", "ordinal": 0}
+{"id": 38, "text": "AT&T stock falls after MoffettNathanson downgrades, saying dividend looks less compelling", "span": "AT&T", "label": "neutral", "ordinal": 0}
+{"id": 39, "text": "Aurora Cannabis stock price target cut to C$1.00 from C$1.75 at Stifel Nicolaus", "span": "Aurora Cannabis", "label": "neutral", "ordinal": 0}
+{"id": 40, "text": "Autodesk downgraded to underweight from neutral at JPMorgan", "span": "Autodesk", "label": "neutral", "ordinal": 0}
+{"id": 41, "text": "BAML warns of profit pressure for Hormel", "span": "Hormel", "label": "neutral", "ordinal": 0}
+{"id": 42, "text": "Barclays cools on Molson Coors", "span": "Molson Coors", "label": "neutral", "ordinal": 0}
+{"id": 43, "text": "Becton Dickinson downgraded to outperform from strong buy at Raymond James", "span": "Becton Dickinson", "label": "neutral", "ordinal": 0}
+{"id": 44, "text": "Becton Dickinson downgraded to sector weight from overweight at KeyBanc Capital", "span": "Becton Dickinson", "label": "neutral", "ordinal": 0}
+{"id": 45, "text": "Berry Petroleum downgraded to market perform from outperform at BMO Capital", "span": "Berry Petroleum", "label": "negative", "ordinal": 0}
+{"id": 46, "text": "Berry Petroleum downgraded to underweight from sector weight at KeyBanc Capital", "span": "Berry Petroleum", "label": "negative", "ordinal": 0}
+{"id": 47, "text": "Bluebird bio downgraded to in line from outperform at Evercore ISI", "span": "Bluebird bio", "label": "negative", "ordinal": 0}
+{"id": 48, "text": "Bluebird bio stock price target cut to $86 from $172 at Evercore ISI", "span": "Bluebird bio", "label": "negative", "ordinal": 0}
+{"id": 49, "text": "Canada Goose downgraded to buy from strong buy at CFRA", "span": "Canada Goose", "label": "negative", "ordinal": 0}
+{"id": 50, "text": "Canada Goose stock price target cut to $50 from $65 at CFRA", "span": "Canada Goose", "label": "negative", "ordinal": 0}
+{"id": 51, "text": "Children's Place downgraded as e-commerce puts margins at risk", "span": "Children's Place", "label": "negative", "ordinal": 0}
+{"id": 52, "text": "Children's Place price target cut to $80 from $105 at Monness Crespi Hardt", "span": "Children's Place", "label": "negative", "ordinal": 0}
+{"id": 53, "text": "Cinedigm Corp. Analysts Are Cutting Their Estimates: Here's What You Need To Know", "span": "Cinedigm Corp.", "label": "negative", "ordinal": 0}
+{"id": 54, "text": "Clovis Oncology stock price target cut to $8 from $12 at Evercore ISI", "span": "Clovis Oncology", "label": "negative", "ordinal": 0}
+{"id": 55, "text": "Cumberland Pharmaceuticals stock price target cut to $9.00 from $12.25 at B. Riley FBR", "span": "Cumberland Pharmaceuticals", "label": "neutral", "ordinal": 0}
+{"id": 56, "text": "Dell, HPE targets trimmed on compute headwinds", "span": "Dell, HPE", "label": "neutral", "ordinal": 0}
+{"id": 57, "text": "Dish may not be key winner amid Intelsat woes - analyst", "span": "Dish", "label": "neutral", "ordinal": 0}
+{"id": 58, "text": "Disney downgraded as analyst says parks attendance could take 2 years to 'normalize'", "span": "Disney", "label": "neutral", "ordinal": 0}
+{"id": 59, "text": "Downgrades 11/25: $AEO $COLM $DGII $EQT $ESS $EVRG $GTT $KRG $MANT $MDCO $NFLX $OMP $PEG $PRU $SBT $SITC $TAP $VIPS", "span": "$AEO, $COLM, $DGII, $EQT, $ESS, $EVRG, $GTT, $KRG, $MANT, $MDCO, $NFLX, $OMP, $PEG, $PRU, $SBT, $SITC, $TAP, $VIPS", "label": "neutral", "ordinal": 0}
+{"id": 60, "text": "Downgrades 4/7: $MLND $MSGN $MTLS $O $OC $OVV $PEB $PK $PLYA $QEP $RHP $RPAI $SAIA $SDC $SHOP $SKY $SLG $SM $TWLO", "span": "$MLND, $MSGN, $MTLS, $O, $OC, $OVV, $PEB, $PK, $PLYA, $QEP, $RHP, $RPAI, $SAIA, $SDC, $SHOP, $SKY, $SLG, $SM, $TWLO", "label": "negative", "ordinal": 0}
+{"id": 61, "text": "Dropbox on watch after stinging Spruce Point report", "span": "Dropbox", "label": "negative", "ordinal": 0}
+{"id": 62, "text": "Earnings Update: electroCore, Inc. Just Reported And Analysts Are Trimming Their Forecasts", "span": "electroCore, Inc.", "label": "negative", "ordinal": 0}
+{"id": 63, "text": "Evercore downgrades bluebird bio and Clovis in premarket analyst action", "span": "bluebird bio, Clovis", "label": "negative", "ordinal": 0}
+{"id": 64, "text": "Fannie Mae, Freddie Mac downgraded to sell, as analyst cites 'unintended consequences' of CARES Act", "span": "Fannie Mae, Freddie Mac", "label": "negative", "ordinal": 0}
+{"id": 65, "text": "Forescout downgraded to neutral from buy at Monness Crespi Hardt", "span": "Forescout", "label": "negative", "ordinal": 0}
+{"id": 66, "text": "FormFactor cut on 'unsustainable' revenue outlook", "span": "FormFactor", "label": "negative", "ordinal": 0}
+{"id": 67, "text": "Funko downgraded to hold from buy at Stifel Nicolaus", "span": "Funko", "label": "negative", "ordinal": 0}
+{"id": 68, "text": "Funko stock price target cut to $10 from $25 at Stifel Nicolaus", "span": "Funko", "label": "negative", "ordinal": 0}
+{"id": 69, "text": "GM stock price target cut to $30 from $32 at Deutsche Bank", "span": "GM", "label": "negative", "ordinal": 0}
+{"id": 70, "text": "Grubhub gains a bear on margin view", "span": "Grubhub", "label": "neutral", "ordinal": 0}
+{"id": 71, "text": "H&P downgraded at Argus as drilling industry weakness seen persisting", "span": "H&P", "label": "neutral", "ordinal": 0}
+{"id": 72, "text": "Hanesbrands stock price target cut to $13 vs. $16 at BofA Merrill Lynch", "span": "Hanesbrands", "label": "neutral", "ordinal": 0}
+{"id": 73, "text": "Helmerich & Payne started at sell with $34 stock price target at Deutsche Bank", "span": "Helmerich & Payne", "label": "neutral", "ordinal": 0}
+{"id": 74, "text": "Hexo stock price target cut to C$5 from C$6 at MKM Partners", "span": "Hexo", "label": "neutral", "ordinal": 0}
+{"id": 75, "text": "Home Depot stock price target cut to $237 from $240 at Instinet", "span": "Home Depot", "label": "neutral", "ordinal": 0}
+{"id": 76, "text": "Intelsat downgraded to underweight from neutral at J.P. Morgan", "span": "Intelsat", "label": "neutral", "ordinal": 0}
+{"id": 77, "text": "Intelsat lower after Morgan Stanley target cut", "span": "Intelsat", "label": "neutral", "ordinal": 0}
+{"id": 78, "text": "Jefferies warns on L Brands", "span": "L Brands", "label": "neutral", "ordinal": 0}
+{"id": 79, "text": "Kohl's stock price target cut to $48 from $52 at Deutsche Bank", "span": "Kohl's", "label": "neutral", "ordinal": 0}
+{"id": 80, "text": "Kohl's stock price target cut to $50 from $53 at Wedbush", "span": "Kohl's", "label": "neutral", "ordinal": 0}
+{"id": 81, "text": "L Brands stock price target cut to $16 from $20 at Wedbush", "span": "L Brands", "label": "neutral", "ordinal": 0}
+{"id": 82, "text": "Lovesac stock price target cut to $28 vs. $33 at Canaccord", "span": "Lovesac", "label": "neutral", "ordinal": 0}
+{"id": 83, "text": "Lyft stock price target cut to $58 from $70 at Deutsche Bank", "span": "Lyft", "label": "neutral", "ordinal": 0}
+{"id": 84, "text": "Macerich downgraded to underweight from sector weight at KeyBanc Capital", "span": "Macerich", "label": "neutral", "ordinal": 0}
+{"id": 85, "text": "Marinus Pharma stock price target cut to $6 from $7 at Leerink", "span": "Marinus Pharma", "label": "neutral", "ordinal": 0}
+{"id": 86, "text": "Methanex downgraded at TD Securities on valuation", "span": "Methanex", "label": "neutral", "ordinal": 0}
+{"id": 87, "text": "Metro Inc. Just Missed Earnings And Its EPS Looked Sad - But Analysts Have Updated Their Models", "span": "Metro Inc.", "label": "neutral", "ordinal": 0}
+{"id": 88, "text": "Mid-America Apartment Communities downgraded to sector weight from overweight at KeyBanc Capital", "span": "Mid-America Apartment Communities", "label": "neutral", "ordinal": 0}
+{"id": 89, "text": "Mitek Systems stock price target cut to $11 from $14 at Benchmark", "span": "Mitek Systems", "label": "neutral", "ordinal": 0}
+{"id": 90, "text": "Napco Security stock price target cut to $30 from $35 at Imperial Capital", "span": "Napco Security", "label": "neutral", "ordinal": 0}
+{"id": 91, "text": "Needham's Martin Defends Her Prediction That Netflix Subscriptions Will Fall", "span": "Netflix", "label": "neutral", "ordinal": 0}
+{"id": 92, "text": "Netflix downgraded to ‘underperform’ at Needham", "span": "Netflix", "label": "neutral", "ordinal": 0}
+{"id": 93, "text": "Netflix stock falls after Wells Fargo turns bearish", "span": "Netflix", "label": "neutral", "ordinal": 0}
+{"id": 94, "text": "New Netflix bear steps out", "span": "Netflix", "label": "neutral", "ordinal": 0}
+{"id": 95, "text": "New York Opioid Case A Significant Risk For Pharma Stocks, Says Bearish BofA", "span": "Pharma Stocks", "label": "neutral", "ordinal": 0}
+{"id": 96, "text": "Norwegian Cruise Line downgraded to strong sell from hold at CFRA", "span": "Norwegian Cruise Line", "label": "neutral", "ordinal": 0}
+{"id": 97, "text": "Novo Nordisk downgraded by UBS on concerns over drug launch cost", "span": "Novo Nordisk", "label": "neutral", "ordinal": 0}
+{"id": 98, "text": "Oppenheimer cuts estimates on Yum China", "span": "Yum China", "label": "neutral", "ordinal": 0}
+{"id": 99, "text": "Orbcomm price target lowered to $9 at Canaccord", "span": "Orbcomm", "label": "neutral", "ordinal": 0}
+{"id": 100, "text": "O'Reilly Automotive stock price target cut to $405 from $415 at J.P. Morgan", "span": "O'Reilly Automotive", "label": "negative", "ordinal": 0}
+{"id": 101, "text": "Patterson-UTI Energy started at sell with $7 stock price target at Deutsche Bank", "span": "Patterson-UTI Energy", "label": "negative", "ordinal": 0}
+{"id": 102, "text": "PS Business Parks downgraded to underweight from sector weight at KeyBanc Capital", "span": "PS Business Parks", "label": "negative", "ordinal": 0}
+{"id": 103, "text": "Rio Tinto downgraded to neutral from overweight at J.P. Morgan", "span": "Rio Tinto", "label": "negative", "ordinal": 0}
+{"id": 104, "text": "Rosenblatt Projects 47% Downside In Apple Shares, Warns Of Drop In iPhone Production", "span": "Apple", "label": "negative", "ordinal": 0}
+{"id": 105, "text": "Royal Caribbean downgraded to sell from buy at CFRA", "span": "Royal Caribbean", "label": "neutral", "ordinal": 0}
+{"id": 106, "text": "Royal Caribbean stock price target cut to $100 from $135 at CFRA", "span": "Royal Caribbean", "label": "neutral", "ordinal": 0}
+{"id": 107, "text": "Royal Caribbean's stock falls after CFRA swings to bearish on 'more dire' coronavirus assessment", "span": "Royal Caribbean", "label": "neutral", "ordinal": 0}
+{"id": 108, "text": "Scandinavian Tobacco Group A/S Earnings Missed Analyst Estimates: Here's What Analysts Are Forecasting Now", "span": "Scandinavian Tobacco Group A/S", "label": "neutral", "ordinal": 0}
+{"id": 109, "text": "Sherwin-Williams cut from Conviction Buy at Goldman on valuation", "span": "Sherwin-Williams", "label": "neutral", "ordinal": 0}
+{"id": 110, "text": "Sirius downgraded on valuation", "span": "Sirius", "label": "neutral", "ordinal": 0}
+{"id": 111, "text": "Spotify Double Downgrade Reflects Prospect of Slower Revenue Growth", "span": "Spotify", "label": "neutral", "ordinal": 0}
+{"id": 112, "text": "SunTrust latest to trim Nielsen target", "span": "Nielsen", "label": "neutral", "ordinal": 0}
+{"id": 113, "text": "Taco Bell parent Yum Brands downgraded to neutral from buy at BTIG", "span": "Yum Brands", "label": "neutral", "ordinal": 0}
+{"id": 114, "text": "Take-Two downgraded on murky game slate", "span": "Take-Two", "label": "neutral", "ordinal": 0}
+{"id": 115, "text": "Take-Two Interactive stock price target cut to $124 from $133 at MKM Partners", "span": "Take-Two Interactive", "label": "neutral", "ordinal": 0}
+{"id": 116, "text": "Target Hospitality downgraded to perform from outperform at Oppenheimer", "span": "Target Hospitality", "label": "neutral", "ordinal": 0}
+{"id": 117, "text": "Taubman Centers downgraded to sector weight from overweight at KeyBanc Capital", "span": "Taubman Centers", "label": "neutral", "ordinal": 0}
+{"id": 118, "text": "The Manitowoc Company, Inc. Just Reported Earnings, And Analysts Cut Their Target Price", "span": "The Manitowoc Company, Inc.", "label": "neutral", "ordinal": 0}
+{"id": 119, "text": "Transocean started at sell with $3 stock price target at Deutsche Bank", "span": "Transocean", "label": "neutral", "ordinal": 0}
+{"id": 120, "text": "Ultra Clean downgraded to hold from buy at Stifel Nicolaus", "span": "Ultra Clean", "label": "negative", "ordinal": 0}
+{"id": 121, "text": "Wells Fargo Downgrades Netflix $NFLX to Underperform but sees as a takeover target. NFLX could get acquired: NFLX i", "span": "Netflix", "label": "negative", "ordinal": 0}
+{"id": 122, "text": "Wells Fargo Downgrades Netflix On Spending Concerns", "span": "Netflix", "label": "negative", "ordinal": 0}
+{"id": 123, "text": "Wells Fargo downgrades Netflix: 'If content is king, then cash is queen'", "span": "Netflix", "label": "negative", "ordinal": 0}
+{"id": 124, "text": "Welltower stock price target cut to $90 from $95 at J.P. Morgan", "span": "Welltower", "label": "negative", "ordinal": 0}
+{"id": 125, "text": "WWE stock price target cut to $57 from $79 at Benchmark", "span": "WWE", "label": "neutral", "ordinal": 0}
+{"id": 126, "text": "$ALTG: Dougherty & Company starts at Buy", "span": "ALTG", "label": "neutral", "ordinal": 0}
+{"id": 127, "text": "$AMD - AMD's Navi shows strong adoption - BofA", "span": "AMD", "label": "neutral", "ordinal": 0}
+{"id": 128, "text": "$ANCUF: BMO Capital Markets ups to Outperform", "span": "ANCUF", "label": "neutral", "ordinal": 0}
+{"id": 129, "text": "$BHE: Lake Street starts at Buy", "span": "BHE", "label": "neutral", "ordinal": 0}
+{"id": 130, "text": "$CNC *S&P Raises Centene Corp. Rtg To BBB- From BB+; Outlk Stable*", "span": "Centene Corp.", "label": "positive", "ordinal": 0}
+{"id": 131, "text": "$DE - Citi gives big boost to Deere PT", "span": "Deere", "label": "positive", "ordinal": 0}
+{"id": 132, "text": "$EBAY - Guggenheim sees favorable catalysts for eBay", "span": "eBay", "label": "positive", "ordinal": 0}
+{"id": 133, "text": "$FCX - Freeport upgraded as Credit Suisse sees big buying opportunity", "span": "Freeport", "label": "positive", "ordinal": 0}
+{"id": 134, "text": "$FLXN: BTIG Research starts at Buy", "span": "FLXN", "label": "positive", "ordinal": 0}
+{"id": 135, "text": "$FNV - Franco-Nevada will not need more funding despite suspensions, analyst says", "span": "FNV", "label": "positive", "ordinal": 0}
+{"id": 136, "text": "$GBT: Cantor Fitzgerald resumes at Overweight", "span": "GBT", "label": "positive", "ordinal": 0}
+{"id": 137, "text": "$GM - Morgan Stanley sees GM doubling in bull case scenario", "span": "GM", "label": "positive", "ordinal": 0}
+{"id": 138, "text": "$GOOS: Barclays starts at Overweight", "span": "GOOS", "label": "positive", "ordinal": 0}
+{"id": 139, "text": "$HAS - Hasbro gains after UBS upgrade", "span": "HAS", "label": "positive", "ordinal": 0}
+{"id": 140, "text": "$JD - New bull praises acceleration, margin profile", "span": "$JD", "label": "positive", "ordinal": 0}
+{"id": 141, "text": "$JD: Barclays ups to Overweight", "span": "$JD", "label": "positive", "ordinal": 0}
+{"id": 142, "text": "$KHC - JPMorgan constructive on Kraft Heinz", "span": "$KHC", "label": "positive", "ordinal": 0}
+{"id": 143, "text": "$KIM: Compass Point ups to Neutral", "span": "$KIM", "label": "positive", "ordinal": 0}
+{"id": 144, "text": "$LOW - Lowe's racks up another positive rating despite recession risk", "span": "$LOW", "label": "positive", "ordinal": 0}
+{"id": 145, "text": "$LRCX - Lam target boosted on 'compelling' setup", "span": "LRCX", "label": "positive", "ordinal": 0}
+{"id": 146, "text": "$LULU: Barclays starts at Overweight", "span": "LULU", "label": "positive", "ordinal": 0}
+{"id": 147, "text": "$MU $WDC - Bull sees 2020 upsides for MU, WDC", "span": "MU", "label": "positive", "ordinal": 0}
+{"id": 148, "text": "$NBY Rated buy", "span": "NBY", "label": "positive", "ordinal": 0}
+{"id": 149, "text": "$NFLX - SunTrust expecting Netflix to post strong user growth", "span": "NFLX", "label": "positive", "ordinal": 0}
+{"id": 150, "text": "$NVDA - Nvidia set for gaming tailwinds - BofA", "span": "Nvidia", "label": "positive", "ordinal": 0}
+{"id": 151, "text": "$OCN - BTIG sees 'material improvement' to Ocwen book value", "span": "Ocwen", "label": "positive", "ordinal": 0}
+{"id": 152, "text": "$OYST: Cowen starts at Outperform", "span": "OYST", "label": "positive", "ordinal": 0}
+{"id": 153, "text": "$RAPT: BMO Capital Markets starts at Outperform", "span": "RAPT", "label": "positive", "ordinal": 0}
+{"id": 154, "text": "$RNG - Evercore starts RingCentral at Outperform", "span": "RingCentral", "label": "positive", "ordinal": 0}
+{"id": 155, "text": "$SBAC $SBAC $AMT - MoffettNathanson boosts SBAC to Buy", "span": "SBAC", "label": "positive", "ordinal": 0}
+{"id": 156, "text": "$SNAP - Loop turns bullish on Snap ad growth", "span": "SNAP", "label": "positive", "ordinal": 0}
+{"id": 157, "text": "$STXS: Lake Street starts at Buy", "span": "STXS", "label": "positive", "ordinal": 0}
+{"id": 158, "text": "$TENB - Cowen sees upside in TENB's Indegy purchase", "span": "TENB", "label": "positive", "ordinal": 0}
+{"id": 159, "text": "$UBER $LYFT - Uber, Lyft can raise prices to profit - Barclays", "span": "UBER", "label": "positive", "ordinal": 0}
+{"id": 160, "text": "$WABC: Maxim Group ups to Buy", "span": "$WABC", "label": "positive", "ordinal": 0}
+{"id": 161, "text": "$WRI: Compass Point ups to Buy", "span": "$WRI", "label": "positive", "ordinal": 0}
+{"id": 162, "text": "$ZS - New Zscaler bull sees 'sustainable' growth; shares +4%", "span": "$ZS", "label": "positive", "ordinal": 0}
+{"id": 163, "text": "Activision, Take-Two charts look 'constructive' as Wells Fargo gets bullish on video game plays: Trader $ATVI $TTWO", "span": "$ATVI, $TTWO", "label": "positive", "ordinal": 0}
+{"id": 164, "text": "Adobe stock price target raised to $315 vs. $290 at Wedbush", "span": "Adobe", "label": "positive", "ordinal": 0}
+{"id": 165, "text": "Adobe stock price target raised to $318 vs. $310 at Instinet", "span": "Adobe", "label": "positive", "ordinal": 0}
+{"id": 166, "text": "Aegis Capital positive on Netflix usage trend", "span": "Netflix", "label": "positive", "ordinal": 0}
+{"id": 167, "text": "After a 60% drop in 6 months, Bank of America says buy pot stock Canopy", "span": "Canopy", "label": "positive", "ordinal": 0}
+{"id": 168, "text": "Akero Therapeutics started at buy with $36 stock price target at Canaccord Genuity", "span": "Akero Therapeutics", "label": "positive", "ordinal": 0}
+{"id": 169, "text": "Align Technology stock price target raised to $305 from $290 at Stifel Nicolaus", "span": "Align Technology", "label": "positive", "ordinal": 0}
+{"id": 170, "text": "Allergan upgraded to buy from neutral at UBS", "span": "Allergan", "label": "positive", "ordinal": 0}
+{"id": 171, "text": "Altria stock price target raised to $54 from $50 at Stifel Nicolaus", "span": "Altria", "label": "positive", "ordinal": 0}
+{"id": 172, "text": "Amneal Pharma price target raised to $6 vs. $4 at SunTrust Robinson Humphrey", "span": "Amneal Pharma", "label": "positive", "ordinal": 0}
+{"id": 173, "text": "An analyst at Loop Capital upgrades $LYFT to buy from hold, citing higher revenue growth potential.", "span": "LYFT", "label": "positive", "ordinal": 0}
+{"id": 174, "text": "Analyst: AT&T Is The Top Telecom Pick For 2020", "span": "AT&T", "label": "positive", "ordinal": 0}
+{"id": 175, "text": "Analysts Mostly Bullish On Newly Public Insurance Firm BRP Group", "span": "BRP Group", "label": "positive", "ordinal": 0}
+{"id": 176, "text": "Analysts See 18% Gains Ahead For The Holdings Of The First Trust Dow Jones Internet Index Fund ETF", "span": "First Trust Dow Jones Internet Index Fund ETF", "label": "positive", "ordinal": 0}
+{"id": 177, "text": "Ansys stock price target raised to $265 from $235 at Benchmark", "span": "Ansys", "label": "positive", "ordinal": 0}
+{"id": 178, "text": "Anthem stock price target raised to $330 from $300 at SunTrust RH", "span": "Anthem", "label": "positive", "ordinal": 0}
+{"id": 179, "text": "Applied Industrial Technologies stock price target raised to $70 from $65 at KeyBanc Capital", "span": "Applied Industrial Technologies", "label": "positive", "ordinal": 0}
+{"id": 180, "text": "arGen-X stock price target raised to $255 vs. $203 at Instinet", "span": "arGen-X", "label": "positive", "ordinal": 0}
+{"id": 181, "text": "Armata Pharmaceuticals started at buy with $8 stock price target at Maxim Group", "span": "Armata Pharmaceuticals", "label": "positive", "ordinal": 0}
+{"id": 182, "text": "Arrow Electronics stock price target raised to $87 vs. $84 at SunTrust Robinson Humphrey", "span": "Arrow Electronics", "label": "positive", "ordinal": 0}
+{"id": 183, "text": "Asset Management One Co. has a bullish call on Treasuries. One for the long, long run", "span": "Asset Management One Co.", "label": "positive", "ordinal": 0}
+{"id": 184, "text": "Audentes Therapeutics stock price target raised to $40 from $34 at Evercore ISI", "span": "Audentes Therapeutics", "label": "positive", "ordinal": 0}
+{"id": 185, "text": "Audentes Therapeutics upgraded to outperform from in line at Evercore ISI", "span": "Audentes Therapeutics", "label": "positive", "ordinal": 0}
+{"id": 186, "text": "Axcelis Technologies stock price target raised to $32 from $24 at Benchmark", "span": "Axcelis Technologies", "label": "positive", "ordinal": 0}
+{"id": 187, "text": "Baird bullish on beat-up Canada Goose", "span": "Canada Goose", "label": "positive", "ordinal": 0}
+{"id": 188, "text": "Baird likes drug wholesalers in premarket analyst action", "span": "drug wholesalers", "label": "positive", "ordinal": 0}
+{"id": 189, "text": "Baird returns to Wingstop bull camp", "span": "Wingstop", "label": "positive", "ordinal": 0}
+{"id": 190, "text": "Baker Hughes started at buy with $32 stock price target at Deutsche Bank", "span": "Baker Hughes", "label": "positive", "ordinal": 0}
+{"id": 191, "text": "Bank of America stock price target raised to $49 from $48 at Oppenheimer", "span": "Bank of America", "label": "positive", "ordinal": 0}
+{"id": 192, "text": "Barclays analysts says Uber and Lyft are well-positioned to achieve profitability", "span": "Uber and Lyft", "label": "positive", "ordinal": 0}
+{"id": 193, "text": "Bausch Health upgraded to overweight from neutral at JPMorgan, price target raised to $38 from $32", "span": "Bausch Health", "label": "positive", "ordinal": 0}
+{"id": 194, "text": "Bed Bath & Beyond reiterated as buy at BofA Merrill Lynch", "span": "Bed Bath & Beyond", "label": "positive", "ordinal": 0}
+{"id": 195, "text": "Belden stock price target raised to $56 vs. $54 at SunTrust Robinson Humphrey", "span": "Belden", "label": "positive", "ordinal": 0}
+{"id": 196, "text": "Benchmark says this roof supplier is a Buy", "span": "Benchmark", "label": "positive", "ordinal": 0}
+{"id": 197, "text": "Bernstein turns bullish on VMware's valuation", "span": "VMware", "label": "positive", "ordinal": 0}
+{"id": 198, "text": "Berry Petroleum upgraded to sector weight from underweight at KeyBanc Capital", "span": "Berry Petroleum", "label": "positive", "ordinal": 0}
+{"id": 199, "text": "Best Buy stock price target raised to $105 from $86 at Oppenheimer", "span": "Best Buy", "label": "positive", "ordinal": 0}
+{"id": 200, "text": "Biogen stock price target raised to $392 from $320 at Instinet", "span": "Biogen", "label": "positive", "ordinal": 0}
+{"id": 201, "text": "Biogen stock price target raised to $410 from $350 at SVB Leerink", "span": "Biogen", "label": "positive", "ordinal": 0}
+{"id": 202, "text": "Boeing stock price target raised to $427 from $406 at CFRA", "span": "Boeing", "label": "positive", "ordinal": 0}
+{"id": 203, "text": "BofA Upgrades WestRock After Containerboard Conference, London Pulp Week", "span": "WestRock", "label": "positive", "ordinal": 0}
+{"id": 204, "text": "Bouygues SA Just Beat Analyst Forecasts, And Analysts Have Been Updating Their Predictions", "span": "Bouygues SA", "label": "positive", "ordinal": 0}
+{"id": 205, "text": "BTIG expects Domino's to boost buybacks", "span": "Domino's", "label": "positive", "ordinal": 0}
+{"id": 206, "text": "BTIG sees 'material improvement' to Ocwen book value", "span": "Ocwen", "label": "positive", "ordinal": 0}
+{"id": 207, "text": "Bull sees 2020 upsides for MU, WDC", "span": "MU, WDC", "label": "positive", "ordinal": 0}
+{"id": 208, "text": "Cabot upgraded to buy from neutral at UBS", "span": "Cabot", "label": "positive", "ordinal": 0}
+{"id": 209, "text": "Canada Goose upgraded to outperform from neutral at Baird, price target C$53", "span": "Canada Goose", "label": "positive", "ordinal": 0}
+{"id": 210, "text": "Capital Southwest initiated at outperform at Raymond James with $23.50 price target", "span": "Capital Southwest", "label": "positive", "ordinal": 0}
+{"id": 211, "text": "Celanese stock price target raised to $120 vs. $111 at BofA Merrill Lynch", "span": "Celanese", "label": "positive", "ordinal": 0}
+{"id": 212, "text": "CF Industries stock price target raised to $56 vs. $52 at BofA Merrill Lynch", "span": "CF Industries", "label": "positive", "ordinal": 0}
+{"id": 213, "text": "CF Industries upgraded to buy vs. neutral at BofA Merrill Lynch", "span": "CF Industries", "label": "positive", "ordinal": 0}
+{"id": 214, "text": "Ciena stock price target raised to $47 vs. $43 at Instinet", "span": "Ciena", "label": "positive", "ordinal": 0}
+{"id": 215, "text": "Citi gives big boost to Deere PT", "span": "Deere", "label": "positive", "ordinal": 0}
+{"id": 216, "text": "Citi reels in PT on Nu Skin", "span": "Nu Skin", "label": "positive", "ordinal": 0}
+{"id": 217, "text": "CITRON SAYS IT'S LONG ON LUCKIN COFFEE MW vs CItron", "span": "Luckin Coffee", "label": "positive", "ordinal": 0}
+{"id": 218, "text": "CNH Industrial upped to Buy at Deutsche Bank on valuation", "span": "CNH Industrial", "label": "positive", "ordinal": 0}
+{"id": 219, "text": "Copa Holdings stock price target raised to $130 from $103 at Deutsche Bank", "span": "Copa Holdings", "label": "positive", "ordinal": 0}
+{"id": 220, "text": "Costco price target raised to $330 vs. $320 at BofA Merrill Lynch", "span": "Costco", "label": "neutral", "ordinal": 0}
+{"id": 221, "text": "CSX stock price target raised to $90 from $72 at Deutsche Bank", "span": "CSX", "label": "neutral", "ordinal": 0}
+{"id": 222, "text": "CSX upgraded to buy from hold at Deutsche Bank", "span": "CSX", "label": "neutral", "ordinal": 0}
+{"id": 223, "text": "CVS Health stock price target raised to $90 from $85 at SunTrust RH", "span": "CVS Health", "label": "neutral", "ordinal": 0}
+{"id": 224, "text": "CyrusOne upgraded to overweight from sector weight at KeyBanc Capital", "span": "CyrusOne", "label": "neutral", "ordinal": 0}
+{"id": 225, "text": "Diamondrock Hospitality upgraded to sector weight from underweight at KeyBanc Capital", "span": "Diamondrock Hospitality", "label": "positive", "ordinal": 0}
+{"id": 226, "text": "DLH Holdings maintained as buy with $7 price target at Canaccord", "span": "DLH Holdings", "label": "positive", "ordinal": 0}
+{"id": 227, "text": "Domtar upgraded to market perform at BMO Capital", "span": "Domtar", "label": "positive", "ordinal": 0}
+{"id": 228, "text": "Dow stock price target raised to $52 vs. $46 at BofA Merrill Lynch", "span": "Dow", "label": "positive", "ordinal": 0}
+{"id": 229, "text": "Earnings Update: Here's Why Analysts Just Lifted Their Aemetis, Inc. Price Target To US$2.25", "span": "Aemetis, Inc.", "label": "positive", "ordinal": 0}
+{"id": 230, "text": "Earnings Update: Here's Why Analysts Just Lifted Their Milestone Scientific Inc. Price Target To US$2.00", "span": "Milestone Scientific Inc.", "label": "positive", "ordinal": 0}
+{"id": 231, "text": "Earnings Update: Here's Why Analysts Just Lifted Their Skyworks Solutions, Inc. Price Target To US$104", "span": "Skyworks Solutions, Inc.", "label": "positive", "ordinal": 0}
+{"id": 232, "text": "Eastman Chemical stock price target raised to $85 vs. $82 at BofA Merrill Lynch", "span": "Eastman Chemical", "label": "positive", "ordinal": 0}
+{"id": 233, "text": "Edgewell stock price target raised to $41 from $33 at CFRA", "span": "Edgewell", "label": "positive", "ordinal": 0}
+{"id": 234, "text": "Elastic upgraded to buy from hold at Canaccord Genuity", "span": "Elastic", "label": "positive", "ordinal": 0}
+{"id": 235, "text": "Enbridge upgraded to buy from neutral at UBS, price target lifted to C$54 from C$50", "span": "Enbridge", "label": "positive", "ordinal": 0}
+{"id": 236, "text": "Energizer Holdings upgraded to neutral from underweight at JP Morgan, price target lifted to $51 from $41", "span": "Energizer Holdings", "label": "positive", "ordinal": 0}
+{"id": 237, "text": "Energizer shakes off JPMorgan's bear call", "span": "Energizer", "label": "positive", "ordinal": 0}
+{"id": 238, "text": "Equity Lifestyle Properties upgraded to outperform at BMO Capital", "span": "Equity Lifestyle Properties", "label": "positive", "ordinal": 0}
+{"id": 239, "text": "Estee Lauder stock price target raised to $238 from $202 at Raymond James", "span": "Estee Lauder", "label": "positive", "ordinal": 0}
+{"id": 240, "text": "Etsy initiated as buy with $55 price target at SunTrust Robinson Humphrey", "span": "Etsy", "label": "positive", "ordinal": 0}
+{"id": 241, "text": "FedEx stock price target raised to $168 from $163 at BofA Securities", "span": "FedEx", "label": "positive", "ordinal": 0}
+{"id": 242, "text": "FleetCor stock price target raised to $325 from $310 at CFRA", "span": "FleetCor", "label": "positive", "ordinal": 0}
+{"id": 243, "text": "Ford's electric SUV impresses Credit Suisse", "span": "Ford", "label": "positive", "ordinal": 0}
+{"id": 244, "text": "Fortinet stock price target raised to $115 from $104 at BMO Capital", "span": "Fortinet", "label": "positive", "ordinal": 0}
+{"id": 245, "text": "Fortinet stock price target raised to $120 from $110 at Monness Crespi Hardt", "span": "Fortinet", "label": "positive", "ordinal": 0}
+{"id": 246, "text": "Glenmark Pharmaceuticals Limited Just Beat Analyst Forecasts, And Analysts Have Been Updating Their Predictions", "span": "Glenmark Pharmaceuticals Limited", "label": "positive", "ordinal": 0}
+{"id": 247, "text": "Goldman adds Workday to conviction list; shares +1%", "span": "Workday", "label": "positive", "ordinal": 0}
+{"id": 248, "text": "Goldman Says 36,000% Rally in Brazilian Retailer Has Room to Run", "span": "Brazilian Retailer", "label": "positive", "ordinal": 0}
+{"id": 249, "text": "GrubHub stock price target raised to $40 from $34 at Oppenheimer", "span": "GrubHub", "label": "positive", "ordinal": 0}
+{"id": 250, "text": "GrubHub stock price target raised to $60 from $30 at Susquehanna", "span": "GrubHub", "label": "positive", "ordinal": 0}
+{"id": 251, "text": "Hasbro upgraded on earnings growth potential from Entertainment One acquisition", "span": "Hasbro", "label": "positive", "ordinal": 0}
+{"id": 252, "text": "Hasbro upgraded to buy from neutral at UBS, price target $117", "span": "Hasbro", "label": "positive", "ordinal": 0}
+{"id": 253, "text": "Heat Biologics started at buy with $1 stock price target at Maxim Group", "span": "Heat Biologics", "label": "positive", "ordinal": 0}
+{"id": 254, "text": "Home Depot upgraded to outperform from neutral at Credit Suisse, price target raised to $235 from $225", "span": "Home Depot", "label": "positive", "ordinal": 0}
+{"id": 255, "text": "Humana stock price target raised to $363 from $319 at Deutsche Bank", "span": "Humana", "label": "positive", "ordinal": 0}
+{"id": 256, "text": "Huntsman named Conviction Buy at Goldman in chemical sector shuffle", "span": "Huntsman", "label": "positive", "ordinal": 0}
+{"id": 257, "text": "Intel stock price target raised to $62 vs. $60 at SunTrust Robinson Humphrey", "span": "Intel", "label": "positive", "ordinal": 0}
+{"id": 258, "text": "Intercept Pharmaceuticals maintained as buy with $165 price target at Canaccord", "span": "Intercept Pharmaceuticals", "label": "positive", "ordinal": 0}
+{"id": 259, "text": "Invitae Corp. maintained as buy at Benchmark", "span": "Invitae Corp.", "label": "positive", "ordinal": 0}
+{"id": 260, "text": "J.C. Penney stock price target raised to $1.00 from 80 cents at B. Riley FBR", "span": "J.C. Penney", "label": "positive", "ordinal": 0}
+{"id": 261, "text": "Jabil stock price target raised to $47 from $36 at CFRA", "span": "Jabil", "label": "positive", "ordinal": 0}
+{"id": 262, "text": "Jefferies analysts lifted Tesla $TSLA shares to buy while paring the price target 19%.", "span": "Tesla $TSLA", "label": "positive", "ordinal": 0}
+{"id": 263, "text": "JPMorgan likes Bausch Health in premarket analyst action", "span": "Bausch Health", "label": "positive", "ordinal": 0}
+{"id": 264, "text": "JPMorgan out bullish on Uber's upside potential", "span": "Uber", "label": "positive", "ordinal": 0}
+{"id": 265, "text": "Kilroy Realty upgraded to overweight from sector weight at KeyBanc Capital", "span": "Kilroy Realty", "label": "positive", "ordinal": 0}
+{"id": 266, "text": "L3Harris started at buy with $280 stock price target at Benchmark", "span": "L3Harris", "label": "positive", "ordinal": 0}
+{"id": 267, "text": "Lagging MLP upgraded at Goldman as new projects seen lifting cash flows", "span": "Lagging MLP", "label": "positive", "ordinal": 0}
+{"id": 268, "text": "Ligand Pharmaceuticals started at buy with $135 stock price target at Benchmark", "span": "Ligand Pharmaceuticals", "label": "positive", "ordinal": 0}
+{"id": 269, "text": "Lovesac maintained as buy at Canaccord", "span": "Lovesac", "label": "positive", "ordinal": 0}
+{"id": 270, "text": "Lululemon stock price target raised to $260 vs. $222 at Susquehanna", "span": "Lululemon", "label": "positive", "ordinal": 0}
+{"id": 271, "text": "Lyft stock gets an upgrade due to competitive positioning", "span": "Lyft", "label": "positive", "ordinal": 0}
+{"id": 272, "text": "LyondellBasell sock price target raised to $107 vs. $99 at BofA Merrill Lynch", "span": "LyondellBasell", "label": "positive", "ordinal": 0}
+{"id": 273, "text": "Magnolia Oil & Gas started at overweight with $14 stock price target at KeyBanc Capital", "span": "Magnolia Oil & Gas", "label": "positive", "ordinal": 0}
+{"id": 274, "text": "Mesa Air reiterated as outperform at Cowen", "span": "Mesa Air", "label": "positive", "ordinal": 0}
+{"id": 275, "text": "Microchip Technology stock price target raised to $113 vs. $106 at SunTrust Robinson Humphrey", "span": "Microchip Technology", "label": "positive", "ordinal": 0}
+{"id": 276, "text": "Mizuho raises Intel on aggressive price cuts", "span": "Intel", "label": "positive", "ordinal": 0}
+{"id": 277, "text": "Molina Healthcare stock price target raised to $165 from $155 at SunTrust RH", "span": "Molina Healthcare", "label": "positive", "ordinal": 0}
+{"id": 278, "text": "Morgan Stanley analyst Joseph Moore upgraded NVIDIA (NASDAQ: $NVDA) from Equalweight to Overweight with a price tar", "span": "NVIDIA", "label": "positive", "ordinal": 0}
+{"id": 279, "text": "Morgan Stanley bullish on Eldorado Resorts ahead of Caesars combination", "span": "Eldorado Resorts", "label": "positive", "ordinal": 0}
+{"id": 280, "text": "Morgan Stanley joins mortgage sector bulls", "span": "Morgan Stanley", "label": "positive", "ordinal": 0}
+{"id": 281, "text": "Morgan Stanley Raises Fortinet's Price Target After Bullish Analyst Day", "span": "Fortinet", "label": "positive", "ordinal": 0}
+{"id": 282, "text": "Morgan Stanley upgrades NVIDIA $NVDA from Equal-Weight to Overweight and announces $259 price target.", "span": "NVIDIA $NVDA", "label": "positive", "ordinal": 0}
+{"id": 283, "text": "Morgan Stanley upgrades Nvidia to buy, predicting 2020 will be 'a return to solid growth'", "span": "Nvidia", "label": "positive", "ordinal": 0}
+{"id": 284, "text": "Munster Doubles Down, Says Apple Has 40% Upside This Year", "span": "Apple", "label": "positive", "ordinal": 0}
+{"id": 285, "text": "New bull sees 22% upside for Splunk", "span": "Splunk", "label": "positive", "ordinal": 0}
+{"id": 286, "text": "New for subscribers: Morgan Stanley adds Amazon to its list of favorite stocks. Here are the rest...", "span": "Amazon", "label": "positive", "ordinal": 0}
+{"id": 287, "text": "Newmont Goldcorp stock price target raised to $41.50 from $39.50 at B. Riley FBR", "span": "Newmont Goldcorp", "label": "positive", "ordinal": 0}
+{"id": 288, "text": "NLight target raised on Nutronics deal", "span": "NLight", "label": "positive", "ordinal": 0}
+{"id": 289, "text": "Nokia stock price target raised to $6.00 from $5.50 at MKM Partners", "span": "Nokia", "label": "positive", "ordinal": 0}
+{"id": 290, "text": "Nuvasive upgraded to outperform vs market perform at Leerink", "span": "Nuvasive", "label": "positive", "ordinal": 0}
+{"id": 291, "text": "Nvidia Has One Of The Best Opportunities To Maintain High Multiple, Morgan Stanley Says In Upgrade", "span": "Nvidia", "label": "positive", "ordinal": 0}
+{"id": 292, "text": "Nvidia stock climbs after Morgan Stanley turns bullish", "span": "Nvidia", "label": "positive", "ordinal": 0}
+{"id": 293, "text": "NXP Semiconductors stock price target raised to $139 vs. $128 at SunTrust Robinson Humphrey", "span": "NXP Semiconductors", "label": "positive", "ordinal": 0}
+{"id": 294, "text": "Olin Corp. stock price target raised to $23 vs. $22 at BofA Merrill Lynch", "span": "Olin Corp.", "label": "positive", "ordinal": 0}
+{"id": 295, "text": "One analyst says TD could unlock \"significant value\" by selling its minority stake in Ameritrade after its purchase", "span": "TD", "label": "positive", "ordinal": 0}
+{"id": 296, "text": "Onto Innovation stock price target raised to $50 from $40 at Benchmark", "span": "Onto Innovation", "label": "positive", "ordinal": 0}
+{"id": 297, "text": "Owens Corning upgraded at Wells after raising residential insulation prices", "span": "Owens Corning", "label": "positive", "ordinal": 0}
+{"id": 298, "text": "Owens Corning Upgraded On Strong Insulation, Roofing Potential", "span": "Owens Corning", "label": "positive", "ordinal": 0}
+{"id": 299, "text": "Oyster Point Pharma initiated at overweight with $26 price target at JP Morgan", "span": "Oyster Point Pharma", "label": "positive", "ordinal": 0}
+{"id": 300, "text": "Paul Tudor Jones Sees the Potential for a Stock Market Explosion, to the Upside", "span": "Stock Market", "label": "positive", "ordinal": 0}
+{"id": 301, "text": "PennMac Financial rises to record as Piper gets more bullish", "span": "PennMac Financial", "label": "positive", "ordinal": 0}
+{"id": 302, "text": "Piper likes DexCom in premarket analyst action", "span": "DexCom", "label": "positive", "ordinal": 0}
+{"id": 303, "text": "Pixelworks, Inc. Just Reported And Analysts Have Been Lifting Their Price Targets", "span": "Pixelworks, Inc.", "label": "positive", "ordinal": 0}
+{"id": 304, "text": "PPG Industries stock price target raised to $113 vs. $105 at BofA Merrill Lynch", "span": "PPG Industries", "label": "positive", "ordinal": 0}
+{"id": 305, "text": "Prothena upgraded to outperform from in line at Evercore ISI", "span": "Prothena", "label": "positive", "ordinal": 0}
+{"id": 306, "text": "Purple Innovation initiated at overweight with $12 price target at KeyBanc Capital", "span": "Purple Innovation", "label": "positive", "ordinal": 0}
+{"id": 307, "text": "Quanterix maintained as outperform with $35 price target at Leerink", "span": "Quanterix", "label": "positive", "ordinal": 0}
+{"id": 308, "text": "Results: KLA Corporation Beat Earnings Expectations And Analysts Now Have New Forecasts", "span": "KLA Corporation", "label": "positive", "ordinal": 0}
+{"id": 309, "text": "RPM International stock price target raised to $79 vs. $75 at BofA Merrill Lynch", "span": "RPM International", "label": "positive", "ordinal": 0}
+{"id": 310, "text": "S&P Global stock price target raised to $322 from $274 at Stifel Nicolaus", "span": "S&P Global", "label": "positive", "ordinal": 0}
+{"id": 311, "text": "Sanderson Farms stock price target raised to $159 from $150 at J.P. Morgan", "span": "Sanderson Farms", "label": "positive", "ordinal": 0}
+{"id": 312, "text": "Schlumberger started at buy with $42 stock price target at Deutsche Bank", "span": "Schlumberger", "label": "positive", "ordinal": 0}
+{"id": 313, "text": "Selvaag Bolig ASA Just Beat Earnings Expectations: Here's What Analysts Think Will Happen Next", "span": "Selvaag Bolig ASA", "label": "positive", "ordinal": 0}
+{"id": 314, "text": "SoftBank will have the \"last laugh\" with WeWork deal, one Bernstein analyst says", "span": "SoftBank", "label": "positive", "ordinal": 0}
+{"id": 315, "text": "Sonoma Pharma maintained as buy with $9 price target at Benchmark", "span": "Sonoma Pharma", "label": "positive", "ordinal": 0}
+{"id": 316, "text": "Splunk upgraded to overweight at Morgan Stanley", "span": "Splunk", "label": "positive", "ordinal": 0}
+{"id": 317, "text": "Starbucks Stock Is a Buy, According to This Investment Bank", "span": "Starbucks", "label": "positive", "ordinal": 0}
+{"id": 318, "text": "Starbucks upgraded to overweight at J.P. Morgan after meeting with executives", "span": "Starbucks", "label": "positive", "ordinal": 0}
+{"id": 319, "text": "Stifel Upgrades Parker-Hannifin On Potential Synergies, Industry Recovery Prospects", "span": "Parker-Hannifin", "label": "positive", "ordinal": 0}
+{"id": 320, "text": "Stifel Upgrades Wendy's, Bullish On Breakfast And Digital Prospects", "span": "Wendy's", "label": "positive", "ordinal": 0}
+{"id": 321, "text": "Syanptics raised on forecast, margin strength", "span": "Syanptics", "label": "positive", "ordinal": 0}
+{"id": 322, "text": "Synaptics stock price target raised to $40 from $32 at J.P. Morgan", "span": "Synaptics", "label": "positive", "ordinal": 0}
+{"id": 323, "text": "Synopsys upgraded to overweight from neutral at JPMorgan, price target raised to $160 from $157", "span": "Synopsys", "label": "positive", "ordinal": 0}
+{"id": 324, "text": "TE Connectivity stock price target raised to $95 vs. $94 at SunTrust Robinson Humphrey", "span": "TE Connectivity", "label": "positive", "ordinal": 0}
+{"id": 325, "text": "Teekay Tankers upped two notches to Buy at BAML", "span": "Teekay Tankers", "label": "positive", "ordinal": 0}
+{"id": 326, "text": "Texas Instruments stock price target raised to $125 vs. $122 at SunTrust Robinson Humphrey", "span": "Texas Instruments", "label": "positive", "ordinal": 0}
+{"id": 327, "text": "Twitter stock price target raised to $36.50 from $34.50 at Wedbush", "span": "Twitter", "label": "positive", "ordinal": 0}
+{"id": 328, "text": "Twitter stock price target raised to $38 from $36 at SunTrust RH", "span": "Twitter", "label": "positive", "ordinal": 0}
+{"id": 329, "text": "Twitter stock price target raised to $47 from $34 at Susquehanna", "span": "Twitter", "label": "positive", "ordinal": 0}
+{"id": 330, "text": "Twitter, Inc. Just Reported And Analysts Have Been Lifting Their Price Targets", "span": "Twitter, Inc.", "label": "positive", "ordinal": 0}
+{"id": 331, "text": "U.S. Well Services initiated at buy with $3.50 price target at Stifel", "span": "U.S. Well Services", "label": "positive", "ordinal": 0}
+{"id": 332, "text": "Uber stock price target raised to $45 from $34 at MKM Partners", "span": "Uber", "label": "positive", "ordinal": 0}
+{"id": 333, "text": "Uber stock price target raised to $49 from $47 at BofA Securities", "span": "Uber", "label": "positive", "ordinal": 0}
+{"id": 334, "text": "Uber stock price target raised to $50 from $45 at Oppenheimer", "span": "Uber", "label": "positive", "ordinal": 0}
+{"id": 335, "text": "Uber stock price target raised to $52 from $50 at Wedbush", "span": "Uber", "label": "positive", "ordinal": 0}
+{"id": 336, "text": "Uber stock price target raised to $54 from $50 at Deutsche Bank", "span": "Uber", "label": "positive", "ordinal": 0}
+{"id": 337, "text": "UBS raises Peloton’s price target to $40", "span": "Peloton", "label": "positive", "ordinal": 0}
+{"id": 338, "text": "UBS upgrades Hasbro on strong sales of Frozen II dolls into Black Friday", "span": "Hasbro", "label": "positive", "ordinal": 0}
+{"id": 339, "text": "UDR upgraded to overweight from sector weight at KeyBanc Capital", "span": "UDR", "label": "positive", "ordinal": 0}
+{"id": 340, "text": "Unisys stock price target raised to $21 from $18 at Sidoti & Co.", "span": "Unisys", "label": "positive", "ordinal": 0}
+{"id": 341, "text": "UnitedHealth stock price target raised to $338 from $303 at CFRA", "span": "UnitedHealth", "label": "positive", "ordinal": 0}
+{"id": 342, "text": "Upgrades 11/25: $ARWR $CACI $CF $DECK $DKS $ENR $EQM $ETRN $FE $HAS $HLX $JD $KIM $LYFT $NTR $NVDA $ORAN $PROS $SNAP $WEN $WING $WRI $ZS", "span": "$ARWR $CACI $CF $DECK $DKS $ENR $EQM $ETRN $FE $HAS $HLX $JD $KIM $LYFT $NTR $NVDA $ORAN $PROS $SNAP $WEN $WING $WRI $ZS", "label": "positive", "ordinal": 0}
+{"id": 343, "text": "Upgrades 4/7: $AMT $BHP $BK $CHH $ENI $EQNR $ETR $EXR $FCX $HOLX $HSIC $LOW $LSI $MAR $MAS $MGP $MHK $MXL $NGG $NWE", "span": "$AMT $BHP $BK $CHH $ENI $EQNR $ETR $EXR $FCX $HOLX $HSIC $LOW $LSI $MAR $MAS $MGP $MHK $MXL $NGG $NWE", "label": "positive", "ordinal": 0}
+{"id": 344, "text": "Vertex Pharmaceuticals stock price target raised to $248 from $240 at BMO Capital", "span": "Vertex Pharmaceuticals", "label": "positive", "ordinal": 0}
+{"id": 345, "text": "Vertical Research expects Allison Transmission to break out", "span": "Allison Transmission", "label": "positive", "ordinal": 0}
+{"id": 346, "text": "Voyager Therapeutics started at outperform with $26 stock price target at Oppenheimer", "span": "Voyager Therapeutics", "label": "positive", "ordinal": 0}
+{"id": 347, "text": "Walt Disney stock price target raised to $143 from $141 at Imperial Capital", "span": "Walt Disney", "label": "positive", "ordinal": 0}
+{"id": 348, "text": "Wells Fargo analyst Dori Kesten lifted her rating on Marriott $MAR to overweight, noting that the hotel chain's sha", "span": "Marriott", "label": "positive", "ordinal": 0}
+{"id": 349, "text": "Wells still bullish on T-Mobile after unsurprising CEO change", "span": "T-Mobile", "label": "positive", "ordinal": 0}
+{"id": 350, "text": "Westlake Chemical stock price target raised to $65 vs. $64 at BofA Merrill Lynch", "span": "Westlake Chemical", "label": "positive", "ordinal": 0}
+{"id": 351, "text": "WestRock stock price target raised to $48 from $42 at BofA Merrill Lynch", "span": "WestRock", "label": "positive", "ordinal": 0}
+{"id": 352, "text": "WestRock upgraded to buy from neutral at BofA Merrill Lynch", "span": "WestRock", "label": "positive", "ordinal": 0}
+{"id": 353, "text": "Why Credit Suisse Sees the S&P 500 Gaining 10% in 2020", "span": "S&P 500", "label": "positive", "ordinal": 0}
+{"id": 354, "text": "Williams Cos. initiated as buy with $27 price target at SunTrust Robinson Humphrey", "span": "Williams Cos.", "label": "positive", "ordinal": 0}
+{"id": 355, "text": "Workday added to Goldman's conviction list, stock gains", "span": "Workday", "label": "positive", "ordinal": 0}
+{"id": 356, "text": "Zendesk stock price target raised to $85 from $75 at Stifel Nicolaus", "span": "Zendesk", "label": "positive", "ordinal": 0}
+{"id": 357, "text": "Zendesk targets raised after 'solid' results", "span": "Zendesk", "label": "positive", "ordinal": 0}
+{"id": 358, "text": "$LB - MKM Partners puts a number on Victoria's Secret", "span": "Victoria's Secret", "label": "neutral", "ordinal": 0}
+{"id": 359, "text": "$WING - Baird returns to Wingstop bull camp", "span": "Wingstop", "label": "neutral", "ordinal": 0}
+{"id": 360, "text": "Analysts React To FCC Decision On Intelsat C-Band Spectrum Auction", "span": "Intelsat", "label": "neutral", "ordinal": 0}
+{"id": 361, "text": "Arex Capital ramps up pressure on Zagg", "span": "Zagg", "label": "neutral", "ordinal": 0}
+{"id": 362, "text": "Aviation Capital Group Assigned ‘Baa2’ Rating by Moody’s", "span": "Aviation Capital Group", "label": "neutral", "ordinal": 0}
+{"id": 363, "text": "Benzinga's Top Upgrades, Downgrades For December 17, 2019", "span": "", "label": "neutral", "ordinal": 0}
+{"id": 364, "text": "Benzinga's Top Upgrades, Downgrades For November 25, 2019", "span": "", "label": "neutral", "ordinal": 0}
+{"id": 365, "text": "BRP Group started at hold with $18 stock price target at Jefferies", "span": "BRP Group", "label": "neutral", "ordinal": 0}
+{"id": 366, "text": "BTIG resumes coverage on range of healthcare stocks, neutral on AbbVie", "span": "AbbVie", "label": "neutral", "ordinal": 0}
+{"id": 367, "text": "Bull camp empty on Sally Beauty", "span": "Sally Beauty", "label": "neutral", "ordinal": 0}
+{"id": 368, "text": "CA$10.60 - That's What Analysts Think Vecima Networks Inc. Is Worth After These Results", "span": "Vecima Networks Inc.", "label": "neutral", "ordinal": 0}
+{"id": 369, "text": "Chicken Soup for the Soul Entertainment, Inc. Third-Quarter Results: Here's What Analysts Are Forecasting For Next Year", "span": "Chicken Soup for the Soul Entertainment, Inc.", "label": "neutral", "ordinal": 0}
+{"id": 370, "text": "Citron Research, owned by the prominent short seller Andrew Left, placed a $5 price target on $PTON", "span": "$PTON", "label": "neutral", "ordinal": 0}
+{"id": 371, "text": "Coin Toss: Morgan Stanley Raises Tesla Bull Case To $500, Keeps Bear Case At $10", "span": "Tesla", "label": "neutral", "ordinal": 0}
+{"id": 372, "text": "GDS Holdings Limited Just Released Its Third-Quarter Earnings: Here's What Analysts Think", "span": "GDS Holdings Limited", "label": "neutral", "ordinal": 0}
+{"id": 373, "text": "Global Automotive Tensioner Market 2019-2023 | Growing Adoption of Start-Stop System to Boost Growth | Technavio", "span": "Global Automotive Tensioner Market", "label": "neutral", "ordinal": 0}
+{"id": 374, "text": "Here are the biggest analyst calls of the day: Johnson & Johnson, Canopy Growth, Intelsat & more", "span": "Johnson & Johnson", "label": "neutral", "ordinal": 0}
+{"id": 375, "text": "Here are the biggest analyst calls of the day: Netflix, Nvidia, Lyft, Molson Coors, Snap & more", "span": "Netflix, Nvidia, Lyft, Molson Coors, Snap", "label": "neutral", "ordinal": 0}
+{"id": 376, "text": "Here are the biggest analyst calls of the day: Netflix, Nvidia, Lyft, Molson Coors, Snap & more", "span": "Netflix, Nvidia, Lyft, Molson Coors, Snap", "label": "neutral", "ordinal": 0}
+{"id": 377, "text": "II-Vi Inc. initiated as neutral at Susquehanna", "span": "II-Vi Inc.", "label": "neutral", "ordinal": 0}
+{"id": 378, "text": "LivePerson started at neutral with $40 stock price target at J.P. Morgan", "span": "LivePerson", "label": "neutral", "ordinal": 0}
+{"id": 379, "text": "Miller Value Partners Likes These Two Stocks; Bearish on One", "span": "Miller Value Partners", "label": "neutral", "ordinal": 0}
+{"id": 380, "text": "MKM Partners puts a number on Victoria's Secret", "span": "Victoria's Secret", "label": "neutral", "ordinal": 0}
+{"id": 381, "text": "Morgan Stanley has a new favorite pick in the chip space", "span": "Morgan Stanley", "label": "neutral", "ordinal": 0}
+{"id": 382, "text": "MPLX initiated as hold with $28 price target at SunTrust Robinson Humphrey", "span": "MPLX", "label": "neutral", "ordinal": 0}
+{"id": 383, "text": "Oppenheimer calls out transformation of big-box retailer", "span": "Oppenheimer", "label": "neutral", "ordinal": 0}
+{"id": 384, "text": "Pipestone Energy Corp. Just Reported, And Analysts Assigned A CA$2.55 Price Target", "span": "Pipestone Energy Corp.", "label": "neutral", "ordinal": 0}
+{"id": 385, "text": "Royal Caribbean Cruises Ltd. Full-Year Results Just Came Out: Here's What Analysts Are Forecasting For Next Year", "span": "Royal Caribbean Cruises Ltd.", "label": "neutral", "ordinal": 0}
+{"id": 386, "text": "Spirit Airlines, Inc. Just Released Its Full-Year Results And Analysts Are Updating Their Estimates", "span": "Spirit Airlines, Inc.", "label": "neutral", "ordinal": 0}
+{"id": 387, "text": "Stock Market Update: NVIDIA shares upgraded, Netflix downgraded", "span": "NVIDIA", "label": "neutral", "ordinal": 0}
+{"id": 388, "text": "TJX Q3 FactSet consensus 66 cents", "span": "TJX", "label": "neutral", "ordinal": 0}
+{"id": 389, "text": "Top Analyst Upgrades and Downgrades: AbbVie, Biogen, Boeing, Etsy, Gilead, GoPro, Micron, Newmont, Peloton, Pfizer, Valero, Zynga and More", "span": "AbbVie, Biogen, Boeing, Etsy, Gilead, GoPro, Micron, Newmont, Peloton, Pfizer, Valero, Zynga", "label": "neutral", "ordinal": 0}
+{"id": 390, "text": "Twilio Inc. Full-Year Results Just Came Out: Here's What Analysts Are Forecasting For Next Year", "span": "Twilio Inc.", "label": "neutral", "ordinal": 0}
+{"id": 391, "text": "Upgrades 2/4: $AMAL $CM $CMCSA $ELF $GDOT $LFUS $MLI $RRR $TD $TXRH $VLY $WW Downgrades 2/4: $ABG $AWK $CHKP $DEO", "span": "$AMAL $CM $CMCSA $ELF $GDOT $LFUS $MLI $RRR $TD $TXRH $VLY $WW $ABG $AWK $CHKP $DEO", "label": "neutral", "ordinal": 0}
+{"id": 392, "text": "US$50.08: That's What Analysts Think Weibo Corporation Is Worth After Its Latest Results", "span": "Weibo Corporation", "label": "neutral", "ordinal": 0}
+{"id": 393, "text": "Valaris started at hold with $4 stock price target at Deutsche Bank", "span": "Valaris", "label": "neutral", "ordinal": 0}
+{"id": 394, "text": "William Blair sees rivals pressing Viasat", "span": "Viasat", "label": "neutral", "ordinal": 0}
+{"id": 395, "text": "Aggressive Fed boost fails to stop sell-off #Samp;P500 #economy #MarketScreener", "span": "Samp;P500", "label": "neutral", "ordinal": 0}
+{"id": 396, "text": "Bank of Ireland cuts key profit target as low rates take toll", "span": "Bank of Ireland", "label": "neutral", "ordinal": 0}
+{"id": 397, "text": "Bank of Nova Scotia : Scotiabank CEO expects 'somewhat elevated' loan losses for 3-4 quart... #BankofNovaScotia", "span": "Bank of Nova Scotia", "label": "neutral", "ordinal": 0}
+{"id": 398, "text": "Breakingviews - Fed's ultra-loose efforts will cast long shadow", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 399, "text": "European banks slash $280bn from main US businesses", "span": "European banks", "label": "neutral", "ordinal": 0}
+{"id": 400, "text": "Europe's banks were only halfway through cleaning up more than $1 trillion of loans that turned sour in the last cr", "span": "Europe's banks", "label": "neutral", "ordinal": 0}
+{"id": 401, "text": "Eurozone banks' returns were already hurting before COVID-19, ECB says", "span": "Eurozone banks", "label": "neutral", "ordinal": 0}
+{"id": 402, "text": "Fed Liquidity Drain Spoils Virus-Surge-Inspired Stock Buying-Panic | Zero Hedge", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 403, "text": "Fed policymakers working to limit damage as pandemic puts U.S. economy on pause", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 404, "text": "Fed Report : Small-Business Sector Highly Vulnerable to Coronavirus Crisis--Update #FedReport #economy", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 405, "text": "Fed Warns Virus Poses ‘New Risk’ to Global Growth, Markets", "span": "Fed", "label": "negative", "ordinal": 0}
+{"id": 406, "text": "Fed's Bullard: China to 'slow noticeably' in first quarter due to virus", "span": "Fed", "label": "negative", "ordinal": 0}
+{"id": 407, "text": "Fed's corporate credit measures to limit buybacks, dividend", "span": "Fed", "label": "negative", "ordinal": 0}
+{"id": 408, "text": "Fed's Williams: Risks to U.S. economy still to the downside", "span": "Fed", "label": "negative", "ordinal": 0}
+{"id": 409, "text": "Former Fed chief Bernanke sees bad year, no quick recovery #economy #MarketScreener", "span": "Fed", "label": "negative", "ordinal": 0}
+{"id": 410, "text": "Janet Yellen says a V-shaped economic recovery \"is possible,' but she is \"worried that the outcome will be worse\"", "span": "Janet Yellen", "label": "neutral", "ordinal": 0}
+{"id": 411, "text": "Lagarde Says ECB Running Out of Room to Fight Global Threats", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 412, "text": "Lagarde Says ECB's Options Limited by Low Rates, Low Inflation", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 413, "text": "New #IMFBlog shows that long-lasting credit booms that featured rapid construction growth never ended well.", "span": "IMF", "label": "neutral", "ordinal": 0}
+{"id": 414, "text": "Overall Fed Temporary Liquidity Continues to Shrink #economy #MarketScreener", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 415, "text": "Schweizerische Nationalbank : Switzerland Loses Grip on World's Lowest Borrowing Costs -- ...", "span": "Schweizerische Nationalbank", "label": "neutral", "ordinal": 0}
+{"id": 416, "text": "Some officials worried about the bank's decision to drop self-imposed limits on the ECB's bond purchases", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 417, "text": "Thailand has a limited space to deliver a “strong dose” of monetary policy, central bank governor says as he cautio", "span": "Thailand", "label": "neutral", "ordinal": 0}
+{"id": 418, "text": "The Federal Reserve's rescue of the overnight lending market appears to be having an unintended side effect: it's j", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 419, "text": "UAE stimulus to help bank liquidity but may increase problem loans - Moody's #economy #MarketScreener", "span": "UAE", "label": "neutral", "ordinal": 0}
+{"id": 420, "text": "UPDATE 2-China cbank warns high financial risks amid rising economic headwinds", "span": "China", "label": "neutral", "ordinal": 0}
+{"id": 421, "text": "Yellen Blames \"Enormous Debt And Buybacks\" For Coming Default Wave; Morgan Stanley Says It's All The Fed's Fault", "span": "Morgan Stanley", "label": "neutral", "ordinal": 0}
+{"id": 422, "text": "Fed Chair Powell: 'no reason' rising wages, job gains can't continue", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 423, "text": "Federal Reserve Chairman Jerome Powell said the U.S. economy is 'resilient,' even as he cited the potential threat", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 424, "text": "Fed's 'bazooka' soothes dollar funding squeeze", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 425, "text": "Fed's Daly says U.S. economy well placed to weather storms", "span": "U.S. economy", "label": "positive", "ordinal": 0}
+{"id": 426, "text": "Fed's Daly says US job market still has room to run", "span": "US job market", "label": "positive", "ordinal": 0}
+{"id": 427, "text": "Fed's Kaplan: Inflation Will Be Muted For Some Time (Radio)", "span": "Inflation", "label": "positive", "ordinal": 0}
+{"id": 428, "text": "Fed's Mary Daly says current interest rates put economy 'in a good place to weather the storms'", "span": "current interest rates", "label": "positive", "ordinal": 0}
+{"id": 429, "text": "Fed's Mester, upbeat on outlook, say central bank can watch and wait on interest rates", "span": "central bank", "label": "positive", "ordinal": 0}
+{"id": 430, "text": "Fed's Rosengren says he is 'optimistic' on economy", "span": "Fed", "label": "positive", "ordinal": 0}
+{"id": 431, "text": "Fed's Rosengren says U.S. unlikely to have economic downturn in 2020", "span": "Fed", "label": "positive", "ordinal": 0}
+{"id": 432, "text": "World Bank's Malpass upbeat on prospects for progress on debt relief #economy #MarketScreener", "span": "World Bank", "label": "positive", "ordinal": 0}
+{"id": 433, "text": "Commercial and industrial loans at all commercial banks fall to $2.345 trillion, down $7 billion from a week earlie", "span": "commercial banks", "label": "neutral", "ordinal": 0}
+{"id": 434, "text": "Czech interest rates could stay where they are for another year as global risks cloud the outlook for the export-or", "span": "Czech", "label": "neutral", "ordinal": 0}
+{"id": 435, "text": "ECB bought record debt volumes last week in crisis fight #economy #MarketScreener", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 436, "text": "Fed Chairman Jerome Powell says central bank 'watching carefully' as firms brace for wave of missed mortgage paymen", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 437, "text": "Italy's top bank unveils new lending measures as firms battle cash crunch", "span": "Italy's top bank", "label": "neutral", "ordinal": 0}
+{"id": 438, "text": "The Fed may lower the rate on its support facility for money market funds, strategists say", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 439, "text": "$ECONX: Federal Reserve will establish facility to facilitate lending to small businesses via the Small Business...", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 440, "text": "$XLF $FAS $FAZ - Fed revives TALF to bolster ABS market", "span": "$XLF $FAS $FAZ", "label": "neutral", "ordinal": 0}
+{"id": 441, "text": "$XLF $FAS $FAZ - The Fed to establish term financing for small business loans", "span": "$XLF $FAS $FAZ", "label": "neutral", "ordinal": 0}
+{"id": 442, "text": ".@WorldBank Group asks #G20 leaders to suspend debt repayments from poorest countries. This will help focus critica", "span": "@WorldBank", "label": "neutral", "ordinal": 0}
+{"id": 443, "text": "Asset Allocation Committee Outlook 2Q2020 | Contagion. #economy #markets #investing", "span": "Asset Allocation Committee", "label": "neutral", "ordinal": 0}
+{"id": 444, "text": "Australia central bank pumps liquidity, proposes bond buys to ease financial conditions", "span": "Australia central bank", "label": "neutral", "ordinal": 0}
+{"id": 445, "text": "Australia plans an additional A$66 billion ($38.2 billion) in stimulus for the coronavirus-stricken economy, includ", "span": "Australia", "label": "neutral", "ordinal": 0}
+{"id": 446, "text": "Bank of Israel expands its crisis QE with $13.6 billion in bond buying", "span": "Bank of Israel", "label": "neutral", "ordinal": 0}
+{"id": 447, "text": "Brazil's central bank stepped in to prop up the currency", "span": "Brazil's central bank", "label": "neutral", "ordinal": 0}
+{"id": 448, "text": "Central Bank actions will contribute to easing the economic impact of the pandemic - Governor Gabriel", "span": "Central Bank", "label": "neutral", "ordinal": 0}
+{"id": 449, "text": "ECB makes it easier for banks to tap credit amid coronavirus crisis", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 450, "text": "ECB to ease collateral requirements for banks looking to borrow #economy #MarketScreener", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 451, "text": "eib: #MustRead➡️EIB Bank Lending #Survey for #CESEE shows optimistic opinion of the region, positive profitability", "span": "EIB", "label": "neutral", "ordinal": 0}
+{"id": 452, "text": "Fed, saying aggressive action is needed, starts unlimited QE", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 453, "text": "Fed's Quarles says 2-3 weeks away from getting loans to mid-sized U.S. businesses through its newly created Main St", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 454, "text": "Fed's Quarles: \"Main Street\" loans like two to three weeks off as details finalized", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 455, "text": "Governments and central banks globally have pledged a dizzying $3 trillion-and counting. But companies are struggli", "span": "Governments and central banks", "label": "neutral", "ordinal": 0}
+{"id": 456, "text": "IMF encouraged by recovery in China, but pandemic could resurge", "span": "IMF", "label": "neutral", "ordinal": 0}
+{"id": 457, "text": "Instant View: Fed launches unprecedented range of credit support", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 458, "text": "Italy announces guarantees for bank loans worth over 400 billion euros", "span": "Italy", "label": "neutral", "ordinal": 0}
+{"id": 459, "text": "Mexico cuts its key rate for a 5th time amid economic stagnation", "span": "Mexico", "label": "neutral", "ordinal": 0}
+{"id": 460, "text": "Mexico's central bank cut its key interest rate for a fifth straight decision", "span": "Mexico's central bank", "label": "neutral", "ordinal": 0}
+{"id": 461, "text": "Mexico's central bank cuts interest rates to three-year low", "span": "Mexico's central bank", "label": "neutral", "ordinal": 0}
+{"id": 462, "text": "Powell Admits \"Low Rates Are Not A Choice Any More\", Says QE Will Be Used In Next Downturn | #FreeZeroHedge", "span": "Powell", "label": "neutral", "ordinal": 0}
+{"id": 463, "text": "Powell: Fed will use 'QE' aggressively to fight next recession", "span": "Powell", "label": "neutral", "ordinal": 0}
+{"id": 464, "text": "SNB's sight deposit holdings rise by second-highest level in 12 months", "span": "SNB", "label": "neutral", "ordinal": 0}
+{"id": 465, "text": "The Bank of Korea is taking unprecedented action in the face of coronavirus-not about the rate decision itself, but", "span": "Bank of Korea", "label": "neutral", "ordinal": 0}
+{"id": 466, "text": "The Fed moved to bolster a new small-business lending program by allowing banks to turn those loans over to the U.S", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 467, "text": "The Fed's foray into corporate bonds and certain credit ETFs helping restore order between the two markets", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 468, "text": "The U.K. is tapping fintechs and the Queen's Bank for its emergency lending program", "span": "U.K.", "label": "neutral", "ordinal": 0}
+{"id": 469, "text": "FOMC dot plot indicates a long pause", "span": "FOMC", "label": "neutral", "ordinal": 0}
+{"id": 470, "text": "\"In my time at the Fed, I've seen how changes in business and consumer confidence impact the economy as a whole,\" P", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 471, "text": "\"It's not really time yet to stimulate spending,\" former Fed Chair Ben Bernanke said today, adding that it will \"ha", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 472, "text": "\"The Committee also directs the Desk to continue conducting term and overnight repurchase agreement operations at l", "span": "Committee", "label": "neutral", "ordinal": 0}
+{"id": 473, "text": "\"the Committee directs the Desk to continue purchasing Treasury bills at least into the second quarter of 2020 to m", "span": "Committee", "label": "neutral", "ordinal": 0}
+{"id": 474, "text": "\"The Fed Can Lend To Anybody\": Watch Live As Bernanke Holds Virtual Discussion On US Economy", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 475, "text": "\"What we clearly see again is unelected central banks, having failed at their mandates, to pivot to politics to try", "span": "", "label": "neutral", "ordinal": 0}
+{"id": 476, "text": "$RINF $IVOL - Fed's Daly discusses shifting focus to higher inflation", "span": "$RINF $IVOL", "label": "neutral", "ordinal": 0}
+{"id": 477, "text": ".@TimLampkin of @higherpurposeco says that being a part of the St. Louis Fed’s Community Development Advisory Counc", "span": "@higherpurposeco", "label": "neutral", "ordinal": 0}
+{"id": 478, "text": "@TimLampkin of @higherpurposeco says that being a part of the St. Louis Fed’s Community Development Advisory Counci", "span": "@higherpurposeco", "label": "neutral", "ordinal": 0}
+{"id": 479, "text": "A Rate Cut From Russia?", "span": "", "label": "neutral", "ordinal": 0}
+{"id": 480, "text": "A WSJ primer on the central bank's novel $600 billion direct-loan program", "span": "$600 billion", "label": "neutral", "ordinal": 0}
+{"id": 481, "text": "An emerging priority for Powell Fed: The plight of the poor", "span": "Powell Fed", "label": "neutral", "ordinal": 0}
+{"id": 482, "text": "Applications for participation in the Fed's Commercial Paper Funding Facility must be submitted by Thursday, the Ne", "span": "Fed's Commercial Paper Funding Facility", "label": "neutral", "ordinal": 0}
+{"id": 483, "text": "Argia Sbordone shared findings from \"Anchoring of Inflation Expectations\" at today’s joint New York Fed-European Ce", "span": "New York Fed", "label": "neutral", "ordinal": 0}
+{"id": 484, "text": "Bank of Canada can buy corporate, municipal bonds if necessary #taux #MarketScreener", "span": "Bank of Canada", "label": "neutral", "ordinal": 0}
+{"id": 485, "text": "Bank of Canada gets authority to buy corporate, municipal debt", "span": "Bank of Canada", "label": "neutral", "ordinal": 0}
+{"id": 486, "text": "Bank of Canada’s Poloz Sees Era of Low Global Interest Rates", "span": "Bank of Canada", "label": "neutral", "ordinal": 0}
+{"id": 487, "text": "Bank of England activates emergency liquidity measure", "span": "Bank of England", "label": "neutral", "ordinal": 0}
+{"id": 488, "text": "Bank of England Governor Mark Carney offers his backing to a key plank of UK Prime Minister Boris Johnson's economi", "span": "Bank of England", "label": "neutral", "ordinal": 0}
+{"id": 489, "text": "Bank of England Mark Carney is hanging up his hat. So what's next for the central bank leader? @flacqua sits down", "span": "Bank of England", "label": "neutral", "ordinal": 0}
+{"id": 490, "text": "Bank of Ireland : Gov Co - 7 KB #BankofIreland #Stock #MarketScreener", "span": "Bank of Ireland", "label": "neutral", "ordinal": 0}
+{"id": 491, "text": "Bank of Ireland : Notification of Significant Shareholding - 99 KB #BankofIreland #Stock #MarketScreener", "span": "Bank of Ireland", "label": "neutral", "ordinal": 0}
+{"id": 492, "text": "Bank of Ireland : Pillar 3 Disclosures #BankofIreland #Stock #MarketScreener", "span": "Bank of Ireland", "label": "neutral", "ordinal": 0}
+{"id": 493, "text": "Bank of Ireland : to make branch network changes in response to COVID-19 #BankofIreland #Stock #MarketScreener", "span": "Bank of Ireland", "label": "neutral", "ordinal": 0}
+{"id": 494, "text": "Bank of Jamaica : 14-Day Repo Auction Results #BankofJamaica #economy #MarketScreener", "span": "Bank of Jamaica", "label": "neutral", "ordinal": 0}
+{"id": 495, "text": "Bank of Jamaica 14-Day Repo Auction Results -10 February 2020 #Stock #MarketScreener", "span": "Bank of Jamaica", "label": "neutral", "ordinal": 0}
+{"id": 496, "text": "Bank of Jamaica 30-day CD Auction Press Release - 24 February 2020 #Stock #MarketScreener", "span": "Bank of Jamaica", "label": "neutral", "ordinal": 0}
+{"id": 497, "text": "Bank of Japan : Accounts (March 20) #BankofJapan #Stock #MarketScreener", "span": "Bank of Japan", "label": "neutral", "ordinal": 0}
+{"id": 498, "text": "Bank of Japan : Statistics on Securities Financing Transactions in Japan (Jan. 2020) #BankofJapan #economy", "span": "Bank of Japan", "label": "neutral", "ordinal": 0}
+{"id": 499, "text": "Bank of Japan : The Results of BIS International Locational Banking Statistics and Interna... #BankofJapan #Stock", "span": "Bank of Japan", "label": "neutral", "ordinal": 0}
+{"id": 500, "text": "Bank of Mexico Makes Fifth Consecutive Rate Cut -- Update #economy #MarketScreener", "span": "Bank of Mexico", "label": "neutral", "ordinal": 0}
+{"id": 501, "text": "Bank of Nova Scotia : Acting Administrator Pilkerton's Statement on USMCA Agreement #BankofNovaScotia #Stock", "span": "Bank of Nova Scotia", "label": "neutral", "ordinal": 0}
+{"id": 502, "text": "Bank of Queensland : Trading Halt #BankofQueensland #Stock #MarketScreener", "span": "Bank of Queensland", "label": "neutral", "ordinal": 0}
+{"id": 503, "text": "Banks To Make Risk-Free Killing On Small Business Bailout: Fed Will Buy Payroll Loans Issued By Banks", "span": "Banks", "label": "neutral", "ordinal": 0}
+{"id": 504, "text": "BoE's Haldane: We have not yet hit peak globalisation #economy #MarketScreener", "span": "BoE", "label": "neutral", "ordinal": 0}
+{"id": 505, "text": "BOJ Seen Staying on Hold This Week After Abe Stimulus: Survey", "span": "BOJ", "label": "neutral", "ordinal": 0}
+{"id": 506, "text": "Brazil Caps Record-Breaking Easing Cycle With Final Rate Cut", "span": "Brazil", "label": "neutral", "ordinal": 0}
+{"id": 507, "text": "Canadian Banks Have Succulent Yields. #economy #business #trading", "span": "Canadian Banks", "label": "neutral", "ordinal": 0}
+{"id": 508, "text": "Central Bank of Philippines : Bangko Sentral ng Pilipinas Convenes the Financial Education...", "span": "Bangko Sentral ng Pilipinas", "label": "neutral", "ordinal": 0}
+{"id": 509, "text": "Central banks must evolve to help governments fight coronavirus", "span": "Central banks", "label": "neutral", "ordinal": 0}
+{"id": 510, "text": "Chair Powell presents the Monetary Policy Report to the Senate Committee on Banking, Housing, and Urban Affairs:", "span": "", "label": "neutral", "ordinal": 0}
+{"id": 511, "text": "Chairman Jerome Powell speaks after Fed leaves interest rates unchanged", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 512, "text": "China still has room for conventional monetary expansion, but its ability to deal successfully with a crisis depend", "span": "China", "label": "neutral", "ordinal": 0}
+{"id": 513, "text": "China to Price Existing Loans With New Benchmark Lending Rates #taux #MarketScreener", "span": "China", "label": "neutral", "ordinal": 0}
+{"id": 514, "text": "China’s Rate Cut Also An Insurance Policy As Hong Kong Crisis Worsens", "span": "China", "label": "neutral", "ordinal": 0}
+{"id": 515, "text": "Chinese Media Stunner: China Will Be The Next Country To Cut Rates To Zero", "span": "China", "label": "neutral", "ordinal": 0}
+{"id": 516, "text": "Christine Lagarde Can Face Down the ECB Skeptics", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 517, "text": "Cleveland Fed President Says Coronavirus Requires Careful Monitoring #economy #MarketScreener", "span": "Cleveland Fed", "label": "neutral", "ordinal": 0}
+{"id": 518, "text": "Commerzbank told to speed up restructuring by ECB", "span": "Commerzbank", "label": "neutral", "ordinal": 0}
+{"id": 519, "text": "Coronavirus fears raise market expectations for Fed rate cut in March by @bcheungz", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 520, "text": "Czechs’ Unexpected Rate Hike Lifts Koruna to Seven-Year High", "span": "Koruna", "label": "neutral", "ordinal": 0}
+{"id": 521, "text": "Dealers gobble up funding in Bank of Canada's first BAPF operation #economy #MarketScreener", "span": "Bank of Canada", "label": "neutral", "ordinal": 0}
+{"id": 522, "text": "Derby's Take: Even Post-Coronavirus, Swollen Fed Balance Sheet Will Remain", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 523, "text": "Did The Fed's QEternity Just Kill A Fiscal Stimulus Deal?", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 524, "text": "ECB keeps rates unchanged", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 525, "text": "ECB's house price headache too big to solve", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 526, "text": "ECB's new chief Christine Lagarde has a deal for bank policymakers - cut out the open dissent and she'll spend more...", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 527, "text": "Egypt's central bank governor appointed for second term -state media #economy #MarketScreener", "span": "Egypt", "label": "neutral", "ordinal": 0}
+{"id": 528, "text": "Emerging-economy central banks from India to Brazil still enjoy the firepower to shore up the global economy", "span": "India, Brazil", "label": "neutral", "ordinal": 0}
+{"id": 529, "text": "EU bank regulators lay out tougher doomsday stress test", "span": "EU", "label": "neutral", "ordinal": 0}
+{"id": 530, "text": "European Central Bank keeps key deposit rate at -0.5%", "span": "European Central Bank", "label": "neutral", "ordinal": 0}
+{"id": 531, "text": "Expect next round of virus stimulus by May, and somewhere in the $1.5 trillion neighborhood - FBN, citing Wall Stre", "span": "Wall Street", "label": "neutral", "ordinal": 0}
+{"id": 532, "text": "Explainer: How the Fed's latest move will get money to Main Street #economy #MarketScreener", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 533, "text": "Exploration deepens into central bank digital currencies", "span": "central bank", "label": "neutral", "ordinal": 0}
+{"id": 534, "text": "Fed Adds $72.8 Billion to Markets, Balance Sheet Moves to $4.07 Trillion--Update #economy #MarketScreener", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 535, "text": "Fed Aims a Half-Trillion Dollar Liquidity Hose at Year-End Risks", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 536, "text": "Fed bombards credit markets with limitless pledge, but investors barely respond", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 537, "text": "Fed Chair Jerome Powell says “Low rates are not really a choice anymore, they are a fact of reality'", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 538, "text": "Fed Chairman Jerome Powell puts lawmakers on notice that fiscal policy may need to play a bigger role countering do", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 539, "text": "Fed Chairman Powell thought it was 'terrific' that a senator defended him against Trump", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 540, "text": "Fed Has Given Economy a Cushion and Should Cut Mid-Year, Economist Swonk Says", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 541, "text": "Fed Intervenes With $45.55 Billion Weekend Repo, But Overall Liquidity Ticks Down", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 542, "text": "Fed is ‘super-glued’ to its seat until after the election, economists say after stellar jobs report", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 543, "text": "Fed is now effectively the 'lender of last resort' to Main Street not just Wall Street", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 544, "text": "Fed is watching virus effects, flags 'elevated' business debt in report", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 545, "text": "Fed Monitoring Coronavirus Outbreak and Risks for Broader Disruptions -- 4th Update #economy #MarketScreener", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 546, "text": "Fed nominee Judy Shelton faces bipartisan concerns in Senate", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 547, "text": "Fed nominee Shelton gets bipartisan grilling in Senate", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 548, "text": "Fed policymaker says more evidence needed for rate cut", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 549, "text": "Fed Preparing to Purchase New Small Business Payroll Loans", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 550, "text": "Fed Provides More Liquidity; Phase 1 Trade Deal, But No Corroboration On Jobs Report", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 551, "text": "Fed Pumps $70.2 Billion in Short-Term Liquidity Into Markets #currency #MarketScreener", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 552, "text": "Fed Repo Action Oversubscribed in Clamor for Year-End Funds", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 553, "text": "Fed report: #OpportunityOccupations, jobs that don’t require a 4-yr #collegedegree & pay above the national annual", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 554, "text": "Fed says it will provide financing against new 'payroll protection' loans #economy #MarketScreener", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 555, "text": "Fed says Powell met with Trump, Mnuchin on Monday at White House", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 556, "text": "Fed sets up facility to create secondary market for new small business loans", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 557, "text": "Fed to beat a faster retreat from repo market", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 558, "text": "Fed to establish facility to facilitate lending to small businesses via SBA's PPP by providing term financing backe", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 559, "text": "Fed Unveils Major Expansion of Market -2- #economy #MarketScreener", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 560, "text": "Fed Unveils Major Expansion of Market Intervention -- 4th Update #economy #MarketScreener", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 561, "text": "Fed warranty: will keep rates unchanged until 2021, or until there is a 5% drop in stocks, whichever comes first", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 562, "text": "Fed: Powell stressed policy dependent on incoming information", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 563, "text": "Fed’s Jerome Powell steered divided committee toward policy shift in effort to bolster economy", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 564, "text": "Federal Reserve Bank of St. Louis President James Bullard said that the U.S. should declare a three-month break for", "span": "Federal Reserve Bank of St. Louis", "label": "neutral", "ordinal": 0}
+{"id": 565, "text": "Federal Reserve Board announces termination of enforcement actions with Discover Financial... #Stock", "span": "Discover Financial", "label": "neutral", "ordinal": 0}
+{"id": 566, "text": "Federal Reserve Chairman Jerome Powell came close to acknowledging that the central bank may not have the firepower", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 567, "text": "Federal Reserve Continues To Step Up. #stocks #markets #economy", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 568, "text": "Federal Reserve just saved the stock market from the worst of the coronavirus pandemic - it may be time to invest ag", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 569, "text": "Federal Reserve lowers community bank leverage ratio", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 570, "text": "Federal Reserve Shows Specifically How Much Uncertainty Has Hurt the Stock Market", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 571, "text": "Federal Reserve System publishes annual financial statements:", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 572, "text": "Federal Reserve to backstop Payment Protection Program loans by @bcheungz", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 573, "text": "Fed's Bullard: Don't take the economy's temperature until July 1", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 574, "text": "Fed's Kaplan says revisiting some stress testing rules could help ease repo pressures", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 575, "text": "Fed's Kaplan Sees Risks to Outlook as 'Fairly Balanced'", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 576, "text": "Fed's Kaplan Talks Economic Outlook, Trade and Credit Spreads", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 577, "text": "Fed's Mester says policymakers want to prevent 'lasting damage' to the economy", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 578, "text": "Fed's Mester says she opposed recent series of rate cuts but called it a 'close call'", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 579, "text": "Fed's Mester sees 'downside risk' from coronavirus, but does not want to cut rates", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 580, "text": "Fed's Mester sees U.S. economy performing well, coronavirus a 'big risk' #economy #MarketScreener", "span": "U.S. economy", "label": "neutral", "ordinal": 0}
+{"id": 581, "text": "Fed's Mester would have preferred no rate cuts in July, September", "span": "Fed's Mester", "label": "neutral", "ordinal": 0}
+{"id": 582, "text": "Fed's Powell disputes notion that federal welfare programs are dissuading Americans from seeking work", "span": "Fed's Powell", "label": "neutral", "ordinal": 0}
+{"id": 583, "text": "Fed's Powell to update on economy Thursday in webcast statement #economy #MarketScreener", "span": "Fed's Powell", "label": "neutral", "ordinal": 0}
+{"id": 584, "text": "Fed's Powell: U.S. economy 'resilient' but coronavirus a risk #economy #MarketScreener", "span": "U.S. economy", "label": "neutral", "ordinal": 0}
+{"id": 585, "text": "Fed's Rosengren urges patience in considering policy changes", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 586, "text": "Fed's Williams says interest rates policy is in a good place but 'not locked-in'", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 587, "text": "Finance ministers and central bank governors from the Group of 20 nations joined an emergency call on Monday", "span": "Group of 20", "label": "neutral", "ordinal": 0}
+{"id": 588, "text": "Financial conditions are in the driver seat for investors and the Fed rate decisions, says Jeffrey Rosenberg of Bla", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 589, "text": "Former Federal Reserve chairwoman Janet Yellen thinks America's banks should slam the brakes on dividends to make s", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 590, "text": "Futures traders are no longer fully pricing in a quarter-point cut from the Federal Reserve next year after the U.S", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 591, "text": "Helicopter money is a valid tool for central bankers", "span": "Helicopter money", "label": "neutral", "ordinal": 0}
+{"id": 592, "text": "Helicopter Money Might Be the ECB’s Best and Worst Options", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 593, "text": "Hellenic Exchanges : Transactions by Eurobank Equities (regulated information - Law 3556/2... #HellenicExchanges...", "span": "Hellenic Exchanges", "label": "neutral", "ordinal": 0}
+{"id": 594, "text": "Hellenic Exchanges : Transactions by National Bank of Greece (regulated information - Law ... #HellenicExchanges", "span": "Hellenic Exchanges", "label": "neutral", "ordinal": 0}
+{"id": 595, "text": "Here is what the People’s Bank of China is really up to", "span": "People’s Bank of China", "label": "neutral", "ordinal": 0}
+{"id": 596, "text": "Honduras - DRM Development Policy Credit with a Catastrophe Deferred Drawdown Option (Cat DDO) #economy", "span": "Honduras", "label": "neutral", "ordinal": 0}
+{"id": 597, "text": "IMF African Department Director Abebe Aemro Selassie will be on @CNBCAfrica today at 5pm Lagos Time (12pm DC Time)", "span": "IMF", "label": "neutral", "ordinal": 0}
+{"id": 598, "text": "IMF and World Bank consider #Somalia eligible for debt relief on initial assessment. This is an important milestone", "span": "IMF", "label": "neutral", "ordinal": 0}
+{"id": 599, "text": "IMF to continue new-loan talks with Ukraine in coming weeks #economy #MarketScreener", "span": "IMF", "label": "neutral", "ordinal": 0}
+{"id": 600, "text": "In \"Unprecedented\" Move To Ease Conditions, ECB Cuts Collateral Haircuts By 20%, Will Accept Greek Debt As Collater", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 601, "text": "In first #MENA emergency financing, the IMF approved US$745 million to support #Tunisia's efforts to address the hu", "span": "IMF", "label": "neutral", "ordinal": 0}
+{"id": 602, "text": "India Unveils Steps for Bad Loan-Laden Banks to Boost Credit", "span": "India", "label": "neutral", "ordinal": 0}
+{"id": 603, "text": "Indonesia’s central bank sounded a more cautious tone on interest rates", "span": "Indonesia", "label": "neutral", "ordinal": 0}
+{"id": 604, "text": "Inflation remains low and Fed Chairman Jerome Powell has as good as ruled out a rate increase unless price growth p", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 605, "text": "Interest rate conditions of the Magyar Nemzeti Bank effective from 8 April 2020 #economy #MarketScreener", "span": "Magyar Nemzeti Bank", "label": "neutral", "ordinal": 0}
+{"id": 606, "text": "It may seem odd for the Federal Reserve to buy ETFs, but it's not unprecedented for a central bank -œ Japan did it f", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 607, "text": "It was 7 years ago that Jerome Powell said \"we look like we are blowing a fixed-income duration bubble right across", "span": "Jerome Powell", "label": "neutral", "ordinal": 0}
+{"id": 608, "text": "Italian banks ready new measures as economy stops, but debt goes on", "span": "Italian banks", "label": "neutral", "ordinal": 0}
+{"id": 609, "text": "James Bullard, President of the Federal Reserve Bank of St. Louis, discusses the Federal Reserve's \"planned tempora", "span": "Federal Reserve Bank of St. Louis", "label": "neutral", "ordinal": 0}
+{"id": 610, "text": "Japan panel warns against fiscal complacency amid low rates #taux #MarketScreener", "span": "Japan", "label": "neutral", "ordinal": 0}
+{"id": 611, "text": "Jerome Powell told lawmakers Tuesday that the Fed will never declare victory on one of its mandates: full employment", "span": "Jerome Powell", "label": "neutral", "ordinal": 0}
+{"id": 612, "text": "Kenya Cuts Rates After Scrapping Loan-Price Cap to Boost Growth", "span": "Kenya", "label": "neutral", "ordinal": 0}
+{"id": 613, "text": "Kenya’s central bank lowers interest rates for the first time in 16 months", "span": "Kenya", "label": "neutral", "ordinal": 0}
+{"id": 614, "text": "Kenya’s central bank lowers interest rates for the first time in 16 months", "span": "Kenya", "label": "neutral", "ordinal": 0}
+{"id": 615, "text": "Komileva: Central Banks Far from Normalizing", "span": "Central Banks", "label": "neutral", "ordinal": 0}
+{"id": 616, "text": "Lagarde Says All the Blame Can’t Be Dumped on ECB Negative Rates", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 617, "text": "Latin America Price Surprise Fails to Move the Dial on Rate Bets", "span": "Latin America", "label": "neutral", "ordinal": 0}
+{"id": 618, "text": "Lawmakers interviewed gave Fed Chairman Jerome Powell high marks for his unwillingness to be drawn into a spat with...", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 619, "text": "Liquidity Warning: Fed Shrinks Overnight Repos By $20BN, Term Repos By $10BN | Zero Hedge", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 620, "text": "LIVE NOW: Press conference with #FOMC Chair Powell: and", "span": "FOMC", "label": "neutral", "ordinal": 0}
+{"id": 621, "text": "LIVE: Fed Chair Jerome Powell delivers remarks at the decade's last FOMC meeting", "span": "FOMC", "label": "neutral", "ordinal": 0}
+{"id": 622, "text": "LIVE: Fed Chair Jerome Powell speaks on today's decision to hold rates ▶️", "span": "FOMC", "label": "neutral", "ordinal": 0}
+{"id": 623, "text": "Market participants submitted bids for nearly twice what was on offer in the Fed’s 42-day term repo operation, whic", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 624, "text": "Mexico's central bank defends autonomy as AMLO concern lingers", "span": "Mexico's central bank", "label": "neutral", "ordinal": 0}
+{"id": 625, "text": "Monetary policy is in the 'right place', Fed's Williams says", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 626, "text": "Monetary Policy Statement - March 24, 2020 (24.03.2020) #Stock #MarketScreener", "span": "MarketScreener", "label": "neutral", "ordinal": 0}
+{"id": 627, "text": "Monetary Policy: Das’ Draghi Encore Comes With Risks", "span": "Draghi", "label": "neutral", "ordinal": 0}
+{"id": 628, "text": "Monetary Policy: RBI Returns To A More Active Credit Policy To Boost Retail, MSME Credit", "span": "RBI", "label": "neutral", "ordinal": 0}
+{"id": 629, "text": "MPC Decision: MPC Keeps Rates On Hold Amid ‘Highly Uncertain’ Inflation Outlook", "span": "MPC", "label": "neutral", "ordinal": 0}
+{"id": 630, "text": "N.Y. FED'S 42-DAY REPO OP. OVERSUBSCRIBED; $49.05B OF BIDS", "span": "N.Y. FED", "label": "neutral", "ordinal": 0}
+{"id": 631, "text": "New BoE governor makes plea to Brussels on City access", "span": "BoE", "label": "neutral", "ordinal": 0}
+{"id": 632, "text": "New developments added to @FedFRASER's COVID-19 timeline in the latest week: second historic rise in unemployment i", "span": "FedFRASER", "label": "neutral", "ordinal": 0}
+{"id": 633, "text": "New staff study by Kenneth Garbade examines the efforts of the Federal Open Market Committee to first control, and", "span": "Federal Open Market Committee", "label": "neutral", "ordinal": 0}
+{"id": 634, "text": "New York Fed opens registration for commercial paper funding facility", "span": "New York Fed", "label": "neutral", "ordinal": 0}
+{"id": 635, "text": "New York Fed to further reduce repo support", "span": "New York Fed", "label": "neutral", "ordinal": 0}
+{"id": 636, "text": "New York Fed to start publishing SOFR averages in March", "span": "New York Fed", "label": "neutral", "ordinal": 0}
+{"id": 637, "text": "New Zealand’s central bank doesn’t expect its new bank capital rules to present a headwind for the economy, which l", "span": "New Zealand’s central bank", "label": "neutral", "ordinal": 0}
+{"id": 638, "text": "Next BoE governor makes City access plea to Brussels", "span": "BoE", "label": "neutral", "ordinal": 0}
+{"id": 639, "text": "Norway's central bank governor warns politicians against meddling too much with the country's massive sovereign wea", "span": "Norway's central bank", "label": "neutral", "ordinal": 0}
+{"id": 640, "text": "Now available: Weekly data on the Assets and Liabilities of Commercial Banks in the United States: #FedData", "span": "Commercial Banks", "label": "neutral", "ordinal": 0}
+{"id": 641, "text": "NY Fed Offers First Year-End Repo, Adds $93.5 Bln in Cash Banks Seek Liquidity @mdbaccardax", "span": "NY Fed", "label": "neutral", "ordinal": 0}
+{"id": 642, "text": "Off the 'QT': Does Federal Reserve nominee Judy Shelton have a balance sheet problem?", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 643, "text": "Once we have more clarity about the new coronavirus outbreak, expect interest rates to rise, says Quicken Loans CEO", "span": "Quicken Loans", "label": "neutral", "ordinal": 0}
+{"id": 644, "text": "Orr May Signal Readiness to Cut Rates as Virus Hits New Zealand's Economy", "span": "New Zealand", "label": "neutral", "ordinal": 0}
+{"id": 645, "text": "Parkmead : Bank of Jamaica 14-Day Repo Auction Announcement -25 November 2019 #Parkmead #Stock #MarketScreener", "span": "Parkmead", "label": "neutral", "ordinal": 0}
+{"id": 646, "text": "Patrick Harker, President of the Philly Fed, is due to speak now.", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 647, "text": "PBOC Tells Property Speculators That ‘Homes Are For Living In’", "span": "PBOC", "label": "neutral", "ordinal": 0}
+{"id": 648, "text": "PBOC Will Resolve Risks Gradually as Downward Pressure on Chinese Economy Has Increased #economy #MarketScreener", "span": "PBOC", "label": "neutral", "ordinal": 0}
+{"id": 649, "text": "Peter Conti-Brown On The CARES Act And The Expanding Fed-Treasury Relationship In Response To COVID-19.", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 650, "text": "Powell's 'half-full' U.S. glass sturdy but still at risk for spills as Fed meets", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 651, "text": "President Trump meets with Fed Chairman Powell to discuss economy", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 652, "text": "Press release on the Monetary Council meeting of 7 April 2020 #economy #MarketScreener", "span": "MarketScreener", "label": "neutral", "ordinal": 0}
+{"id": 653, "text": "Property Lenders Surge After India Central Bank Eases Cash Rules", "span": "India Central Bank", "label": "neutral", "ordinal": 0}
+{"id": 654, "text": "QE Infinity: So It Begins. #business #stocks #stockmarket", "span": "stocks", "label": "neutral", "ordinal": 0}
+{"id": 655, "text": "Rate futures surge as coronavirus seen pushing Fed to ease", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 656, "text": "Read the latest FOMC statement", "span": "FOMC", "label": "neutral", "ordinal": 0}
+{"id": 657, "text": "Regional Fed leaders favored holding rates steady for now, but that any worsening of novel coronavirus could affect", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 658, "text": "Rise of the intangibles is pushing down on central bank rates - BoE's Haskel", "span": "BoE", "label": "neutral", "ordinal": 0}
+{"id": 659, "text": "Robert Kaplan Says Fed Should Hold Barring ‘Material’ Change in Outlook", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 660, "text": "Russia Delivers Sixth Straight Rate Cut, Signals Further Easing", "span": "Russia", "label": "neutral", "ordinal": 0}
+{"id": 661, "text": "Russian and Romanian Rate Decisions, Commodity Chaos: Eco Day", "span": "Russian", "label": "neutral", "ordinal": 0}
+{"id": 662, "text": "Saudi Arabian Monetary Agency : SAMA Licenses HalalaH and BayanPay Companies #SaudiArabianMonetaryAgency #economy", "span": "Saudi Arabian Monetary Agency", "label": "neutral", "ordinal": 0}
+{"id": 663, "text": "SBI Cuts MCLR-Based Lending Rates By 5 Basis Points Across Tenors", "span": "SBI", "label": "neutral", "ordinal": 0}
+{"id": 664, "text": "Sizing Up the Fed's Historic Coronavirus Crisis Intervention #Samp;P500 #economy #MarketScreener", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 665, "text": "South African Reserve Bank : Regulatory relief measures and guidance to the banking sector...", "span": "South African Reserve Bank", "label": "neutral", "ordinal": 0}
+{"id": 666, "text": "St. Louis Fed President Jim Bullard recommends declaring a “National Pandemic Adjustment Period' and discusses thre", "span": "St. Louis Fed", "label": "neutral", "ordinal": 0}
+{"id": 667, "text": "Stock market live updates: Former Federal Reserve Chair Janet Yellen said the economy is in the throes of an \"absol", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 668, "text": "Stock Market Update: President Trump meets with Fed Chair Powell", "span": "Fed Chair Powell", "label": "neutral", "ordinal": 0}
+{"id": 669, "text": "Sweden's Riksbank underscores its commitment to zero interest rates, despite cutting its inflation forecast", "span": "Sweden's Riksbank", "label": "neutral", "ordinal": 0}
+{"id": 670, "text": "Swedish central bank set to keep rates steady on Feb. 12, and through 2021: Reuters Poll", "span": "Swedish central bank", "label": "neutral", "ordinal": 0}
+{"id": 671, "text": "Thailand's central bank faces a fresh battle to contain the baht's strength", "span": "Thailand's central bank", "label": "neutral", "ordinal": 0}
+{"id": 672, "text": "The Bank of England is launching an extra weekly liquidity facility after banks' demand for cash soared at its regu", "span": "The Bank of England", "label": "neutral", "ordinal": 0}
+{"id": 673, "text": "The Bank of Israel extends its pause in interest rates, surprising most economists", "span": "The Bank of Israel", "label": "neutral", "ordinal": 0}
+{"id": 674, "text": "The ECB dived into the fight to save the economy with 34 billion euros of bond purchases last week", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 675, "text": "The ECB ramped up its government bond buying program even before it boosted quantitative easing by an extra $805 bi", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 676, "text": "The ECB will accept junk-rated Greek government bonds as collateral as part of wide-ranging measures to ease lender", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 677, "text": "The ECB will probably decide to take better account of home costs in its inflation measure, but there's unlikely to", "span": "ECB", "label": "neutral", "ordinal": 0}
+{"id": 678, "text": "The Fed and the Treasury will start buying debt issued by banks that lend through the government's small businesses", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 679, "text": "The Fed and Treasury Department are planning to launch a program to buy loans that financial firms make through the", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 680, "text": "The Fed announced a massive second wave of initiatives to support the U.S. economy, many specifically targeting com", "span": "The Fed", "label": "neutral", "ordinal": 0}
+{"id": 681, "text": "The Fed announced new programs to help markets, the NYSE begins trading remotely today, and Trump activated the Nat", "span": "The Fed", "label": "neutral", "ordinal": 0}
+{"id": 682, "text": "The Fed Faces a Housing Conundrum", "span": "The Fed", "label": "neutral", "ordinal": 0}
+{"id": 683, "text": "The Fed is going all in to try and ramp up the economy. Will it be enough? Insights via @CMEGroup", "span": "The Fed", "label": "neutral", "ordinal": 0}
+{"id": 684, "text": "The Fed is going all in to try and ramp up the economy. Will it be enough? Insights via @CMEGroup", "span": "The Fed", "label": "neutral", "ordinal": 0}
+{"id": 685, "text": "The Fed is going to buy ETFs. What does it mean?", "span": "ETFs", "label": "neutral", "ordinal": 0}
+{"id": 686, "text": "The Fed Is Now Buying Investment Grade Bond ETFs Like LQD", "span": "LQD", "label": "neutral", "ordinal": 0}
+{"id": 687, "text": "The Fed is on hold for now, but it might not take much to change that", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 688, "text": "The Fed may be about to get a lot more involved in the bond market (via @bopinion)", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 689, "text": "The Fed plans to lend directly to companies outside the banking system. Former Fed Governor Narayana Kocherlakota s", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 690, "text": "The Fed Says 'Helicopter Money' Is Here. #stocks #business #stockmarket", "span": "The Fed", "label": "neutral", "ordinal": 0}
+{"id": 691, "text": "The Fed sidesteps a bickering Congress with sweeping rescue plan", "span": "The Fed", "label": "neutral", "ordinal": 0}
+{"id": 692, "text": "The Fed took the lid off QE. Here's how the central bank has been responding to the coronavirus crisis", "span": "The Fed", "label": "neutral", "ordinal": 0}
+{"id": 693, "text": "The Fed will create a new facility to help speed support to small businesses through the government's coronavirus s", "span": "The Fed", "label": "neutral", "ordinal": 0}
+{"id": 694, "text": "The Fed will launch a barrage of programs aimed at helping markets function more efficiently in the wake of the cor", "span": "The Fed", "label": "neutral", "ordinal": 0}
+{"id": 695, "text": "The Fed’s interventions are aimed at ensuring that the financial system has enough liquidity and that short-term bo", "span": "The Fed", "label": "neutral", "ordinal": 0}
+{"id": 696, "text": "The Federal Reserve assured the nation that the Central Bank has an essentially limitless ability to provide liquid", "span": "The Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 697, "text": "The Federal Reserve Bank of New York added liquidity to financial markets Thursday in what is effectively a short-t", "span": "The Federal Reserve Bank of New York", "label": "neutral", "ordinal": 0}
+{"id": 698, "text": "The Federal Reserve is signaling it will do whatever it takes to save the coronavirus-ravaged American economy from", "span": "The Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 699, "text": "The Federal Reserve is wading into the $3.9 trillion municipal-bond market. But the central bank still has more l", "span": "The Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 700, "text": "The Federal Reserve on Monday announced a massive second wave of initiatives to support a shuttered U.S. economy", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 701, "text": "The Federal Reserve on Monday once again stepped in to shore up the lending market as it rolled out an array of pro", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 702, "text": "The Federal Reserve on Monday rolled out an extraordinary array of programs to backstop an economy reeling from res", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 703, "text": "The Federal Reserve took more extraordinary measures to keep the economy from seizing up, but it can't soften the b", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 704, "text": "The Fed's Emergence as a Power Player Poses New Risks to Its Independence #economy #MarketScreener", "span": "Federal Reserve", "label": "neutral", "ordinal": 0}
+{"id": 705, "text": "The IMF has three main roles: economic policy advice, lending, and capacity development. How did we serve our 189 m", "span": "IMF", "label": "neutral", "ordinal": 0}
+{"id": 706, "text": "The IMF is providing emergency financial assistance to member countries facing the economic impact of the #COVID19", "span": "IMF", "label": "neutral", "ordinal": 0}
+{"id": 707, "text": "The IMF may launch a new program that could back up the Fed's campaign to keep dollars flowing in the global economy", "span": "IMF", "label": "neutral", "ordinal": 0}
+{"id": 708, "text": "The IMF says that Uganda will spend as much as a fifth of government revenue on interest payments", "span": "IMF", "label": "neutral", "ordinal": 0}
+{"id": 709, "text": "The man about to become Britain's top central banker says the U.K. should be free to change its own rules, ahead of", "span": "U.K.", "label": "neutral", "ordinal": 0}
+{"id": 710, "text": "The New York Fed said it will shrink its repurchase agreement operations further, starting with Friday's overnight", "span": "New York Fed", "label": "neutral", "ordinal": 0}
+{"id": 711, "text": "The NY Fed said it accepted $25 billion in bids, from a total of $49 billion placed at the central bank", "span": "NY Fed", "label": "neutral", "ordinal": 0}
+{"id": 712, "text": "The quarterly handoff in Treasury shorts is riskier than normal", "span": "Treasury", "label": "neutral", "ordinal": 0}
+{"id": 713, "text": "The Russian government tapped its sovereign wealth fund to purchase the central bank's 50% holding in the country's", "span": "Russian government", "label": "neutral", "ordinal": 0}
+{"id": 714, "text": "The St. Louis Fed is proud to assist @USTreasury in presenting Your Guide to America’s Finances, an annual snapshot", "span": "St. Louis Fed", "label": "neutral", "ordinal": 0}
+{"id": 715, "text": "The stricken Bank of Jinzhou will unload $21 billion of assets to the central bank for less than a third of their r", "span": "Bank of Jinzhou", "label": "neutral", "ordinal": 0}
+{"id": 716, "text": "The target for the overnight interbank funding rate is decreased by 25 basis points #Stock #MarketScreener", "span": "", "label": "neutral", "ordinal": 0}
+{"id": 717, "text": "The U.S. should declare a 3-month break for nonessential businesses, says St. Louis Fed president", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 718, "text": "The worst scramble for cash is happening in an opaque corner of the market, where the Fed has little control, write", "span": "Fed", "label": "neutral", "ordinal": 0}
+{"id": 719, "text": "Today, the IMF Executive Board approved a disbursement of €176.5 million to #NorthMacedonia. This financial suppor", "span": "IMF", "label": "neutral", "ordinal": 0}

@@ -1,0 +1,110 @@
+{"id": 0, "text": "Siemens shares fall almost 6% after profit forecast disappoints", "span": "Siemens", "label": "negative", "ordinal": 0}
+{"id": 1, "text": "Berkshire reveals $4.3 billion Alphabet stake, cuts back Apple holding", "span": "Alphabet", "label": "positive", "ordinal": 0}
+{"id": 2, "text": "Berkshire reveals $4.3 billion Alphabet stake, cuts back Apple holding", "span": "Apple", "label": "negative", "ordinal": 0}
+{"id": 3, "text": "Wall Street ends mixed as investors await Nvidia earnings; stocks slide", "span": "Nvidia", "label": "negative", "ordinal": 0}
+{"id": 4, "text": "US hedge funds reduce holdings in Mag-Seven tech names including Nvidia and Meta", "span": "Meta", "label": "negative", "ordinal": 0}
+{"id": 5, "text": "US hedge funds reduce holdings in Mag-Seven tech names including Nvidia and Meta", "span": "Nvidia", "label": "negative", "ordinal": 0}
+{"id": 6, "text": "Thomson Reuters shares slide to two-year low after Q3 earnings miss", "span": "Thomson Reuters", "label": "negative", "ordinal": 0}
+{"id": 7, "text": "Applied Materials shares fall after disappointing equipment revenue report", "span": "Applied Materials", "label": "negative", "ordinal": 0}
+{"id": 8, "text": "Target gains after reporting strong holiday foot traffic", "span": "Target", "label": "positive", "ordinal": 0}
+{"id": 9, "text": "Visa posts neutral movement ahead of key inflation data release", "span": "Visa", "label": "neutral", "ordinal": 0}
+{"id": 0, "text": "Nvidia falls after weak gaming chip demand", "span": "Nvidia", "label": "negative", "ordinal": 0}
+{"id": 1, "text": "Adobe stock rallies on strong Creative Cloud revenue beat", "span": "Adobe", "label": "positive", "ordinal": 0}
+{"id": 2, "text": "Ford sinks as investors react to lower truck sales", "span": "Ford", "label": "negative", "ordinal": 0}
+{"id": 3, "text": "Oracle gains after posting unexpected cloud acceleration", "span": "Oracle", "label": "positive", "ordinal": 0}
+{"id": 4, "text": "AT&T flat as market awaits regulatory update", "span": "AT&T", "label": "neutral", "ordinal": 0}
+{"id": 5, "text": "Boeing slides following new aircraft delivery delays", "span": "Boeing", "label": "negative", "ordinal": 0}
+{"id": 6, "text": "Coca-Cola rises on stronger-than-expected beverage demand", "span": "Coca-Cola", "label": "positive", "ordinal": 0}
+{"id": 7, "text": "Meta trades sideways ahead of advertising outlook", "span": "Meta", "label": "neutral", "ordinal": 0}
+{"id": 8, "text": "Tesla slumps as production forecast disappoints analysts", "span": "Tesla", "label": "negative", "ordinal": 0}
+{"id": 9, "text": "PayPal jumps after surging payment volumes beat estimates", "span": "PayPal", "label": "positive", "ordinal": 0}
+{"id": 10, "text": "General Motors flat despite stable quarterly vehicle shipments", "span": "General Motors", "label": "neutral", "ordinal": 0}
+{"id": 11, "text": "Qualcomm rises on stronger-than-expected mobile chip demand", "span": "Qualcomm", "label": "positive", "ordinal": 0}
+{"id": 12, "text": "Pfizer declines after weaker vaccine guidance", "span": "Pfizer", "label": "negative", "ordinal": 0}
+{"id": 13, "text": "Intel edges higher on modest data center chip improvements", "span": "Intel", "label": "positive", "ordinal": 0}
+{"id": 14, "text": "Netflix dips as subscriber growth slows", "span": "Netflix", "label": "negative", "ordinal": 0}
+{"id": 15, "text": "Starbucks rises on optimistic international expansion plans", "span": "Starbucks", "label": "positive", "ordinal": 0}
+{"id": 16, "text": "Uber trades flat after mixed mobility and delivery results", "span": "Uber", "label": "neutral", "ordinal": 0}
+{"id": 17, "text": "Snowflake drops sharply after cutting product revenue guidance", "span": "Snowflake", "label": "negative", "ordinal": 0}
+{"id": 18, "text": "AMD pops on strong AI accelerator shipment numbers", "span": "AMD", "label": "positive", "ordinal": 0}
+{"id": 19, "text": "eBay flat as marketplace activity remains unchanged", "span": "eBay", "label": "neutral", "ordinal": 0}
+{"id": 20, "text": "IBM sinks after legacy business weighs on margins", "span": "IBM", "label": "negative", "ordinal": 0}
+{"id": 21, "text": "Microsoft pushes higher on record Azure growth", "span": "Microsoft", "label": "positive", "ordinal": 0}
+{"id": 22, "text": "Shopify loses a bull rating amid margin concerns", "span": "Shopify", "label": "negative", "ordinal": 0}
+{"id": 23, "text": "Zoom dips as enterprise renewal softness continues", "span": "Zoom", "label": "negative", "ordinal": 0}
+{"id": 24, "text": "Target gains after reporting strong holiday foot traffic", "span": "Target", "label": "positive", "ordinal": 0}
+{"id": 25, "text": "Walmart remains flat despite stable grocery sales", "span": "Walmart", "label": "neutral", "ordinal": 0}
+{"id": 26, "text": "Chevron drops after crude price outlook weakens", "span": "Chevron", "label": "negative", "ordinal": 0}
+{"id": 27, "text": "ExxonMobil rises as energy demand projections improve", "span": "ExxonMobil", "label": "positive", "ordinal": 0}
+{"id": 28, "text": "3M stays level as restructuring effects remain unclear", "span": "3M", "label": "neutral", "ordinal": 0}
+{"id": 29, "text": "Nike falls after slowing footwear sales in key regions", "span": "Nike", "label": "negative", "ordinal": 0}
+{"id": 30, "text": "Costco surges on strong membership renewal rates", "span": "Costco", "label": "positive", "ordinal": 0}
+{"id": 31, "text": "UPS flat as shipping volumes remain steady", "span": "UPS", "label": "neutral", "ordinal": 0}
+{"id": 32, "text": "Alphabet slips after disappointing ad impressions", "span": "Alphabet", "label": "negative", "ordinal": 0}
+{"id": 33, "text": "Broadcom climbs following upbeat semiconductor demand outlook", "span": "Broadcom", "label": "positive", "ordinal": 0}
+{"id": 34, "text": "Cisco flat as enterprise networking demand stabilizes", "span": "Cisco", "label": "neutral", "ordinal": 0}
+{"id": 35, "text": "Roku tumbles on declining streaming device sales", "span": "Roku", "label": "negative", "ordinal": 0}
+{"id": 36, "text": "Salesforce rises as subscription revenues beat expectations", "span": "Salesforce", "label": "positive", "ordinal": 0}
+{"id": 37, "text": "Lyft trades flat ahead of updated regulatory ruling", "span": "Lyft", "label": "neutral", "ordinal": 0}
+{"id": 38, "text": "Peloton sinks after reporting widening losses", "span": "Peloton", "label": "negative", "ordinal": 0}
+{"id": 39, "text": "Dell jumps on strong server demand", "span": "Dell", "label": "positive", "ordinal": 0}
+{"id": 40, "text": "Best Buy flat despite steady electronics demand", "span": "Best Buy", "label": "neutral", "ordinal": 0}
+{"id": 41, "text": "HP Inc. dips due to weakening PC market conditions", "span": "HP Inc.", "label": "negative", "ordinal": 0}
+{"id": 42, "text": "Spotify rallies as premium subscriber count accelerates", "span": "Spotify", "label": "positive", "ordinal": 0}
+{"id": 43, "text": "Visa posts neutral movement ahead of inflation data", "span": "Visa", "label": "neutral", "ordinal": 0}
+{"id": 44, "text": "Mastercard drops as cross-border volumes slow unexpectedly", "span": "Mastercard", "label": "negative", "ordinal": 0}
+{"id": 45, "text": "Block rises on strong Cash App engagement", "span": "Block", "label": "positive", "ordinal": 0}
+{"id": 46, "text": "American Airlines remains flat as fuel prices stabilize", "span": "American Airlines", "label": "neutral", "ordinal": 0}
+{"id": 47, "text": "Southwest Airlines sinks following operational disruptions", "span": "Southwest Airlines", "label": "negative", "ordinal": 0}
+{"id": 48, "text": "Delta Airlines flies higher on strong business travel recovery", "span": "Delta Airlines", "label": "positive", "ordinal": 0}
+{"id": 49, "text": "Caterpillar holds steady as construction demand plateaus", "span": "Caterpillar", "label": "neutral", "ordinal": 0}
+{"id": 50, "text": "Etsy plunges after reporting a decline in marketplace activity", "span": "Etsy", "label": "negative", "ordinal": 0}
+{"id": 51, "text": "Pinterest jumps as ad buyers increase spending", "span": "Pinterest", "label": "positive", "ordinal": 0}
+{"id": 52, "text": "Texas Instruments shows no major change in analog demand", "span": "Texas Instruments", "label": "neutral", "ordinal": 0}
+{"id": 53, "text": "Johnson & Johnson dips after litigation costs rise", "span": "Johnson & Johnson", "label": "negative", "ordinal": 0}
+{"id": 54, "text": "Procter & Gamble climbs on strong household goods performance", "span": "Procter & Gamble", "label": "positive", "ordinal": 0}
+{"id": 55, "text": "Colgate-Palmolive trades flat despite stable consumer demand", "span": "Colgate-Palmolive", "label": "neutral", "ordinal": 0}
+{"id": 56, "text": "Moderna drops as vaccine revenue outlook weakens", "span": "Moderna", "label": "negative", "ordinal": 0}
+{"id": 57, "text": "Netflix rises after announcing successful international expansion", "span": "Netflix", "label": "positive", "ordinal": 0}
+{"id": 58, "text": "IBM unchanged as cloud migration outlook holds steady", "span": "IBM", "label": "neutral", "ordinal": 0}
+{"id": 59, "text": "Snap plunges after weaker ad revenue guidance", "span": "Snap", "label": "negative", "ordinal": 0}
+{"id": 60, "text": "MongoDB surges on accelerating Atlas adoption", "span": "MongoDB", "label": "positive", "ordinal": 0}
+{"id": 61, "text": "Slack steady as enterprise seat growth moderates", "span": "Slack", "label": "neutral", "ordinal": 0}
+{"id": 62, "text": "IBM slips as mainframe revenue contracts", "span": "IBM", "label": "negative", "ordinal": 0}
+{"id": 63, "text": "Accenture moves higher thanks to strong consulting bookings", "span": "Accenture", "label": "positive", "ordinal": 0}
+{"id": 64, "text": "Thermo Fisher Scientific flat on stable lab equipment demand", "span": "Thermo Fisher Scientific", "label": "neutral", "ordinal": 0}
+{"id": 65, "text": "Rivian slides sharply after production guidance cut", "span": "Rivian", "label": "negative", "ordinal": 0}
+{"id": 66, "text": "Lucid Motors rises slightly as luxury EV orders increase", "span": "Lucid Motors", "label": "positive", "ordinal": 0}
+{"id": 67, "text": "Volkswagen steady ahead of new EV lineup reveal", "span": "Volkswagen", "label": "neutral", "ordinal": 0}
+{"id": 68, "text": "Lululemon moves lower following weaker apparel demand", "span": "Lululemon", "label": "negative", "ordinal": 0}
+{"id": 69, "text": "Home Depot gains after strong home improvement sales", "span": "Home Depot", "label": "positive", "ordinal": 0}
+{"id": 70, "text": "Lowe’s flat as DIY spending levels remain unchanged", "span": "Lowe’s", "label": "neutral", "ordinal": 0}
+{"id": 71, "text": "Airbnb dips after forecasting slower booking growth", "span": "Airbnb", "label": "negative", "ordinal": 0}
+{"id": 72, "text": "Marriott climbs on rising travel occupancy rates", "span": "Marriott", "label": "positive", "ordinal": 0}
+{"id": 73, "text": "Hilton flat despite steady hotel demand", "span": "Hilton", "label": "neutral", "ordinal": 0}
+{"id": 74, "text": "Spotify dips on higher licensing expenses", "span": "Spotify", "label": "negative", "ordinal": 0}
+{"id": 75, "text": "Fiverr gains as freelance marketplace activity grows", "span": "Fiverr", "label": "positive", "ordinal": 0}
+{"id": 76, "text": "Zoom unchanged as enterprise contract activity stabilizes", "span": "Zoom", "label": "neutral", "ordinal": 0}
+{"id": 77, "text": "Coinbase falls after crypto trading volumes shrink", "span": "Coinbase", "label": "negative", "ordinal": 0}
+{"id": 78, "text": "Robinhood rises on strong user engagement rebound", "span": "Robinhood", "label": "positive", "ordinal": 0}
+{"id": 79, "text": "Charles Schwab trades flat as asset flows remain steady", "span": "Charles Schwab", "label": "neutral", "ordinal": 0}
+{"id": 80, "text": "Block drops after weaker-than-expected merchant growth", "span": "Block", "label": "negative", "ordinal": 0}
+{"id": 81, "text": "Intuit jumps on strong TurboTax performance", "span": "Intuit", "label": "positive", "ordinal": 0}
+{"id": 82, "text": "Adobe flat despite consistent subscription revenue", "span": "Adobe", "label": "neutral", "ordinal": 0}
+{"id": 83, "text": "Dropbox slumps after reporting higher churn rates", "span": "Dropbox", "label": "negative", "ordinal": 0}
+{"id": 84, "text": "Twilio jumps as usage-based revenues accelerate", "span": "Twilio", "label": "positive", "ordinal": 0}
+{"id": 85, "text": "Slack remains unchanged ahead of platform updates", "span": "Slack", "label": "neutral", "ordinal": 0}
+{"id": 86, "text": "Southwest Airlines falls amid rising operational challenges", "span": "Southwest Airlines", "label": "negative", "ordinal": 0}
+{"id": 87, "text": "Ford rises on strong EV truck reservations", "span": "Ford", "label": "positive", "ordinal": 0}
+{"id": 88, "text": "Toyota steady as manufacturing output meets expectations", "span": "Toyota", "label": "neutral", "ordinal": 0}
+{"id": 89, "text": "Paramount drops following weak streaming subscriber additions", "span": "Paramount", "label": "negative", "ordinal": 0}
+{"id": 90, "text": "Disney climbs after successful theme park revenue rebound", "span": "Disney", "label": "positive", "ordinal": 0}
+{"id": 91, "text": "Sony remains unchanged as electronics sales level out", "span": "Sony", "label": "neutral", "ordinal": 0}
+{"id": 92, "text": "Shopify slumps after unexpected slowdown in merchant activity", "span": "Shopify", "label": "negative", "ordinal": 0}
+{"id": 93, "text": "Adobe surges as enterprise demand shows strength", "span": "Adobe", "label": "positive", "ordinal": 0}
+{"id": 94, "text": "Cisco flat as new hardware orders remain steady", "span": "Cisco", "label": "neutral", "ordinal": 0}
+{"id": 95, "text": "Roku sinks after warning of slowing advertising growth", "span": "Roku", "label": "negative", "ordinal": 0}
+{"id": 96, "text": "Uber rises after reporting record ride volumes", "span": "Uber", "label": "positive", "ordinal": 0}
+{"id": 97, "text": "Visa steady with no major changes in spending trends", "span": "Visa", "label": "neutral", "ordinal": 0}
+{"id": 98, "text": "Snowflake tumbles as customers reduce cloud compute usage", "span": "Snowflake", "label": "negative", "ordinal": 0}
+{"id": 99, "text": "Salesforce pops on better-than-expected renewal activity", "span": "Salesforce", "label": "positive", "ordinal": 0}
