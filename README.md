@@ -8,7 +8,7 @@ IMPORTANT: to run prototype files, you must be in the parent directory and use a
 This project performs sentiment analysis on financial news to infer market sentiment for individual tickers.  
 It progresses from basic text preprocessing and TF-IDF classification to advanced transformer-based, time-aware, and multimodal approaches.
 
-#TODO 
+## TODO 
 - Create Pipeline
   start with ingesting the data then push into step 1
   1. [NER](https://encord.com/blog/named-entity-recognition/) Portion: use prototyping/bert-base-ner.py file as an example with the "Jean-Baptiste/roberta-large-ner-english" model for org extraction
