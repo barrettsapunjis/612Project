@@ -8,6 +8,14 @@ IMPORTANT: to run prototype files, you must be in the parent directory and use a
 This project performs sentiment analysis on financial news to infer market sentiment for individual tickers.  
 It progresses from basic text preprocessing and TF-IDF classification to advanced transformer-based, time-aware, and multimodal approaches.
 
+
+
+
+
+
+
+
+
 ---
 ---
 ---
