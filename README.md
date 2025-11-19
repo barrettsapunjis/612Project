@@ -2,10 +2,16 @@
 
 IMPORTANT: to run prototype files, you must be in the parent directory and use an example command such as `python -m prototyping.bert-base-ner` (windows)
 
+- [BEST DATASET](https://www.kaggle.com/datasets/ankurzing/aspect-based-sentiment-analysis-for-financial-news)
+
 ## Overview
 This project performs sentiment analysis on financial news to infer market sentiment for individual tickers.  
 It progresses from basic text preprocessing and TF-IDF classification to advanced transformer-based, time-aware, and multimodal approaches.
 
+---
+---
+SEE BELOW FOR INITIAL README / OUTLINE
+---
 ---
 
 ## Minimum Requirement
@@ -16,7 +22,7 @@ Collect labeled financial text data for model training and validation.
 **Practical References**
 - [Yahoo Finance API](https://pypi.org/project/yahoo-finance/)
 - [Finnhub API](https://finnhub.io/docs/api)
-- [Kaggle financial news datasets](https://www.kaggle.com/datasets?search=financial+news)
+- [Kaggle financial news datasets](https://www.kaggle.com/datasets/ankurzing/aspect-based-sentiment-analysis-for-financial-news) <-- this is the best one! has aspect and sentiment lables! 
 - [hugging face dataset](https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment/viewer/default/train?p=4&views%5B%5D=train)
 
 **Educational References**
