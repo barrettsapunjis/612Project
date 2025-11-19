@@ -15,7 +15,7 @@ It progresses from basic text preprocessing and TF-IDF classification to advance
   2. utilities to modify text in the required format for model, its different per model.
      2.1 must be able to find and replace extracted subject
      2.2 must be able to append to or infront of provided text, optionally with above function.
-  3. [ABSA](https://www.gautamnaik.com/blog/aspect-based-sentiment-analyisis) Portion: plug-in formatted text and get formatted output currently [FinABSA](using https://github.com/guijinSON/FinABSA)
+  3. [ABSA](https://www.gautamnaik.com/blog/aspect-based-sentiment-analyisis) Portion: plug-in formatted text and get formatted output currently using [FinABSA](https://github.com/guijinSON/FinABSA)
   4. show accuracy and testing etc
   5. Merge components into pipeline
   6. optionally add live data grabber and text processor to run through system. 
