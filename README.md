@@ -20,9 +20,9 @@ It progresses from basic text preprocessing and TF-IDF classification to advance
 ---
 ---
 
-## Minimum Requirement
+### Minimum Requirement
 
-### 1. Data Acquisition
+#### 1. Data Acquisition
 Collect labeled financial text data for model training and validation.
 
 **Practical References**
@@ -37,7 +37,7 @@ Collect labeled financial text data for model training and validation.
 
 ---
 
-### 2. Preprocessing
+#### 2. Preprocessing
 Prepare text for feature extraction by cleaning, normalizing, and tokenizing.
 
 **Practical References**
@@ -51,7 +51,7 @@ Prepare text for feature extraction by cleaning, normalizing, and tokenizing.
 
 ---
 
-### 3. Feature Extraction
+#### 3. Feature Extraction
 Convert text into numerical form using TF-IDF or embeddings.
 
 **Practical References**
@@ -65,7 +65,7 @@ Convert text into numerical form using TF-IDF or embeddings.
 
 ---
 
-### 4. Model Training
+#### 4. Model Training
 Train a classifier (typically linear SVM) on TF-IDF or embeddings.
 
 **Practical References**
@@ -80,7 +80,7 @@ Train a classifier (typically linear SVM) on TF-IDF or embeddings.
 
 ---
 
-### 5. Output
+#### 5. Output
 Aggregate sentiment scores per ticker using weighted averages.
 
 **Practical References**
@@ -97,9 +97,9 @@ Aggregate sentiment scores per ticker using weighted averages.
 
 ---
 
-## Optional Complexity Layers
+### Optional Complexity Layers
 
-### Level 1 — Contextual Embeddings
+#### Level 1 — Contextual Embeddings
 Replace TF-IDF with pretrained sentence embeddings.
 
 **Practical**
@@ -113,7 +113,7 @@ Replace TF-IDF with pretrained sentence embeddings.
 
 ---
 
-### Level 2 — Sentence-Level Aggregation
+#### Level 2 — Sentence-Level Aggregation
 Analyze sentiment at the sentence level, then aggregate.
 
 **Practical**
@@ -126,7 +126,7 @@ Analyze sentiment at the sentence level, then aggregate.
 
 ---
 
-### Level 3 — Fine-Tuned Transformer
+#### Level 3 — Fine-Tuned Transformer
 Fine-tune BERT or similar transformer models for domain-specific sentiment.
 
 **Practical**
@@ -140,7 +140,7 @@ Fine-tune BERT or similar transformer models for domain-specific sentiment.
 
 ---
 
-### Level 4 — Temporal Dynamics
+#### Level 4 — Temporal Dynamics
 Account for how sentiment effects decay over time.
 
 **Practical**
@@ -154,7 +154,7 @@ Account for how sentiment effects decay over time.
 
 ---
 
-### Level 5 — Multimodal Fusion
+#### Level 5 — Multimodal Fusion
 Combine textual sentiment with numerical market data.
 
 **Practical**
