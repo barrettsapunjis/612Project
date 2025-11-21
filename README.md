@@ -10,9 +10,9 @@ It progresses from basic text preprocessing and TF-IDF classification to advance
 
 ## TODO 
 - Create Pipeline
-  start with ingesting the data then push into step 1
+  i. start with ingesting the data then push into step 1
   1. [NER](https://encord.com/blog/named-entity-recognition/) Portion: use prototyping/bert-base-ner.py file as an example with the [RoBerta model](https://huggingface.co/Jean-Baptiste/roberta-large-ner-english) for org extraction
-  2. entity - AKA  - specific term - mapping
+  2. entity - AKA  - specific term - mapping - (Jacob 1/2) 
   3. utilities to modify text in the required format for model, its different per model.
      2.1 must be able to find and replace extracted subject
      2.2 must be able to append to or infront of provided text, optionally with above function.
