@@ -3,14 +3,14 @@ import pandas as pd
 from datasets import Dataset
 from setfit import SetFitModel, SetFitTrainer
 from sklearn.model_selection import train_test_split
-import numpy
 
 # Paths
 CSV_PATH = "sentfin.csv"
-SENTIMENT_MODEL = "sentence-transformers/paraphrase-mpnet-base-v2"  # SetFit encoder
-MAX_ROWS = 1000  # limit for quick runs
+SENTIMENT_MODEL = "sentence-transformers/paraphrase-mpnet-base-v2"
+MAX_ROWS = 1000  # cap for quick runs; set None to use all
 
 def load_data(path: str) -> pd.DataFrame:
+    """Read the raw CSV and expand aspect labels without altering the text."""
     print(f"[load] Reading CSV from {path} ...")
     df = pd.read_csv(path, header=None, names=["id", "text", "aspects_json", "label_id"])
     rows = []
@@ -19,23 +19,15 @@ def load_data(path: str) -> pd.DataFrame:
             aspects = json.loads(row["aspects_json"])
         except json.JSONDecodeError:
             continue
-        for aspect, sent in aspects.items():
-            rows.append({
-                "text": row["text"],
-                "aspect": aspect,
-                "label": sent.lower(),
-            })
-        if len(rows) >= MAX_ROWS:
+        for _, sent in aspects.items():
+            rows.append({"text": row["text"], "label": sent.lower()})
+        if MAX_ROWS and len(rows) >= MAX_ROWS:
             break
     print(f"[load] Parsed aspect rows: {len(rows)}")
     return pd.DataFrame(rows)
 
 def build_dataset(df: pd.DataFrame) -> Dataset:
-    # Concatenate aspect into the text so the classifier can use it
-    df = df.copy()
-    df["combined"] = df["text"].str.strip() + " [ASPECT] " + df["aspect"].str.strip()
-    df.head(10)
-    return Dataset.from_pandas(df[["combined", "label"]])
+    return Dataset.from_pandas(df[["text", "label"]])
 
 def main():
     df = load_data(CSV_PATH)
@@ -50,20 +42,17 @@ def main():
     print("[datasets] Train example:", train_ds[0])
 
     print("[model] Loading SetFit encoder ...")
-    model = SetFitModel.from_pretrained(
-        SENTIMENT_MODEL,
-        multi_target_strategy=None,
-    )
+    model = SetFitModel.from_pretrained(SENTIMENT_MODEL, multi_target_strategy=None)
 
-    print("[train] Starting fast training ...")
+    print("[train] Starting training ...")
     trainer = SetFitTrainer(
         model=model,
         train_dataset=train_ds,
         eval_dataset=test_ds,
         batch_size=32,
-        num_iterations=5,  # contrastive steps
-        num_epochs=1,      # classifier epochs
-        column_mapping={"combined": "text", "label": "label"},
+        num_iterations=5,
+        num_epochs=1,
+        column_mapping={"text": "text", "label": "label"},
     )
 
     trainer.train()
