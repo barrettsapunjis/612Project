@@ -23,6 +23,7 @@ from sentalyzer import (
     SVMABSAModel,
     validate_predictions,
     write_eval_report,
+    mask_aspect,
 )
 
 # Base paths (resolved relative to this file)
@@ -34,7 +35,7 @@ DATA_PATH = BASE_DIR / "data"
 DATA_CSV = DATA_PATH / "data_42_8-2" / "test.csv"
 SVM_MODEL_DIR = MODEL_PATH / "svm_sentfin"
 # SETFIT_MODEL_DIR = MODEL_PATH / "setfit-absa-sentfin"
-MAX_TEXT_ROWS = 1000  # Set None to use all rows
+MAX_TEXT_ROWS = None  # Set None to use all rows
 MIN_NER_SCORE = 0.7
 REPORT_DIR = BASE_DIR / "reports"
 
@@ -101,11 +102,11 @@ def run_inference() -> None:
         return
     print("\nLoading SVM model")
     # Choose ABSA model: default SVM (SetFit alternative commented)
-    model = SVMABSAModel.from_dir(str(SVM_MODEL_DIR), combine_fn=default_setfit_combiner)
+    model = SVMABSAModel.from_dir(str(SVM_MODEL_DIR), combine_fn=mask_aspect)
     # model = SetFitABSAModel.from_dir(str(SETFIT_MODEL_DIR))
     print("Model loaded, running predicitons\n")
     preds = model.predict_samples(samples)
-    print_inference(samples, preds)
+    #print_inference(samples, preds)
     evaluate_labeled(model)
 
 

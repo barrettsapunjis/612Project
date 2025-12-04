@@ -66,6 +66,31 @@ class SetFitABSAModel:
         preds = self.model.predict(texts)
         return list(preds)
 
+    def predict_scores(self, samples: Iterable[ABSASample]) -> List[dict[str, float]]:
+        """
+        Return per-label probabilities for each sample from the SetFit model.
+
+        This uses SetFitModel.predict_proba and surfaces a list of
+        {label -> probability} dictionaries, one per input sample.
+        """
+        samples = list(samples)
+        if not samples:
+            return []
+
+        texts = self._combine_texts(samples)
+        probs = self.model.predict_proba(texts)
+        # SetFit wraps an sklearn classifier head; use its classes_ for labels.
+        classes = getattr(self.model.model_head, "classes_", None)
+        if classes is not None:
+            label_order = [str(c) for c in classes]
+        else:
+            label_order = [str(i) for i in range(probs.shape[1])]
+
+        scores: List[dict[str, float]] = []
+        for row in probs:
+            scores.append({label: float(p) for label, p in zip(label_order, row)})
+        return scores
+
     def predict_labels(self, texts: Sequence[str], aspects: Sequence[str]) -> List[str]:
         assert len(texts) == len(aspects)
         samples = [ABSASample(text=t, aspect=a, label=None) for t, a in zip(texts, aspects)]

@@ -6,6 +6,7 @@ import os
 import json
 
 import joblib
+import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.base import BaseEstimator
 
@@ -15,6 +16,7 @@ from sentalyzer.data.samples import (
     default_setfit_combiner,
     validate_predictions,
 )
+from sentalyzer.data.text_cleaning import build_default_cleaner
 
 
 @dataclass
@@ -82,7 +84,8 @@ class SVMABSAModel:
         )
 
     def _combine_texts(self, samples: Iterable[ABSASample]) -> List[str]:
-        return [self.combine_fn(s.text, s.aspect) for s in samples]
+        cleaner = build_default_cleaner()
+        return [self.combine_fn(cleaner(s.text), s.aspect) for s in samples]
 
     def predict_samples(self, samples: Iterable[ABSASample]) -> List[str]:
         samples = list(samples)
@@ -93,11 +96,77 @@ class SVMABSAModel:
 
         # Ensure list[str]
         return [str(p) for p in preds]
+    
+    def prepare_dense_input(self, samples: Iterable[ABSASample]) -> np.ndarray:
+        samples = list(samples)
+        texts = self._combine_texts(samples)
+        X = self.vectorizer.transform(texts)
+        embeddings = [s.embedding for s in samples]
+        X = np.concatenate([X.toarray(), np.array(embeddings)], axis=1)
+        return X
+    
+    def prepare_sparse_input(self, samples: Iterable[ABSASample]) -> np.ndarray:
+        samples = list(samples)
+        texts = self._combine_texts(samples)
+        X = self.vectorizer.transform(texts)
+        return X
+    
+    def prepare_embeddings(self, samples: Iterable[ABSASample]) -> np.ndarray:
+        samples = list(samples)
+        embeddings = [s.embedding for s in samples]
+        return np.array(embeddings)
 
     def predict_labels(self, texts: Sequence[str], aspects: Sequence[str]) -> List[str]:
         assert len(texts) == len(aspects)
         samples = [ABSASample(text=t, aspect=a, label=None) for t, a in zip(texts, aspects)]
         return self.predict_samples(samples)
+
+    def predict_scores(self, samples: Iterable[ABSASample]) -> List[dict[str, float]]:
+        """
+        Return per-label scores for each sample, using the classifier's
+        decision function or probabilities when available.
+
+        For LinearSVC and similar models, this will be the raw decision
+        margins (higher -> more confident). For probabilistic classifiers,
+        it will be the predicted probabilities.
+        """
+        samples = list(samples)
+        texts = self._combine_texts(samples)
+
+        X = self.vectorizer.transform(texts)
+
+        if hasattr(self.classifier, "decision_function"):
+            raw_scores = self.classifier.decision_function(X)
+        elif hasattr(self.classifier, "predict_proba"):
+            raw_scores = self.classifier.predict_proba(X)
+        else:
+            raise RuntimeError("Classifier does not support decision_function or predict_proba.")
+
+        raw_scores = np.asarray(raw_scores)
+
+        # Ensure 2D shape (n_samples, n_classes)
+        if raw_scores.ndim == 1:
+            raw_scores = raw_scores.reshape(-1, 1)
+
+        # Derive label order from saved metadata or classifier classes_
+        label_order: List[str]
+        if self.labels:
+            label_order = list(self.labels)
+        elif hasattr(self.classifier, "classes_"):
+            label_order = [str(c) for c in self.classifier.classes_]
+        else:
+            label_order = [str(i) for i in range(raw_scores.shape[1])]
+
+        # If we have a binary decision_function with only one column but two labels,
+        # mirror scores as [-margin, +margin] to produce per-class scores.
+        if raw_scores.shape[1] == 1 and len(label_order) == 2:
+            margins = raw_scores[:, 0]
+            raw_scores = np.vstack([-margins, margins]).T
+
+        scores: List[dict[str, float]] = []
+        for row in raw_scores:
+            scores.append({label: float(score) for label, score in zip(label_order, row)})
+        return scores
 
     def evaluate(self, samples: Iterable[ABSASample]) -> None:
         samples = list(samples)

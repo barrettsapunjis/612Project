@@ -36,14 +36,20 @@ def split_csv(
 
 if __name__ == "__main__":
     # hardcode or replace with argparse
-    split_csv(
-        csv_path="./data/sentfin.csv",
-        seed=42,
-        test_size=0.9,
-    )
+    # split_csv(
+    #     csv_path="./data/sentfin.csv",
+    #     seed=42,
+    #     test_size=0.9,
+    # )
+
+    # split_csv(
+    #     csv_path="./data/sentfin.csv",
+    #     seed=42,
+    #     test_size=0.2,
+    # )
 
     split_csv(
         csv_path="./data/sentfin.csv",
         seed=42,
-        test_size=0.2,
+        test_size=0.75,
     )

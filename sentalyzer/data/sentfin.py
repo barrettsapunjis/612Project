@@ -2,9 +2,10 @@ from __future__ import annotations
 
 from typing import List, Optional
 
+import json
 import pandas as pd
 
-from .samples import ABSASample, _df_to_absa_samples_from_aspects_json
+from .samples import ABSASample
 
 
 def load_sentfin_df(
@@ -51,6 +52,40 @@ def load_sentfin_df(
         df = df.head(max_rows)
 
     return df
+
+
+def _df_to_absa_samples_from_aspects_json(
+    df: pd.DataFrame,
+    text_col: str = "text",
+    aspects_col: str = "aspects_json",
+) -> List[ABSASample]:
+    """
+    Convert a DataFrame with an 'aspects_json' column to a flat list of
+    ABSASample objects.
+
+    Each row's aspects_json is expected to be a JSON object mapping
+    aspect -> sentiment label. We create one ABSASample per (aspect, label)
+    pair.
+    """
+    samples: List[ABSASample] = []
+
+    for _, row in df.iterrows():
+        raw = row.get(aspects_col)
+        try:
+            aspects = json.loads(raw) if isinstance(raw, str) else {}
+        except json.JSONDecodeError:
+            continue
+
+        for aspect, label in aspects.items():
+            samples.append(
+                ABSASample(
+                    text=row[text_col],
+                    aspect=str(aspect),
+                    label=str(label).lower(),
+                )
+            )
+
+    return samples
 
 
 def sentfin_df_to_absa_samples(df: pd.DataFrame) -> List[ABSASample]:

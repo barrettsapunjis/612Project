@@ -36,6 +36,7 @@ from .data.samples import (
     sep_token_combiner,
     print_predictions,
     validate_predictions,
+    mask_aspect,
 )
 from .data.sentfin import (
     load_sentfin_df,
@@ -70,6 +71,12 @@ from .absa.setfitUtil import (
     split_dataset,
 )
 
+from .embeddings import (
+    EmbeddingConfig,
+    load_embedding_model,
+    encode_texts,
+)
+
 # Shared reporting utilities
 from .absa.utils.reporting import write_eval_report
 
@@ -87,6 +94,7 @@ __all__ = [
     "load_sentfin_df",
     "load_sentfin_absa_samples",
     "sentfin_df_to_absa_samples",
+    "mask_aspect",
     # Extraction
     "get_extractor",
     "extract_all_org_aspects",

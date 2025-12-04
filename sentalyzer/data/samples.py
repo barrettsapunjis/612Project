@@ -3,8 +3,11 @@ from dataclasses import dataclass
 from typing import Callable, Iterable, List, Optional, Sequence
 
 import json
+import re
 import pandas as pd
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+
+import numpy as np
 
 
 @dataclass
@@ -17,10 +20,32 @@ class ABSASample:
     text: str
     aspect: str
     label: Optional[str] = None
+    embedding: Optional[np.ndarray] = None
 
 
 # Aspect combiner type: takes raw text + aspect -> model input string
 AspectCombineFn = Callable[[str, str], str]
+
+
+def mask_aspect(
+    text: str,
+    aspect: str,
+    mask_token: str = "[ASPECT]",
+) -> str:
+    """
+    Mask occurrences of the aspect string inside the text.
+
+    This is useful to reduce overfitting to specific company / entity names by
+    replacing them with a canonical token.
+
+    Matching is case-insensitive and uses a simple substring replacement:
+      "Apple shares rose" + aspect="Apple"  ->  "[ASPECT] shares rose"
+    """
+    if not text or not aspect:
+        return text
+
+    pattern = re.compile(re.escape(aspect), flags=re.IGNORECASE)
+    return pattern.sub(mask_token, text)
 
 
 def concat_aspect(text: str, aspect: str, marker: str = "[ASPECT]") -> str:
@@ -57,7 +82,7 @@ def inline_marker_combiner(
 
     If the (case-insensitive) aspect substring is found in the text, wrap the
     first occurrence with markers:
-      "Nvidia [ASP]GPUs[/ASP] are great"
+      "[ASP] Nvidia[/ASP] GPUs are great"
 
     If not found, fall back to simple concatenation with markers:
       "<text> [ASP]<aspect>[/ASP]"
@@ -71,67 +96,6 @@ def inline_marker_combiner(
         end = idx + len(aspect)
         return t[:idx] + left_marker + t[idx:end] + right_marker + t[end:]
     return _fn
-
-
-def _df_to_absa_samples_from_aspects_json(
-    df: pd.DataFrame,
-    text_col: str = "text",
-    aspects_col: str = "aspects_json",
-) -> List[ABSASample]:
-    """
-    Shared helper: convert any DataFrame with a text column and an
-    'aspects_json' column into ABSASample rows.
-
-    aspects_json is expected to be a JSON dict mapping aspect -> sentiment label.
-    """
-    samples: List[ABSASample] = []
-    for _, row in df.iterrows():
-        raw = row.get(aspects_col)
-        try:
-            aspects = json.loads(raw) if isinstance(raw, str) else {}
-        except json.JSONDecodeError:
-            continue
-
-        for aspect, label in aspects.items():
-            samples.append(
-                ABSASample(
-                    text=row[text_col],
-                    aspect=str(aspect),
-                    label=str(label).lower(),
-                )
-            )
-    return samples
-
-
-# ---------- SentFin-specific loader ----------
-
-def load_sentfin_csv(
-    path: str,
-    start: Optional[int] = None,
-    end: Optional[int] = None,
-    sample_count: Optional[int] = None,
-    keep_all_after_slice: bool = False,
-) -> List[ABSASample]:
-    """
-    Load SentFin-style CSV into a list[ABSASample].
-
-    CSV schema: [id, text, aspects_json, label_id]
-    aspects_json: JSON dict mapping aspect -> sentiment string.
-    """
-    df = pd.read_csv(path, header=None, names=["id", "text", "aspects_json", "label_id"])
-
-    if start is not None or end is not None:
-        df = df.iloc[start:end]
-
-    samples = _df_to_absa_samples_from_aspects_json(df, text_col="text", aspects_col="aspects_json")
-
-    if not samples:
-        return []
-
-    if not keep_all_after_slice and sample_count is not None:
-        samples = samples[:sample_count]
-
-    return samples
 
 
 # ---------- Printing / evaluation helpers ----------

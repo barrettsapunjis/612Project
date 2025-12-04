@@ -16,6 +16,7 @@ from sentalyzer import (
     default_setfit_combiner,
     load_sentfin_absa_samples,
     train_svm_absa,
+    mask_aspect,
 )
 from sentalyzer.absa.SVMUtil.reporting import write_svm_eval_report
 
@@ -49,10 +50,12 @@ def main() -> None:
         class_weight="balanced",
         random_state=42,
         test_size=0.1,
+        use_dense=True,
+        svd_components=256,
     )
 
     # Train SVM ABSA
-    train_svm_absa(samples=samples, cfg=cfg, combine_fn=default_setfit_combiner)
+    train_svm_absa(samples=samples, cfg=cfg, combine_fn=mask_aspect)
 
     # Evaluate on a held-out split using the same random seed for reproducibility
 
