@@ -1,180 +1,173 @@
-# Financial News Sentiment Analysis
-
-IMPORTANT: to run prototype files, you must be in the parent directory and use an example command such as `python -m prototyping.bert-base-ner` (windows)
-
-- [BEST DATASET](https://www.kaggle.com/datasets/ankurzing/aspect-based-sentiment-analysis-for-financial-news)
-
-## Overview
-This project performs sentiment analysis on financial news to infer market sentiment for individual tickers.  
-It progresses from basic text preprocessing and TF-IDF classification to advanced transformer-based, time-aware, and multimodal approaches.
-
-## TODO 
-- Create Pipeline
-  i. start with ingesting the data then push into step 1
-  1. [NER](https://encord.com/blog/named-entity-recognition/) Portion: use prototyping/bert-base-ner.py file as an example with the [RoBerta model](https://huggingface.co/Jean-Baptiste/roberta-large-ner-english) for org extraction
-  2. entity - AKA  - specific term - mapping - (Jacob 1/2) 
-  3. utilities to modify text in the required format for model, its different per model.
-     2.1 must be able to find and replace extracted subject
-     2.2 must be able to append to or infront of provided text, optionally with above function.
-  4. [ABSA](https://www.gautamnaik.com/blog/aspect-based-sentiment-analyisis) Portion: plug-in formatted text and get formatted output currently using [FinABSA](https://github.com/guijinSON/FinABSA) (barrett responsible for this, will float around) 
-  5. Finalization / cleanup (managing pipeline, making sure we have validation and testing 
-  7. optionally add live data grabber and text processor to run through system. 
-
-
-
-
-
-
-
-
-
----
----
----
-
-### Minimum Requirement
-
-#### 1. Data Acquisition
-Collect labeled financial text data for model training and validation.
-
-**Practical References**
-- [Yahoo Finance API](https://pypi.org/project/yahoo-finance/)
-- [Finnhub API](https://finnhub.io/docs/api)
-- [Kaggle financial news datasets](https://www.kaggle.com/datasets/ankurzing/aspect-based-sentiment-analysis-for-financial-news) <-- this is the best one! has aspect and sentiment lables! 
-- [hugging face dataset](https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment/viewer/default/train?p=4&views%5B%5D=train)
-
-**Educational References**
-- *Loughran, T., & McDonald, B. (2011).* "When Is a Liability Not a Liability? Textual Analysis, Dictionaries, and 10‐Ks." *Journal of Finance.*
-- *Tetlock, P. (2007).* "Giving content to investor sentiment: The role of media in the stock market." *Journal of Finance.*
+# Financial News Sentiment Analysis Using Multi-Entity ABSA  
+*A complete real-time and historical sentiment pipeline for financial news.*
 
 ---
 
-#### 2. Preprocessing
-Prepare text for feature extraction by cleaning, normalizing, and tokenizing.
+##  Overview
 
-**Practical References**
-- [NLTK](https://www.nltk.org/) — tokenization, stopword removal, lemmatization  
-- [spaCy](https://spacy.io/) — efficient NLP pipeline  
-- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) — HTML parsing
+This project implements a full **Multi-Entity Aspect-Based Sentiment Analysis (ABSA)** pipeline designed to extract **company-specific sentiment** from financial news articles.
 
-**Educational References**
-- *Jurafsky & Martin (2023).* *Speech and Language Processing (3rd ed.)* — Chapters on text normalization and tokenization.  
-- *Cambria et al. (2017).* “Affective Computing and Sentiment Analysis.” *IEEE Intelligent Systems.*
+Unlike simple article-level sentiment models, this system identifies **multiple companies mentioned in the same article** and computes **individual sentiment scores per ticker** — enabling more detailed, actionable intelligence for financial analysis.
 
----
+The system supports both:
 
-#### 3. Feature Extraction
-Convert text into numerical form using TF-IDF or embeddings.
-
-**Practical References**
-- [Scikit-learn TF-IDF Vectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
-- [TF-IDF/vector space](https://mbrenndoerfer.com/writing/vector-space-model-tfidf-information-retrieval-semantic-search-history?utm)
-
-
-**Educational References**
-- *Salton & McGill (1983).* *Introduction to Modern Information Retrieval.* — Foundation of TF-IDF weighting.
-- *Manning, Raghavan, & Schütze (2008).* *Introduction to Information Retrieval.* — Vector space models.
+- **Historical analysis** (CSV datasets)
+- **Real-time analysis** (Yahoo Finance news)
 
 ---
 
-#### 4. Model Training
-Train a classifier (typically linear SVM) on TF-IDF or embeddings.
+## Core Design
 
-**Practical References**
-- [Scikit-learn SVM](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
-- Evaluation metrics:
-  - [F1 Score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)
-  - [Confusion Matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
+### **Named Entity Recognition (NER) + Ticker Mapping**
+- Detect company names from unstructured text  
+- Normalize and map them to stock tickers (AAPL, MSFT, TSLA)
 
-**Educational References**
-- *Cortes & Vapnik (1995).* "Support-vector networks." *Machine Learning.*  
-- *Goodfellow, Bengio, & Courville (2016).* *Deep Learning.* — Chapter on linear classifiers and loss functions.
+### **Aspect-Based Sentiment Analysis (ABSA)**
+- Use a financial-domain ABSA model to compute **sentiment for each company** in context  
+- Results per company:
+  - `positive`
+  - `negative`
+  - `neutral`
 
----
+###  **Combined Multi-Entity Sentiment Analysis Pipeline**
+Detect companies → Map tickers → Run ABSA → Produce ticker-level sentiment.
 
-#### 5. Output
-Aggregate sentiment scores per ticker using weighted averages.
 
-**Practical References**
-- [Weighted aggregation in Pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.aggregate.html)
 
-**Educational References**
-- *Nassirtoussi et al. (2014).* “Text mining for market prediction: A systematic review.” *Expert Systems with Applications.*
-- *Bollen et al. (2011).* “Twitter mood predicts the stock market.” *Journal of Computational Science.*
+# Features
 
----
+### 1. Company Extraction via NER  
+Uses `Jean-Baptiste/roberta-large-ner-english` to extract financial entities.
 
-> [!NOTE]
-> Advanced “complexity layers” can improve performance and realism. Add only as needed.
+### 2. Company to Ticker Mapping  
+Maps entity names to stock tickers using a curated dictionary.
 
----
+### 3. Aspect-Based Sentiment Analysis (ABSA)  
+Uses `amphora/FinABSA` to compute sentiment **specific to each company** mentioned.
 
-### Optional Complexity Layers
+### 4. Real-Time News Fetching  
+Uses `yfinance.Search` to pull fresh financial news and `newspaper3k` to extract full text.
 
-#### Level 1 — Contextual Embeddings
-Replace TF-IDF with pretrained sentence embeddings.
+### 5. Multi-Entity Sentiment Output  
+Each article may map to multiple companies and multiple sentiment results.
 
-**Practical**
-- [Sentence Transformers](https://www.sbert.net/docs/pretrained_models.html) (`all-MiniLM-L6-v2`)
-- [HuggingFace Transformers](https://huggingface.co/docs/transformers/index)
+### 6. Sentiment Aggregation  
+Computes summarized sentiment scores per ticker
 
-**Educational**
-- [vector space](https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/?utm)
-- *Reimers & Gurevych (2019).* “Sentence-BERT: Sentence Embeddings using Siamese BERT Networks.” *EMNLP.*
-- *Devlin et al. (2019).* “BERT: Pre-training of Deep Bidirectional Transformers.” *NAACL.*
 
----
+### 7. A Fully Working Pipelines  
+- Real-time pipeline (`absa_realtime_demo.ipynb`)
 
-#### Level 2 — Sentence-Level Aggregation
-Analyze sentiment at the sentence level, then aggregate.
 
-**Practical**
-- [Hierarchical Attention Networks paper](https://www.aclweb.org/anthology/N16-1174/)
-- [Simpler resource](https://medium.com/analytics-vidhya/hierarchical-attention-networks-d220318cf87e?utm)
+# Architecture Diagram
 
-**Educational**
-- *Yang et al. (2016).* “Hierarchical Attention Networks for Document Classification.” *NAACL.*
-- *Bahdanau et al. (2015).* “Neural Machine Translation by Jointly Learning to Align and Translate.” *ICLR.*
+       ┌─────────────┐
+       │  News Input  │  ← Real-time Yahoo Finance
+       └──────┬──────┘
+              │
+      ┌───────▼────────┐
+      │ NERExtractor    │ 
+      │ Extract Companies│
+      └───────┬────────┘
+              │
+    ┌─────────▼──────────┐
+    │ Ticker Mapping      │
+    │ Company → Stock ID  │
+    └─────────┬──────────┘
+              │
+     ┌────────▼─────────┐
+     │ ABSA Model        │ 
+     │ Sentiment per Co. │
+     └────────┬─────────┘
+              │
+ ┌────────────▼─────────────┐
+ │ Multi-Entity ABSA Output │
+ └────────────┬─────────────┘
+              │
+       ┌──────▼─────┐
+       │ Aggregation │
+       └─────────────┘
 
----
 
-#### Level 3 — Fine-Tuned Transformer
-Fine-tune BERT or similar transformer models for domain-specific sentiment.
 
-**Practical**
-- [HuggingFace Trainer API](https://huggingface.co/docs/transformers/main_classes/trainer)
-- [Text classification guide](https://huggingface.co/docs/transformers/tasks/sequence_classification)
+## Installation
 
-**Educational**
-- [simple resource](https://jalammar.github.io/illustrated-transformer/?utm)
-- *Howard & Ruder (2018).* “Universal Language Model Fine-tuning for Text Classification (ULMFiT).” *ACL.*
-- *Sun et al. (2019).* “How to Fine-Tune BERT for Text Classification.” *arXiv:1905.05583.*
+### 1 Clone the project
+git clone
+cd into the directory
 
----
+### Install dependencies 
+!pip install pandas numpy requests newspaper3k transformers torch yfinance tqdm scikit-learn (Google Colab)
+pip install -r requirements.txt (local)
 
-#### Level 4 — Temporal Dynamics
-Account for how sentiment effects decay over time.
 
-**Practical**
-- [Exponential decay weighting in Pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.ewm.html)
-- [LSTM overview](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-- [temporal graph learning in 2024](https://medium.com/data-science/temporal-graph-learning-in-2024-feaa9371b8e2)
+# Running the Real-Time Pipeline
+## For Jupyter Notebook
+Open absa_realtime_demo.ipynb
 
-**Educational**
-- *Hochreiter & Schmidhuber (1997).* “Long Short-Term Memory.” *Neural Computation.*
-- *Zhang et al. (2020).* “Time-Series Momentum with Deep Learning.” *SSRN.*
 
----
+## Performs:
 
-#### Level 5 — Multimodal Fusion
-Combine textual sentiment with numerical market data.
+1. Fetch recent articles
 
-**Practical**
-- [Scikit-learn ensemble methods](https://scikit-learn.org/stable/modules/ensemble.html)
-- [Research: Multimodal fusion in finance](https://arxiv.org/abs/2012.01630)
+2. Extract entities
 
-**Educational**
-- *Xu et al. (2022).* “Multimodal Learning for Financial Forecasting.” *Expert Systems with Applications.*
-- *Baltrušaitis et al. (2019).* “Multimodal Machine Learning: A Survey and Taxonomy.” *IEEE TPAMI.*
+3. Map entities → tickers
 
----
+4. Run ABSA
+
+5. Display results
+
+6. Compute final aggregated sentiment
+
+
+# Models Used 
+
+## NER Model: Jean-Baptiste/roberta-large-ner-english
+
+## ABSA Model: amphora/FinABSA
+
+Both are loaded through HuggingFace Transformers.
+
+
+
+# Example Output
+
+## Per-Article Sentiment (raw)
+Article: Apple rises as Tesla drops on demand worries…
+
+Apple (AAPL): Positive
+Microsoft (MSFT): Positive
+Tesla (TSLA): Negative
+
+## Aggregated Output
+Ticker: AAPL   Score: +0.667
+Ticker: MSFT   Score: +0.500
+Ticker: TSLA   Score: -0.333
+
+
+
+# Core Modules Summary
+
+## absa_model.py
+Loads and runs the financial ABSA model.
+
+## ner_extractor.py
+Extracts companies using NER.
+
+## ticker_mapping.py
+Maps extracted names to stock tickers.
+
+## multi_entity_absa.py
+Combines NER + mapping + ABSA into a single pipeline.
+
+## aggregate_sentiment.py
+Converts sentiment labels into numerical scores.
+
+## yahoo_scraper.py
+Retrieves real-time financial news.
+
+## full_pipeline.py
+Complete end-to-end command-line execution pipeline.
+
+

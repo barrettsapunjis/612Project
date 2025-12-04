@@ -1,6 +1,12 @@
-datasets
 pandas
-torch
-
-#huggingface transformers
+numpy
+requests
+beautifulsoup4
+newspaper3k
 transformers
+torch
+yfinance
+tqdm
+scikit-learn
+notebook
+ipykernel
