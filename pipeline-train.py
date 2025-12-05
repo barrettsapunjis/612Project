@@ -19,6 +19,8 @@ from sentalyzer import (
     mask_aspect,
 )
 from sentalyzer.absa.SVMUtil.reporting import write_svm_eval_report
+from sentalyzer.embeddings import EmbeddingConfig
+from sentalyzer.data.samples import concat_aspect
 
 # Base paths (resolved relative to this file)
 BASE_DIR = Path(__file__).resolve().parent
@@ -50,12 +52,12 @@ def main() -> None:
         class_weight="balanced",
         random_state=42,
         test_size=0.1,
-        use_dense=True,
-        svd_components=256,
+        use_tfidf=True,
+        combine_fn=concat_aspect,
     )
 
     # Train SVM ABSA
-    train_svm_absa(samples=samples, cfg=cfg, combine_fn=mask_aspect)
+    train_svm_absa(samples=samples, cfg=cfg)
 
     # Evaluate on a held-out split using the same random seed for reproducibility
 

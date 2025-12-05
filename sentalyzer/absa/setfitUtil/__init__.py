@@ -1,4 +1,4 @@
-from .prep import SetFitABSAModel, aspects_to_setfit_df
+from .SetFitABSAModel import SetFitABSAModel, aspects_to_setfit_df
 from .training import (
     SetFitABSAConfig,
     samples_to_setfit_dataset,

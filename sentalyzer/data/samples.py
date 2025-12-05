@@ -98,6 +98,98 @@ def inline_marker_combiner(
     return _fn
 
 
+# ---------- Data loading helpers ----------
+
+def load_absa_samples_from_csv(
+    path: str,
+    text_col: str = "text",
+    aspect_col: str = "aspect",
+    label_col: str = "label",
+    max_rows: Optional[int] = None,
+) -> List[ABSASample]:
+    """
+    Load ABSASample objects from a CSV file.
+
+    This function is flexible and handles different CSV formats:
+    - If only 'text' column exists: creates samples with text only (aspect and label as None)
+    - If 'text' and 'aspect' columns exist: creates samples with text and aspect (label as None)
+    - If 'text', 'aspect', and 'label' columns exist: creates full samples
+
+    Args:
+        path: Path to CSV file
+        text_col: Name of the text column (default: "text")
+        aspect_col: Name of the aspect column (default: "aspect")
+        label_col: Name of the label column (default: "label")
+        max_rows: Optional limit on number of rows to load
+
+    Returns:
+        List of ABSASample objects
+
+    Examples:
+        # CSV with just text column
+        samples = load_absa_samples_from_csv("texts_only.csv")
+        # -> ABSASample(text="...", aspect="", label=None)
+
+        # CSV with text and aspect
+        samples = load_absa_samples_from_csv("texts_aspects.csv")
+        # -> ABSASample(text="...", aspect="...", label=None)
+
+        # CSV with text, aspect, and label
+        samples = load_absa_samples_from_csv("full_data.csv")
+        # -> ABSASample(text="...", aspect="...", label="...")
+    """
+    df = pd.read_csv(path)
+
+    if max_rows is not None:
+        df = df.head(max_rows)
+
+    # Check which columns exist
+    has_text = text_col in df.columns
+    has_aspect = aspect_col in df.columns
+    has_label = label_col in df.columns
+
+    if not has_text:
+        raise ValueError(f"CSV file must have a '{text_col}' column")
+
+    samples: List[ABSASample] = []
+
+    for _, row in df.iterrows():
+        # Get text (required)
+        text = str(row[text_col]).strip() if pd.notna(row[text_col]) else ""
+        if not text:
+            continue  # Skip rows with empty text
+
+        # Get aspect (optional)
+        if has_aspect:
+            aspect_raw = row[aspect_col]
+            if pd.isna(aspect_raw) or (isinstance(aspect_raw, str) and not aspect_raw.strip()):
+                aspect = ""
+            else:
+                aspect = str(aspect_raw).strip()
+        else:
+            aspect = ""
+
+        # Get label (optional)
+        if has_label:
+            label_raw = row[label_col]
+            if pd.isna(label_raw) or (isinstance(label_raw, str) and not label_raw.strip()):
+                label = None
+            else:
+                label = str(label_raw).strip()
+        else:
+            label = None
+
+        samples.append(
+            ABSASample(
+                text=text,
+                aspect=aspect,
+                label=label,
+            )
+        )
+
+    return samples
+
+
 # ---------- Printing / evaluation helpers ----------
 
 def print_predictions(

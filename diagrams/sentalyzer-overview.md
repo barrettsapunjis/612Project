@@ -12,7 +12,6 @@ flowchart LR
     subgraph ExtractionLayer[Extraction layer sentalyzer extraction]
         EAPI[Extraction API\nextract aspects]
         EXTR[HF NER extractor]
-        EM[EntityMention]
         AC[AspectCandidate]
     end
 
@@ -50,7 +49,7 @@ flowchart LR
     %% inference flows with extraction
     LDF -->|texts| PInferSVM --> EAPI
     LDF -->|texts| PInferSetFit --> EAPI
-    EAPI --> EXTR --> EM --> AC
+    EAPI --> EXTR --> AC
     AC -->|build samples| SAMPLES
 
     %% ABSA prediction and reporting

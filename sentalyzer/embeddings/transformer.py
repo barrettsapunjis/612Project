@@ -32,7 +32,7 @@ def load_embedding_model(cfg: EmbeddingConfig) -> SentenceTransformer:
     """
     Load a SentenceTransformer model according to the provided config.
     """
-    device = cfg.device or ("cuda" if torch.cuda.is_available() else "cpu")
+    device = ("cuda" if torch.cuda.is_available() else "cpu")
     model = SentenceTransformer(cfg.model_id, device=device)
     return model
 

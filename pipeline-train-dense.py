@@ -1,39 +1,54 @@
+"""
+Pipeline training script:
+  - Load SentFin ABSA samples
+  - Train SVM ABSA model (SetFit option provided but commented)
+  - Persist artifacts to models/svm_sentfin
+"""
+
+from __future__ import annotations
+
+from pathlib import Path
+from datetime import datetime
+
+# Public sentalyzer API imports for a simpler, stable surface.
 from sentalyzer import (
     SVMABSAConfig,
-    SVMABSAModel,
-    train_svm_absa,
     default_setfit_combiner,
-    load_sentfin_absa_samples
+    load_sentfin_absa_samples,
+    train_svm_absa,
+    mask_aspect,
 )
+from sentalyzer.absa.SVMUtil.reporting import write_svm_eval_report
+from sentalyzer.embeddings import EmbeddingConfig
+from sentalyzer.data.samples import concat_aspect
 
-from sentalyzer.embeddings import (
-    EmbeddingConfig,
-    load_embedding_model,
-    encode_texts,
-)
-from pathlib import Path
-
+# Base paths (resolved relative to this file)
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "models"
 DATA_PATH = BASE_DIR / "data"
+MODEL_PATH = BASE_DIR / "models"
 
+# Configurable paths and limits
 DATA_CSV = DATA_PATH / "data_42_8-2" / "train.csv"
-SVM_MODEL_DIR = MODEL_PATH / "svm_sentfin-dense"
+SVM_MODEL_DIR = MODEL_PATH / "svm_sentfin-dense-idf"
+# SETFIT_MODEL_DIR = MODEL_PATH / "setfit-absa-sentfin"
 MAX_ROWS = None  # set to an int to limit rows
 REPORT_DIR = BASE_DIR / "reports"
 
-def main():
+
+def main() -> None:
     samples = load_sentfin_absa_samples(
         path=str(DATA_CSV),
         max_rows=MAX_ROWS,
     )
     if not samples:
         raise SystemExit(f"[error] No training samples loaded from {DATA_CSV}")
-    
-    for sample in samples: 
-        embeddings = encode_texts(sample.text)
-        sample.embedding = embeddings
-    
+
+    embedding_config = EmbeddingConfig(
+        model_id="sentence-transformers/all-MiniLM-L6-v2",
+        device="cuda",
+        batch_size=16,
+        normalize=True,
+    )
     cfg = SVMABSAConfig(
         model_dir=str(SVM_MODEL_DIR),
         ngram_range=(1, 2),
@@ -44,5 +59,25 @@ def main():
         random_state=42,
         test_size=0.1,
         use_dense=True,
+        use_tfidf=True,
+        embedding_config=embedding_config,
+        combine_fn=concat_aspect,
     )
-    train_svm_absa(samples=samples, cfg=cfg, combine_fn=default_setfit_combiner)
+
+    # Train SVM ABSA
+    train_svm_absa(samples=samples, cfg=cfg, embedding_cfg=embedding_config)
+
+    # Evaluate on a held-out split using the same random seed for reproducibility
+
+    write_svm_eval_report(
+        samples=samples,
+        cfg=cfg,
+        report_dir=REPORT_DIR,
+        data_path=str(DATA_CSV),
+        combine_fn=default_setfit_combiner,
+        prefix="svm",
+    )
+
+
+if __name__ == "__main__":
+    main()

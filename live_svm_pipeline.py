@@ -10,19 +10,20 @@ from sentalyzer import (
 
 from sentalyzer.realtime.yahoo_scraper import fetch_news_for_ticker, toSample
 from sentalyzer.data.samples import ABSASample
-from sentalyzer.extraction.api import extract_all_org_aspects
+from sentalyzer.extraction.api import extract_all_org_aspects, extract_all_org_aspects_batch
 
 
-SVM_MODEL_DIR = "models/svm_sentfin-BEST"
+SVM_MODEL_DIR = "models/svm_sentfin-dense-idf"
 SETFIT_MODEL_DIR = "models/setfit-absa-sentfin-BEST"
 def main():
     news = fetch_news_for_ticker("AAPL", fetch_full_text=False)
     samples = toSample(news)
     new_samples = []
-    for sample in samples:
-        aspects = extract_all_org_aspects(sample.text, min_score=0.7)
-        for aspect in aspects:
-            new_samples.append(ABSASample(text=sample.text, aspect=aspect.aspect, label=None))
+    texts = [sample.text for sample in samples]
+    aspects = extract_all_org_aspects_batch(texts, min_score=0.7)
+    for text, aspect in zip(texts, aspects):
+        for ac in aspect:
+            new_samples.append(ABSASample(text=text, aspect=ac.aspect, label=None))
     model = SVMABSAModel.from_dir(str(SVM_MODEL_DIR), combine_fn=concat_aspect)
     model2 = SetFitABSAModel.from_dir(str(SETFIT_MODEL_DIR), combine_fn=concat_aspect)
 

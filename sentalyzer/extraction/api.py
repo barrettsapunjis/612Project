@@ -19,8 +19,8 @@ def extract_all_org_aspects(text: str, min_score: float = 0.0) -> List[AspectCan
     Convenience helper: extract *all* ORG aspects from a line of text.
     """
     extractor = get_extractor()
-    entities = extractor.extract(text)
-    return all_aspect_candidates(text, entities, labels=["ORG"], min_score=min_score)
+    candidates = extractor.extract(text)
+    return all_aspect_candidates(text, candidates, labels=["ORG"], min_score=min_score)
 
 
 def extract_all_org_aspects_batch(
@@ -36,11 +36,11 @@ def extract_all_org_aspects_batch(
         return []
 
     extractor = get_extractor()
-    entities_per_text = extractor.extract_many(texts)
+    candidates_per_text = extractor.extract_many(texts)
 
     out: List[List[AspectCandidate]] = []
-    for text, entities in zip(texts, entities_per_text):
-        out.append(all_aspect_candidates(text, entities, labels=["ORG"], min_score=min_score))
+    for text, candidates in zip(texts, candidates_per_text):
+        out.append(all_aspect_candidates(text, candidates, labels=["ORG"], min_score=min_score))
     return out
 
 
@@ -59,10 +59,10 @@ def extract_targeted_org_aspects(
     - match_case / exact_match: control how strictly we match the surface form
     """
     extractor = get_extractor()
-    entities = extractor.extract(text)
+    candidates = extractor.extract(text)
     return targeted_aspect_candidates(
         text=text,
-        entities=entities,
+        candidates=candidates,
         targets=targets,
         labels=["ORG"],
         min_score=min_score,

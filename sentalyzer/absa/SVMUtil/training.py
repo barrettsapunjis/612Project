@@ -18,22 +18,16 @@ from sentalyzer.data.samples import (
     default_setfit_combiner,
 )
 from sentalyzer.data.text_cleaning import build_default_cleaner
-from sentalyzer.absa.SVMUtil.svm_absa_model import SVMABSAModel, SVMABSAConfig
-
-
-@dataclass
-class SVMABSAConfig:
-    model_dir: str
-    ngram_range: tuple[int, int] = (1, 2)
-    max_features: int | None = 50_000
-    min_df: int = 2
-    C: float = 1.0
-    class_weight: str | None = "balanced"
-    random_state: int = 42
-    test_size: float = 0.1
-    # Feature flags
-    use_tfidf: bool = True
-    use_dense: bool = False
+from sentalyzer.absa.SVMUtil.svm_absa_model import (
+    SVMABSAModel,
+    SVMABSAConfig,
+    prepare_dense_input,
+    prepare_embeddings,
+    prepare_sparse_input,
+)
+from sentalyzer.embeddings import EmbeddingConfig
+from sentalyzer.data.text_cleaning import build_default_cleaner
+from sentalyzer.embeddings.vectorizer import build_vectorizer, VectorizerConfig, default_vectorizer
 
 
 
@@ -52,14 +46,34 @@ def prepare_training_data(
 def train_svm_absa(
     samples: Iterable[ABSASample],
     cfg: SVMABSAConfig,
-    combine_fn: AspectCombineFn = default_setfit_combiner,
+    embedding_cfg: EmbeddingConfig | None = None,
 ) -> None:
     os.makedirs(cfg.model_dir, exist_ok=True)
 
     if not cfg.use_tfidf and not cfg.use_dense:
         raise ValueError("At least one of use_tfidf or use_dense must be True.")
+    
+    print("-- STARTING SVM TRAINING --")
+    print("config parameters: ")
+    print(f"\ntest size: {cfg.test_size}")
+    print(f"\ntrain count: {len(samples)}")
+    print(f"\nusing tfidf: {cfg.use_tfidf}")
+    print(f"\nusing dense: {cfg.use_dense}")
+    print(f"\nembedding config: {embedding_cfg}")
+    print(f"\ncombine function: {cfg.combine_fn}")
+    print(f"\nmodel directory: {cfg.model_dir}")
+    print(f"\nrandom state: {cfg.random_state}")
+    print("\nsamples count: ", len(samples))
+    print("\nusing tfidf: ", cfg.use_tfidf)
+    print("\nusing dense: ", cfg.use_dense)
 
-    texts, labels = prepare_training_data(samples, combine_fn)
+    print("\npreparing training data")
+    texts, labels = prepare_training_data(samples, cfg.combine_fn)
+    print("training data prepared")
+    print("\ntexts count: ", len(texts))
+    print("\nlabels count: ", len(labels))
+    print("\nexample text: ", texts[0])
+    print("\nexample label: ", labels[0])
 
     # --- Hyperparameter search (currently disabled) ---
     # best_params = search_svm_hyperparams(texts, labels, cfg)
@@ -69,7 +83,7 @@ def train_svm_absa(
     # cfg.C = best_params.get("clf__C", cfg.C)
     # cfg.class_weight = best_params.get("clf__class_weight", cfg.class_weight)
 
-    X_train_texts, X_val_texts, y_train, y_val, X_train_emb, X_val_emb = train_test_split(
+    X_train_texts, X_val_texts, y_train, y_val = train_test_split(
         texts,
         labels,
         test_size=cfg.test_size,
@@ -78,30 +92,47 @@ def train_svm_absa(
     )
 
     # ----- Build feature matrices -----
-    vectorizer: TfidfVectorizer | None = None
-
-    svm_model = SVMABSAModel(
-        model_dir=cfg.model_dir,
-        vectorizer=vectorizer,
-        classifier=classifier,
-        combine_fn=combine_fn,
-    )
-
-    # Optional TF-IDF features
-    if cfg.use_dense and cfg.use_tfidf:
-        X_train_vec = svm_model.prepare_dense_input(X_train_texts)
-        X_val_vec = svm_model.prepare_dense_input(X_val_texts)
-    elif cfg.use_dense:
-        X_train_vec = svm_model.prepare_embeddings(X_train_texts)
-        X_val_vec = svm_model.prepare_embeddings(X_val_texts)
-    elif cfg.use_tfidf:
-        X_train_vec = svm_model.prepare_sparse_input(X_train_texts)
-        X_val_vec = svm_model.prepare_sparse_input(X_val_texts)
+    if cfg.vectorizer_config is None:
+        vectorizer = default_vectorizer()
     else:
-        X_train_tfidf = None
-        X_val_tfidf = None
+        vectorizer = build_vectorizer(cfg.vectorizer_config)
+    cleaner = build_default_cleaner()
 
- 
+    X_train_texts = [cleaner(text) for text in X_train_texts]
+    X_val_texts = [cleaner(text) for text in X_val_texts]
+    print("\nX_train_texts count: ", len(X_train_texts))
+    print("\nX_val_texts count: ", len(X_val_texts))
+    print("\nexample X_train_text: ", X_train_texts[0])
+    print("\nexample X_val_text: ", X_val_texts[0])
+
+    # Fit TF-IDF once on training texts if it's enabled
+    if cfg.use_tfidf:
+        vectorizer.fit(X_train_texts)
+
+    # Optional TF-IDF / dense features
+    if cfg.use_dense and cfg.use_tfidf:
+        print("using dense and tfidf")
+        X_train_vec = prepare_dense_input(
+            vectorizer=vectorizer,
+            texts=X_train_texts,
+            embedding_config=embedding_cfg,
+        )
+        X_val_vec = prepare_dense_input(
+            vectorizer=vectorizer,
+            texts=X_val_texts,
+            embedding_config=embedding_cfg,
+        )
+    elif cfg.use_dense:
+        print("using dense")
+        X_train_vec = prepare_embeddings(texts=X_train_texts, embedding_config=embedding_cfg)
+        X_val_vec = prepare_embeddings(texts=X_val_texts, embedding_config=embedding_cfg)
+    elif cfg.use_tfidf:
+        print("using tfidf")
+        X_train_vec = prepare_sparse_input(vectorizer=vectorizer, texts=X_train_texts)
+        X_val_vec = prepare_sparse_input(vectorizer=vectorizer, texts=X_val_texts)
+
+    print("\nexample X_train_vec: ", X_train_vec[0])
+    print("\nexample X_val_vec: ", X_val_vec[0])
 
     classifier = LinearSVC(
         C=cfg.C,
@@ -125,7 +156,8 @@ def train_svm_absa(
         joblib.dump(vectorizer, vec_path)
     joblib.dump(classifier, clf_path)
 
-    meta = {
+
+    meta: dict = {
         "labels": sorted(list(set(labels))),
         "ngram_range": cfg.ngram_range,
         "max_features": cfg.max_features,
@@ -135,6 +167,15 @@ def train_svm_absa(
         "use_tfidf": cfg.use_tfidf,
         "use_dense": cfg.use_dense,
     }
+    # Persist embedding config (if used) so inference can rebuild the embedding model.
+    if embedding_cfg is not None:
+        meta["embedding_config"] = {
+            "model_id": embedding_cfg.model_id,
+            "device": embedding_cfg.device,
+            "batch_size": embedding_cfg.batch_size,
+            "normalize": embedding_cfg.normalize,
+        }
+        print(f"Saving embedding config to {cfg_path}")
     with open(cfg_path, "w", encoding="utf-8") as f:
         json.dump(meta, f, indent=2)
 

@@ -37,6 +37,7 @@ from .data.samples import (
     print_predictions,
     validate_predictions,
     mask_aspect,
+    load_absa_samples_from_csv,
 )
 from .data.sentfin import (
     load_sentfin_df,
@@ -51,7 +52,7 @@ from .extraction.api import (
     extract_all_org_aspects_batch,
     extract_targeted_org_aspects,
 )
-from .extraction.types import EntityMention, AspectCandidate, Span
+from .extraction.types import AspectCandidate, Span
 
 # ABSA – SVM
 from .absa.SVMUtil import (
@@ -79,6 +80,11 @@ from .embeddings import (
 
 # Shared reporting utilities
 from .absa.utils.reporting import write_eval_report
+from .absa.utils.aggregation import (
+    EntitySentiment,
+    aggregate_by_entity,
+    aggregate_by_entity_simple,
+)
 
 
 __all__ = [
@@ -91,6 +97,7 @@ __all__ = [
     "sep_token_combiner",
     "print_predictions",
     "validate_predictions",
+    "load_absa_samples_from_csv",
     "load_sentfin_df",
     "load_sentfin_absa_samples",
     "sentfin_df_to_absa_samples",
@@ -100,7 +107,6 @@ __all__ = [
     "extract_all_org_aspects",
     "extract_all_org_aspects_batch",
     "extract_targeted_org_aspects",
-    "EntityMention",
     "AspectCandidate",
     "Span",
     # ABSA – SVM
@@ -117,6 +123,10 @@ __all__ = [
     "split_dataset",
     # Reporting
     "write_eval_report",
+    # Aggregation
+    "EntitySentiment",
+    "aggregate_by_entity",
+    "aggregate_by_entity_simple",
 ]
 
 

@@ -44,8 +44,8 @@ def main() -> None:
         model_id="sentence-transformers/paraphrase-mpnet-base-v2",
         output_dir=str(SETFIT_MODEL_DIR),
         batch_size=16,
-        num_iterations=5,
-        num_epochs=1,
+        num_iterations=10,
+        num_epochs=15,
         test_size=0.1,
         random_state=42,
     )

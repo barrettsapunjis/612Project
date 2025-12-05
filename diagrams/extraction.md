@@ -19,12 +19,11 @@ flowchart LR
     end
 
     subgraph Types
-        T1[EntityMention]
-        T2[AspectCandidate]
+        T1[AspectCandidate]
     end
 
     subgraph Strategies
-        S1[filter_entities]
+        S1[filter_candidates]
         S2[all_aspect_candidates]
         S3[targeted_aspect_candidates]
     end
@@ -34,8 +33,8 @@ flowchart LR
     A3 -->|"get_extractor()"\ntargeted| F1
 
     H -->|"extract / extract_many"| T1
-    T1 --> S1 --> S2 --> T2
-    T1 --> S1 --> S3 --> T2
+    T1 --> S1 --> S2 --> T1
+    T1 --> S1 --> S3 --> T1
 ```
 
 
