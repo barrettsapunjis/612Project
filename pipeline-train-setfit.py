@@ -26,7 +26,7 @@ DATA_PATH = BASE_DIR / "data"
 
 
 # Configurable paths and limits
-DATA_CSV = DATA_PATH / "data_42_3-7" / "train.csv"
+DATA_CSV = DATA_PATH / "data_42_1-9" / "train.csv"
 SETFIT_MODEL_DIR = MODEL_PATH / "setfit-absa-sentfin"
 MAX_ROWS = None  # set to an int to limit rows
 REPORT_DIR = BASE_DIR / "reports"
@@ -44,9 +44,9 @@ def main() -> None:
         model_id="sentence-transformers/paraphrase-mpnet-base-v2",
         output_dir=str(SETFIT_MODEL_DIR),
         batch_size=16,
-        num_iterations=10,
-        num_epochs=15,
-        test_size=0.1,
+        num_iterations=5,
+        num_epochs=1,
+        test_size=0.8,
         random_state=42,
     )
 

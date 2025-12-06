@@ -28,7 +28,7 @@ MODEL_PATH = BASE_DIR / "models"
 DATA_PATH = BASE_DIR / "data"
 
 # Configurable paths and limits
-DATA_CSV = DATA_PATH / "data_42_3-7" / "test.csv"
+DATA_CSV = DATA_PATH / "data_42_1-9" / "test.csv"
 SETFIT_MODEL_DIR = MODEL_PATH / "setfit-absa-sentfin-bester"
 MAX_TEXT_ROWS = None # Set None to use all rows
 MIN_NER_SCORE = 0.7
@@ -94,7 +94,7 @@ def run_inference() -> None:
 
     model = SetFitABSAModel.from_dir(SETFIT_MODEL_DIR)
 
-    preds = model.predict_samples(samples)
+    #preds = model.predict_samples(samples)
     #print_inference(samples, preds)
     evaluate_labeled(model)
 

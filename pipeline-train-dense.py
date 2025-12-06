@@ -57,7 +57,7 @@ def main() -> None:
         C=1.0,
         class_weight="balanced",
         random_state=42,
-        test_size=0.1,
+        test_size=0.8,
         use_dense=True,
         use_tfidf=True,
         embedding_config=embedding_config,

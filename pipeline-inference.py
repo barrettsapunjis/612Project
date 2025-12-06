@@ -33,7 +33,7 @@ DATA_PATH = BASE_DIR / "data"
 
 # Configurable paths and limits
 DATA_CSV = DATA_PATH / "data_42_8-2" / "test.csv"
-SVM_MODEL_DIR = MODEL_PATH / "svm_sentfin"
+SVM_MODEL_DIR = MODEL_PATH / "svm_sentfin-BEST"
 # SETFIT_MODEL_DIR = MODEL_PATH / "setfit-absa-sentfin"
 MAX_TEXT_ROWS = None  # Set None to use all rows
 MIN_NER_SCORE = 0.7
