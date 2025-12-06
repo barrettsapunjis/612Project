@@ -1,7 +1,5 @@
 # Financial News Sentiment Analysis
 
-IMPORTANT: to run prototype files, you must be in the parent directory and use an example command such as `python -m prototyping.bert-base-ner` (windows)
-
 - [BEST DATASET](https://www.kaggle.com/datasets/ankurzing/aspect-based-sentiment-analysis-for-financial-news)
 
 ## Overview
